@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "uart/uart.h"
 #include "interrupts/interrupt.h"
-#include "nn_accelerator/nn_accelerator.h"
+#include "hal/nn_accelerator.h"
 #include "xil_printf.h"
 
 uint8_t frame_buffer[FRAME_SIZE];
