@@ -1,1 +1,1 @@
-Empty application. Add your own sources.
+It's a small step for a human, but a normal one for a dwarf.

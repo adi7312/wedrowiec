@@ -34,12 +34,12 @@ int main(void) {
 
     Status = Init_UART();
     if (Status != XST_SUCCESS) {
-        xil_printf("Blad inicjalizacji UART!\r\n");
+        xil_printf("Failed to init UART connection!\r\n");
         return XST_FAILURE;
     }
 
     xil_printf("=== System Wedrowiec gotowy ===\r\n");
-    xil_printf("Oczekuje na ramke 64 bajtow...\r\n");
+    xil_printf("Awaiting for 64 byte frame...\r\n");
 
     while (1) {
         received_bytes = 0;
@@ -50,12 +50,12 @@ int main(void) {
                                            FRAME_SIZE - received_bytes);
         }
 
-        xil_printf("\r\nOdebrano pelna ramke (64 bajty)!\r\n");
-        xil_printf("Pierwszy piksel: %d, Ostatni piksel: %d\r\n", rx_buffer[0], rx_buffer[63]);
+        xil_printf("\r\nReceived frame (64 byte)!\r\n");
+        xil_printf("First pixel: %d, Last pixel: %d\r\n", rx_buffer[0], rx_buffer[63]);
         
         XUartPs_Send(&Uart_Ps, rx_buffer, FRAME_SIZE);
         
-        xil_printf("\r\nCzekam na kolejna ramke...\r\n");
+        xil_printf("\r\nAwaiting next frame...\r\n");
     }
 
     return XST_SUCCESS;
