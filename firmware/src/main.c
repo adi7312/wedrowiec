@@ -1,62 +1,33 @@
-#include "xparameters.h"
-#include "xuartps.h"
+#include <stdio.h>
+#include "uart/uart.h"
+#include "interrupts/interrupt.h"
 #include "xil_printf.h"
-#include "sleep.h"
 
-#define UART_DEVICE_ID      0 
-#define FRAME_SIZE          64
+uint8_t frame_buffer[FRAME_SIZE];
 
-XUartPs Uart_Ps;		
+int main() {
+    if (Init_UART() != XST_SUCCESS) return 1;
+    if (Init_Interrupts() != XST_SUCCESS) return 1;
 
-uint8_t rx_buffer[FRAME_SIZE];
-
-int Init_UART() {
-    int Status;
-    XUartPs_Config *Config;
-
-    Config = XUartPs_LookupConfig(UART_DEVICE_ID);
-    if (NULL == Config) {
-        return XST_FAILURE;
-    }
-
-    Status = XUartPs_CfgInitialize(&Uart_Ps, Config, Config->BaseAddress);
-    if (Status != XST_SUCCESS) {
-        return XST_FAILURE;
-    }
-
-    XUartPs_SetBaudRate(&Uart_Ps, 115200);
-    return XST_SUCCESS;
-}
-
-int main(void) {
-    int Status;
-    int received_bytes;
-
-    Status = Init_UART();
-    if (Status != XST_SUCCESS) {
-        xil_printf("Failed to init UART connection!\r\n");
-        return XST_FAILURE;
-    }
-
-    xil_printf("=== System Wedrowiec gotowy ===\r\n");
-    xil_printf("Awaiting for 64 byte frame...\r\n");
+    xil_printf("=== Firmware Wedrowiec V1.0 ===\r\n");
 
     while (1) {
-        received_bytes = 0;
+        UART_ReceiveFrame(frame_buffer);
+        xil_printf("Frame received, sending to processing unit...\r\n");
 
-        while (received_bytes < FRAME_SIZE) {
-            received_bytes += XUartPs_Recv(&Uart_Ps, 
-                                           &rx_buffer[received_bytes], 
-                                           FRAME_SIZE - received_bytes);
+        // TODO: Next state: transfer data to FPGA
+        // TODO: NN_SendToFifo(frame_buffer); 
+
+        // Next state: wait
+        while (!fpga_finished) {
+            // TODO: Awaiting interrupt
         }
+        fpga_finished = 0;
 
-        xil_printf("\r\nReceived frame (64 byte)!\r\n");
-        xil_printf("First pixel: %d, Last pixel: %d\r\n", rx_buffer[0], rx_buffer[63]);
-        
-        XUartPs_Send(&Uart_Ps, rx_buffer, FRAME_SIZE);
-        
-        xil_printf("\r\nAwaiting next frame...\r\n");
+        // TODO: Next state: get decision,
+        // TODO: uint32_t decyzja = NN_GetDecision();
+        xil_printf("Processing unit ended its job.\r\n");
     }
 
-    return XST_SUCCESS;
+    return 0;
 }
