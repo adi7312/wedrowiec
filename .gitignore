@@ -1,0 +1,7 @@
+.Xil
+project_1
+uart_rx.vhd
+*.str
+*.jou
+*.log
+*.pb
