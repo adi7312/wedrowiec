@@ -1,11 +1,10 @@
 #include "wedrowiec_hls_axi.h"
 
-void wedrowiec_hls_axi(input_axi_t in[N_IN], output_axi_t out[N_OUT]) {
+void wedrowiec_hls_axi(hls::stream<input_axi_t> &in, hls::stream<output_axi_t> &out) {
 
     #pragma HLS INTERFACE axis port=in
     #pragma HLS INTERFACE axis port=out
     #pragma HLS INTERFACE ap_ctrl_none port=return
-    #pragma HLS DATAFLOW
 
     bool is_last = false;
     hls::stream<input_t> in_local("input_1");
@@ -18,8 +17,9 @@ void wedrowiec_hls_axi(input_axi_t in[N_IN], output_axi_t out[N_OUT]) {
         input_t ctype;
         #pragma HLS DATA_PACK variable=ctype
         for(unsigned j = 0; j < input_t::size; j++) {
-            ctype[j] = typename input_t::value_type(in[i * input_t::size + j].data);
-            is_last |= (in[i * input_t::size + j].last == 1)? true : false;
+            input_axi_t in_word = in.read();
+            ctype[j] = typename input_t::value_type(in_word.data);
+            is_last |= (in_word.last == 1)? true : false;
         }
         in_local.write(ctype);
     }
@@ -30,7 +30,7 @@ void wedrowiec_hls_axi(input_axi_t in[N_IN], output_axi_t out[N_OUT]) {
         result_t ctype = out_local.read();
         for(unsigned j = 0; j < result_t::size; j++) {
             bool last = (is_last && (i * result_t::size + j == N_OUT - 1)) ? true : false;
-            out[i * result_t::size + j] = output_axi_t(ctype[j], last);
+            out.write(make_output_axi(ctype[j], last));
         }
     }
 }

@@ -1,0 +1,14 @@
+INFO: [COSIM-47] Using XSIM for RTL simulation.
+INFO: [COSIM-14] Instrumenting C test bench ...
+   Build using "G:/Xilinx/Vitis/2024.2/vcxx/libexec/clang++"
+   Compiling apatb_wedrowiec_hls_axi_util.cpp
+   Compiling wedrowiec_hls.cpp_pre.cpp.tb.cpp
+   Compiling wedrowiec_hls_axi.cpp_pre.cpp.tb.cpp
+   Compiling wedrowiec_hls_test.cpp_pre.cpp.tb.cpp
+   Compiling apatb_wedrowiec_hls_axi.cpp
+   Compiling apatb_wedrowiec_hls_axi_ir.ll
+   Generating cosim.tv.exe
+INFO: [COSIM-302] Starting C TB testing ... 
+INFO: [COSIM-333] Generating C post check test bench ...
+INFO: [COSIM-12] Generating RTL test bench ...
+INFO: [COSIM-1] *** C/RTL co-simulation file generation completed. ***

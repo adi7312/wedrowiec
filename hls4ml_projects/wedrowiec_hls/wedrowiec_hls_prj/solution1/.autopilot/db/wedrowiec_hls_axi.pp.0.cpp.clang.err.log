@@ -1,0 +1,68 @@
+In file included from firmware/wedrowiec_hls_axi.cpp:1:
+In file included from firmware/wedrowiec_hls_axi.h:5:
+G:/Xilinx/Vitis/2024.2/common/technology/autopilot\ap_axi_sdata.h:38:23: warning: variable templates are a C++14 extension [-Wc++14-extensions]
+constexpr std::size_t bitwidth = sizeof(T) * 8;
+                      ^
+G:/Xilinx/Vitis/2024.2/common/technology/autopilot\ap_axi_sdata.h:54:23: warning: variable templates are a C++14 extension [-Wc++14-extensions]
+constexpr std::size_t bytewidth = (bitwidth<T> + 8 - 1) / 8;
+                      ^
+G:/Xilinx/Vitis/2024.2/common/technology/autopilot\ap_axi_sdata.h:149:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=get_data_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+G:/Xilinx/Vitis/2024.2/common/technology/autopilot\ap_axi_sdata.h:154:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=set_data_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+G:/Xilinx/Vitis/2024.2/common/technology/autopilot\ap_axi_sdata.h:219:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=keep_all_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+G:/Xilinx/Vitis/2024.2/common/technology/autopilot\ap_axi_sdata.h:332:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=empty_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+G:/Xilinx/Vitis/2024.2/common/technology/autopilot\ap_axi_sdata.h:340:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=full_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+G:/Xilinx/Vitis/2024.2/common/technology/autopilot\ap_axi_sdata.h:349:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=read_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+G:/Xilinx/Vitis/2024.2/common/technology/autopilot\ap_axi_sdata.h:360:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=read_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+G:/Xilinx/Vitis/2024.2/common/technology/autopilot\ap_axi_sdata.h:372:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=write_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+G:/Xilinx/Vitis/2024.2/common/technology/autopilot\ap_axi_sdata.h:383:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=read_nb_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+G:/Xilinx/Vitis/2024.2/common/technology/autopilot\ap_axi_sdata.h:400:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=write_nb_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+In file included from firmware/wedrowiec_hls_axi.cpp:1:
+In file included from firmware/wedrowiec_hls_axi.h:6:
+In file included from firmware/wedrowiec_hls.h:8:
+In file included from firmware/defines.h:6:
+firmware/nnet_utils/nnet_types.h:28:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+G:/Xlinix-workspace/projekt-hls/hls4ml_projects/wedrowiec_hls/build_prj.tcl:193:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=wedrowiec_hls_axi_XLX_SEP_ PragmaOptions=name=wedrowiec_hls_axi_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=wedrowiec_hls_axi
+        ^
+firmware/wedrowiec_hls_axi.cpp:5:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=wedrowiec_hls_axi_XLX_SEP_ PragmaOptions=axis port=in_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE axis port=in
+        ^
+firmware/wedrowiec_hls_axi.cpp:6:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=wedrowiec_hls_axi_XLX_SEP_ PragmaOptions=axis port=out_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE axis port=out
+        ^
+firmware/wedrowiec_hls_axi.cpp:7:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=wedrowiec_hls_axi_XLX_SEP_ PragmaOptions=ap_ctrl_none port=return_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE ap_ctrl_none port=return
+        ^
+firmware/wedrowiec_hls_axi.cpp:13:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=wedrowiec_hls_axi_XLX_SEP_ PragmaOptions=variable=in_local depth=8_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=in_local depth=8
+        ^
+firmware/wedrowiec_hls_axi.cpp:14:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=wedrowiec_hls_axi_XLX_SEP_ PragmaOptions=variable=out_local depth=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=out_local depth=1
+        ^
+firmware/wedrowiec_hls_axi.cpp:18:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=ctype
+        ^
+firmware/wedrowiec_hls_axi.cpp:18:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=0_XLX_SEP_ PragmaType=data_pack_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=wedrowiec_hls_axi_XLX_SEP_ PragmaOptions=variable_XLX_SEP_ [-Wdump-hls-pragmas]
+21 warnings generated.

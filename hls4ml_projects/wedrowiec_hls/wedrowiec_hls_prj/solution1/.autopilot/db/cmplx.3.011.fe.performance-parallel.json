@@ -1,0 +1,161 @@
+{
+  "0": {
+    "basicblocks": 230,
+    "calls": "5",
+    "file": "wedrowiec_hls_axi.cpp",
+    "fileloc": 3,
+    "instructions": 1199,
+    "loads": {
+      "L": 26
+    },
+    "name": "wedrowiec_hls_axi",
+    "stores": {
+      "L": 22
+    },
+    "total_instructions": 8295
+  },
+  "1": {
+    "basicblocks": 65,
+    "calls": "",
+    "file": "nnet_activation_stream.h",
+    "fileloc": 39,
+    "instructions": 1381,
+    "name": "relu<nnet::array<ap_fixed<25, 12, AP_TRN, AP_WRAP, 0>, 32>, nnet::array<ap_fixed<10, 4, AP_RND, AP_SAT, 0>, 32>, relu_config4>",
+    "total_instructions": 1797
+  },
+  "10": {
+    "basicblocks": 1,
+    "calls": "9",
+    "file": "nnet_dense_stream.h",
+    "fileloc": 24,
+    "instructions": 86,
+    "loads": {
+      "L": 16
+    },
+    "name": "dense<nnet::array<ap_fixed<10, 4, AP_RND, AP_SAT, 0>, 32>, nnet::array<ap_fixed<26, 14, AP_TRN, AP_WRAP, 0>, 16>, config7>",
+    "total_instructions": 555
+  },
+  "11": {
+    "basicblocks": 68,
+    "calls": "",
+    "file": "nnet_dense_resource.h",
+    "fileloc": 87,
+    "instructions": 291,
+    "loads": {
+      "G": 2
+    },
+    "name": "dense_resource_rf_gt_nin_rem0<ap_ufixed<8, 1, AP_RND, AP_SAT, 0>, ap_fixed<25, 12, AP_TRN, AP_WRAP, 0>, config3>",
+    "stores": {
+      "L": 32
+    },
+    "total_instructions": 291
+  },
+  "12": {
+    "basicblocks": 1,
+    "calls": "6",
+    "file": "nnet_dense_stream.h",
+    "fileloc": 24,
+    "instructions": 134,
+    "loads": {
+      "L": 32
+    },
+    "name": "dense<nnet::array<ap_fixed<10, 4, AP_RND, AP_SAT, 0>, 32>, nnet::array<ap_fixed<26, 14, AP_TRN, AP_WRAP, 0>, 32>, config5>",
+    "total_instructions": 843
+  },
+  "2": {
+    "basicblocks": 33,
+    "calls": "",
+    "file": "nnet_activation_stream.h",
+    "fileloc": 39,
+    "instructions": 693,
+    "name": "relu<nnet::array<ap_fixed<26, 14, AP_TRN, AP_WRAP, 0>, 16>, nnet::array<ap_fixed<10, 4, AP_RND, AP_SAT, 0>, 16>, relu_config8>",
+    "total_instructions": 901
+  },
+  "3": {
+    "basicblocks": 12,
+    "calls": "",
+    "file": "nnet_dense_resource.h",
+    "fileloc": 87,
+    "instructions": 69,
+    "loads": {
+      "G": 2
+    },
+    "name": "dense_resource_rf_gt_nin_rem0<ap_fixed<10, 4, AP_RND, AP_SAT, 0>, ap_fixed<25, 13, AP_TRN, AP_WRAP, 0>, config9>",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 69
+  },
+  "4": {
+    "basicblocks": 11,
+    "calls": "11",
+    "file": "nnet_dense_stream.h",
+    "fileloc": 24,
+    "instructions": 253,
+    "loads": {
+      "L": 32
+    },
+    "name": "dense<nnet::array<ap_ufixed<8, 1, AP_RND, AP_SAT, 0>, 8>, nnet::array<ap_fixed<25, 12, AP_TRN, AP_WRAP, 0>, 32>, config3>",
+    "total_instructions": 816
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "4 1 12 7 10 2 8",
+    "file": "wedrowiec_hls.cpp",
+    "fileloc": 7,
+    "instructions": 34,
+    "name": "wedrowiec_hls",
+    "total_instructions": 6970
+  },
+  "6": {
+    "basicblocks": 68,
+    "calls": "",
+    "file": "nnet_dense_resource.h",
+    "fileloc": 87,
+    "instructions": 293,
+    "loads": {
+      "G": 2
+    },
+    "name": "dense_resource_rf_gt_nin_rem0<ap_fixed<10, 4, AP_RND, AP_SAT, 0>, ap_fixed<26, 14, AP_TRN, AP_WRAP, 0>, config5>",
+    "stores": {
+      "L": 32
+    },
+    "total_instructions": 293
+  },
+  "7": {
+    "basicblocks": 65,
+    "calls": "",
+    "file": "nnet_activation_stream.h",
+    "fileloc": 39,
+    "instructions": 1381,
+    "name": "relu<nnet::array<ap_fixed<26, 14, AP_TRN, AP_WRAP, 0>, 32>, nnet::array<ap_fixed<10, 4, AP_RND, AP_SAT, 0>, 32>, relu_config6>",
+    "total_instructions": 1797
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "3",
+    "file": "nnet_dense_stream.h",
+    "fileloc": 24,
+    "instructions": 34,
+    "loads": {
+      "L": 4
+    },
+    "name": "dense<nnet::array<ap_fixed<10, 4, AP_RND, AP_SAT, 0>, 16>, nnet::array<ap_fixed<25, 13, AP_TRN, AP_WRAP, 0>, 4>, config9>",
+    "total_instructions": 227
+  },
+  "9": {
+    "basicblocks": 36,
+    "calls": "",
+    "file": "nnet_dense_resource.h",
+    "fileloc": 87,
+    "instructions": 165,
+    "loads": {
+      "G": 2
+    },
+    "name": "dense_resource_rf_gt_nin_rem0<ap_fixed<10, 4, AP_RND, AP_SAT, 0>, ap_fixed<26, 14, AP_TRN, AP_WRAP, 0>, config7>",
+    "stores": {
+      "L": 16
+    },
+    "total_instructions": 165
+  }
+}

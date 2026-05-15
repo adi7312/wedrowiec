@@ -1,0 +1,389 @@
+2026-05-15 13:33:04 [debug] : Notification event posted from server - ON_DID_UPDATE_WORKSPACE. 
+2026-05-15 13:33:04 [debug] : --------------------------------------------------------------------------------- 
+2026-05-15 13:33:04 [debug] : G:\Xlinix-workspace\projekt-hls 
+2026-05-15 13:33:04 [debug] : --------------------------------------------------------------------------------- 
+2026-05-15 13:33:04 [debug] : [Logger] Previous user logs are stored in the file - C:\Users\Ignacy\.Xilinx\Vitis\2024.2\logs\ide.log 
+2026-05-15 13:33:04 [debug] : [Logger] Previous debug logs are stored in the file - C:\Users\Ignacy\.Xilinx\Vitis\2024.2\.wsdata\ide_verbose.log 
+2026-05-15 13:33:04 [debug] : [Logger] All the internal problems will be logged at debug level. 
+2026-05-15 13:33:04 [debug] : [Application Examples Provider]  updating the embedded templates on workspace event. 
+2026-05-15 13:33:04 [debug] : [Application Examples Provider] refresh requested. 
+2026-05-15 13:33:04 [debug] : Received event from notification service: ON_DID_UPDATE_WORKSPACE. 
+2026-05-15 13:33:04 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-05-15 13:33:04 [debug] : [Logger Client] log levelchanged to  {"0":"Info"}
+2026-05-15 13:33:04 [debug] : [Logger UI]  Update Log Level  called 
+2026-05-15 13:33:04 [debug] : [Application Examples Provider] common calling method requested. 
+2026-05-15 13:33:04 [debug] : [Application Examples Provider] Repositories model update requested. 
+2026-05-15 13:33:04 [debug] : [Application Examples Provider] Repositories model update completed. 
+2026-05-15 13:33:04 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:33:04 [debug] : [Application Examples Provider] Templates model update requested. 
+2026-05-15 13:33:04 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2026-05-15 13:33:04 [debug] : RIGEL SERVER 13:33:04 INFO  : created .gitignore file for the project G:\Xlinix-workspace\projekt-hls 
+2026-05-15 13:33:04 [debug] : [Logger UI]  Update Log Level success {"0":{"success":true,"error":""}}
+2026-05-15 13:33:04 [debug] : RIGEL SERVER 13:33:04 INFO  : Marking the target connection as default Local 
+2026-05-15 13:33:04 [debug] : RIGEL SERVER 13:33:04 INFO  : Marking the target connection as default Linux Agent 
+2026-05-15 13:33:04 [debug] : RIGEL SERVER 13:33:04 INFO  : Marking the target connection as default XRTServer 
+2026-05-15 13:33:04 [debug] : RIGEL SERVER 13:33:04 INFO  : Marking the target connection as default LinuxEmulation 
+2026-05-15 13:33:04 [debug] : RIGEL SERVER 13:33:04 INFO  : Marking the target connection as default QEMU 
+2026-05-15 13:33:04 [debug] : RIGEL SERVER 13:33:04 INFO  : updated workspace path: G:\Xlinix-workspace\projekt-hls 
+2026-05-15 13:33:04 [debug] : Notification event posted from server - ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2026-05-15 13:33:05 [debug] : RIGEL SERVER 13:33:04 INFO  : cmd.exe, /C, G:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python G:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\repo.py -st   G:\Xilinx\Vitis\2024.2\data\embeddedsw && G:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat 
+2026-05-15 13:33:05 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["7940f07d-3fca-4452-a277-7a0b39912197",null,54,null,null,null,null,"refresh-summaries"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-05-15 13:33:05 [debug] : Received event from notification service: ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2026-05-15 13:33:05 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2026-05-15 13:33:05 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2026-05-15 13:33:05 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:33:05 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:33:05 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:33:05 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 1,
+        "startColumn": 1,
+        "endLineNumber": 1,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "{\r\n    \"clangd.fallbackFlags\": []\r\n}",
+      "rangeOffset": 0,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///g:/Xlinix-workspace/projekt-hls/_ide/settings.json"}
+2026-05-15 13:33:05 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///g:/Xlinix-workspace/projekt-hls/_ide/settings.json"}
+2026-05-15 13:33:05 [debug] : MonacoEditorModel.cancelSync {"0":"file:///g:/Xlinix-workspace/projekt-hls/_ide/settings.json"}
+2026-05-15 13:33:05 [debug] : MonacoEditorModel.cancelSave {"0":"file:///g:/Xlinix-workspace/projekt-hls/_ide/settings.json"}
+2026-05-15 13:33:05 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///g:/Xlinix-workspace/projekt-hls/_ide/settings.json"}
+2026-05-15 13:33:05 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///g:/Xlinix-workspace/projekt-hls/_ide/settings.json"}
+2026-05-15 13:33:05 [debug] : MonacoEditorModel.cancelSave {"0":"file:///g:/Xlinix-workspace/projekt-hls/_ide/settings.json"}
+2026-05-15 13:33:05 [debug] : MonacoEditorModel.cancelSave {"0":"file:///g:/Xlinix-workspace/projekt-hls/_ide/settings.json"}
+2026-05-15 13:33:05 [debug] : MonacoEditorModel.cancelSync {"0":"file:///g:/Xlinix-workspace/projekt-hls/_ide/settings.json"}
+2026-05-15 13:33:05 [debug] : MonacoEditorModel.cancelSave {"0":"file:///g:/Xlinix-workspace/projekt-hls/_ide/settings.json"}
+2026-05-15 13:33:05 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:33:05 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:33:05 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:33:05 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:33:05 [debug] : Theia configuration directory file:///c:/Users/Ignacy/.Xilinx/Vitis/2024.2/.vitis' 
+2026-05-15 13:33:05 [debug] : Theia configuration directory file:///c:/Users/Ignacy/.Xilinx/Vitis/2024.2/.vitis' 
+2026-05-15 13:33:06 [debug] : RIGEL SERVER 13:33:06 INFO  : Successfully created repository data at G:\Xlinix-workspace\projekt-hls/_ide\.wsdata 
+2026-05-15 13:33:06 [debug] : RIGEL SERVER 13:33:06 INFO  : cmd.exe, /C, G:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python G:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\Ignacy\AppData\Local\Temp\rigel_lopper_Ignacy3771340254749143802 -r G:\Xlinix-workspace\projekt-hls\_ide\.wsdata\.repo.yaml && G:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat 
+2026-05-15 13:33:06 [debug] : RIGEL SERVER 13:33:06 INFO  : Embedded Template List generated successfully 
+2026-05-15 13:33:06 [debug] : [Application Examples Provider] Templates model update completed. 
+2026-05-15 13:33:06 [debug] : [Application Examples Provider] common calling method completed. 
+2026-05-15 13:33:06 [debug] : [Application Examples Provider] refresh completed. 
+2026-05-15 13:33:07 [debug] : [hosted-plugin: 47560] PLUGIN_HOST(47560): PluginManagerExtImpl/loadPlugin(G:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\plugins\vscode-clangd\extension\out\src\extension) 
+2026-05-15 13:33:07 [debug] : [hosted-plugin: 47560] Could not identify plugin for 'Theia' require call from G:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\node_modules\vscode-languageclient\lib\node\main.js 
+2026-05-15 13:33:07 [debug] : [hosted-plugin: 47560] PLUGIN_HOST(47560): PluginManagerExtImpl/loadPlugin(c:\Users\Ignacy\AppData\Local\Temp\Ignacy-vscode-unpacked\vitis-hls-verilog-vhdl-support-0.0.1.vsix\extension\lib\extension.js) 
+2026-05-15 13:33:07 [debug] : [hosted-plugin: 47560] PLUGIN_HOST(47560): PluginManagerExtImpl/loadPlugin(c:\Users\Ignacy\AppData\Local\Temp\Ignacy-vscode-unpacked\vitis-hls-pragma-0.6.0.vsix\extension\out\extension.js) 
+2026-05-15 13:33:07 [debug] : [git-locator: 24572] IPC started 
+2026-05-15 13:33:07 [debug] : [hosted-plugin: 47560] Starting extension "vitis-hls-pragma"! 
+2026-05-15 13:33:07 [debug] : [hosted-plugin: 47560] PLUGIN_HOST(47560): PluginManagerExtImpl/loadPlugin(c:\Users\Ignacy\AppData\Local\Temp\Ignacy-vscode-unpacked\vitis-hls-l1-library-0.0.1.vsix\extension\lib\extension.js) 
+2026-05-15 13:33:07 [debug] : [hosted-plugin: 47560] Clang Language Server is now active! 
+2026-05-15 13:33:07 [debug] : command 'clangd.typeHierarchy' already registered 
+2026-05-15 13:33:07 [debug] : data provider for 'clangd.typeHierarchyView' view is already registered 
+2026-05-15 13:33:07 [debug] : data provider for 'clangd.ast' view is already registered 
+2026-05-15 13:33:07 [debug] : command 'clangd.ast' already registered 
+2026-05-15 13:33:07 [debug] : [git-locator: 24572] IPC exited 
+2026-05-15 13:33:09 [debug] : Widget was activated, but did not accept focus after 2000ms: outline-view 
+2026-05-15 13:33:10 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:33:10 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:33:10 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:33:10 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:33:11 [debug] : Starting terminal process {"0":"{\n  \"command\": \"cmd.exe\",\n  \"args\": [],\n  \"options\": {\n    \"name\": \"xterm-color\",\n    \"cols\": 80,\n    \"rows\": 24,\n    \"cwd\": \"g:\\\\Xlinix-workspace\\\\projekt-hls\",\n    \"env\": {\n      \"ACSETUPSVCPORT\": \"23210\",\n      \"ACSVCPORT\": \"17532\",\n      \"ALLUSERSPROFILE\": \"C:\\\\ProgramData\",\n      \"APPDATA\": \"C:\\\\Users\\\\Ignacy\\\\AppData\\\\Roaming\",\n      \"ARR.LENGTH\": \"0\",\n      \"ARR.UBOUND\": \"-1\",\n      \"CAMLIBS\": \"C:\\\\Program Files\\\\darktable\\\\lib\\\\libgphoto2\\\\2.5.32\",\n      \"CHOCOLATEYINSTALL\": \"C:\\\\ProgramData\\\\chocolatey\",\n      \"CHOCOLATEYLASTPATHUPDATE\": \"133506088003272804\",\n      \"CLION\": \"C:\\\\Program Files\\\\JetBrains\\\\CLion 2023.3.4\\\\bin;\",\n      \"CMAKE_OBJECT_PATH_MAX\": \"4096\",\n      \"COMMONPROGRAMFILES\": \"C:\\\\Program Files\\\\Common Files\",\n      \"COMMONPROGRAMFILES(X86)\": \"C:\\\\Program Files (x86)\\\\Common Files\",\n      \"COMMONPROGRAMW6432\": \"C:\\\\Program Files\\\\Common Files\",\n      \"COMPUTERNAME\": \"TUFIK-2-0\",\n      \"COMSPEC\": \"C:\\\\WINDOWS\\\\system32\\\\cmd.exe\",\n      \"DRIVERDATA\": \"C:\\\\Windows\\\\System32\\\\Drivers\\\\DriverData\",\n      \"EFC_16104_1262719628\": \"1\",\n      \"EFC_16104_1592913036\": \"1\",\n      \"EFC_16104_2283032206\": \"1\",\n      \"EFC_16104_2775293581\": \"1\",\n      \"EFC_16104_3789132940\": \"1\",\n      \"EFC_16104_4126798990\": \"1\",\n      \"ENABLELOG\": \"INFO\",\n      \"FPS_BROWSER_APP_PROFILE_STRING\": \"Internet Explorer\",\n      \"FPS_BROWSER_USER_PROFILE_STRING\": \"Default\",\n      \"GIT_EXEC_PATH\": \"C:\\\\Program Files\\\\Git\\\\mingw64\\\\libexec\\\\git-core\",\n      \"GIT__CAN_USE_NO_OPTIONAL_LOCKS\": \"true\",\n      \"HDI_APPROOT\": \"G:/Xilinx/Vitis/2024.2\",\n      \"HOMEDRIVE\": \"C:\",\n      \"HOMEPATH\": \"\\\\Users\\\\Ignacy\",\n      \"HW_SERVER_DJTG_DISABLE\": \"1\",\n      \"HW_SERVER_FTDIMGR_DISABLE\": \"1\",\n      \"IDE_SKIP_SERVER_LICENSE\": \"1\",\n      \"INT_VARIABLE_NAME\": \"XILINX_PATH\",\n      \"IOLIBS\": \"C:\\\\Program Files\\\\darktable\\\\lib\\\\libgphoto2_port\\\\0.12.2\",\n      \"JAVA_HOME\": \"G:/Xilinx/Vitis/2024.2\\\\tps\\\\win64\\\\jre11.0.16_1\",\n      \"LC_NUMERIC\": \"C\",\n      \"LOCALAPPDATA\": \"C:\\\\Users\\\\Ignacy\\\\AppData\\\\Local\",\n      \"LOCAL_GIT_DIRECTORY\": \"C:\\\\Program Files\\\\Git\",\n      \"LOGONSERVER\": \"\\\\\\\\TUFIK-2-0\",\n      \"NOSPLASH\": \"false\",\n      \"NUMBER_OF_PROCESSORS\": \"24\",\n      \"ONEDRIVE\": \"G:\\\\OneDrive - Politechnika Warszawska\",\n      \"ONEDRIVECOMMERCIAL\": \"G:\\\\OneDrive - Politechnika Warszawska\",\n      \"ONEDRIVECONSUMER\": \"G:\\\\OneDrive\",\n      \"ORIGINAL_XDG_CURRENT_DESKTOP\": \"undefined\",\n      \"OS\": \"Windows_NT\",\n      \"PATH\": \"G:/Xilinx/Vitis/2024.2\\\\bin;G:/Xilinx/Vitis/2024.2\\\\gnu\\\\microblaze\\\\nt\\\\bin;G:/Xilinx/Vitis/2024.2\\\\gnu\\\\arm\\\\nt\\\\bin;G:/Xilinx/Vitis/2024.2\\\\gnu\\\\microblaze\\\\linux_toolchain\\\\nt64_be\\\\bin;G:/Xilinx/Vitis/2024.2\\\\gnu\\\\microblaze\\\\linux_toolchain\\\\nt64_le\\\\bin;G:/Xilinx/Vitis/2024.2\\\\gnu\\\\aarch32\\\\nt\\\\gcc-arm-linux-gnueabi\\\\bin;G:/Xilinx/Vitis/2024.2\\\\gnu\\\\aarch32\\\\nt\\\\gcc-arm-none-eabi\\\\bin;G:/Xilinx/Vitis/2024.2\\\\gnu\\\\aarch64\\\\nt\\\\aarch64-linux\\\\bin;G:/Xilinx/Vitis/2024.2\\\\gnu\\\\aarch64\\\\nt\\\\aarch64-none\\\\bin;G:/Xilinx/Vitis/2024.2\\\\gnu\\\\armr5\\\\nt\\\\gcc-arm-none-eabi\\\\bin;G:/Xilinx/Vitis/2024.2\\\\gnu\\\\riscv\\\\nt\\\\riscv64-unknown-elf\\\\bin;G:/Xilinx/Vivado/2024.2\\\\tps\\\\win64\\\\python-3.8.3;G:/Xilinx/Vivado/2024.2\\\\tps\\\\win64\\\\git-2.45.0\\\\bin;G:/Xilinx/Vivado/2024.2\\\\tps\\\\win64\\\\cmake-3.24.2\\\\bin;G:/Xilinx/Vitis/2024.2\\\\win64\\\\tools\\\\clang\\\\bin;G:/Xilinx/Vitis/2024.2\\\\tps\\\\win64\\\\jre11.0.16_1\\\\bin;G:/Xilinx/Vitis/2024.2/lib/win64.o;G:/Xilinx/Vitis/2024.2\\\\tps\\\\win64\\\\libxslt/bin;G:/Xilinx/Vitis/2024.2/bin;G:/Xilinx/Vivado/2024.2/bin;C:\\\\Program Files (x86)\\\\VMware\\\\VMware Workstation\\\\bin\\\\;C:\\\\Program Files\\\\Common Files\\\\Oracle\\\\Java\\\\javapath;C:\\\\Program Files (x86)\\\\Common Files\\\\Oracle\\\\Java\\\\java8path;C:\\\\Program Files (x86)\\\\Common Files\\\\Oracle\\\\Java\\\\javapath;C:\\\\Windows\\\\system32;C:\\\\Windows;C:\\\\Windows\\\\System32\\\\Wbem;C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\;C:\\\\Windows\\\\System32\\\\OpenSSH\\\\;C:\\\\Program Files\\\\Java\\\\jdk1.8.0_202\\\\bin;C:\\\\Program Files\\\\dotnet\\\\;C:\\\\Program Files\\\\MATLAB\\\\R2023b\\\\bin;C:\\\\ProgramData\\\\chocolatey\\\\bin;C:\\\\Program Files\\\\Java\\\\jdk-21\\\\bin;C:\\\\Program Files\\\\Java\\\\scripts;C:\\\\Program Files (x86)\\\\NVIDIA Corporation\\\\PhysX\\\\Common;C:\\\\Program Files\\\\NVIDIA Corporation\\\\NVIDIA app\\\\NvDLISR;C:\\\\Program Files\\\\Git\\\\cmd;C:\\\\Program Files\\\\usbipd-win\\\\;C:\\\\WINDOWS\\\\system32;C:\\\\WINDOWS;C:\\\\WINDOWS\\\\System32\\\\Wbem;C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\;C:\\\\WINDOWS\\\\System32\\\\OpenSSH\\\\;C:\\\\Program Files (x86)\\\\cloudflared\\\\;C:\\\\Program Files\\\\Tailscale\\\\;C:\\\\Program Files\\\\PuTTY\\\\;C:\\\\Program Files\\\\PowerToys\\\\DSCModules\\\\;C:\\\\Program Files\\\\CMake\\\\bin;C:\\\\Program Files\\\\nodejs\\\\;C:\\\\Program Files\\\\Sunshine;C:\\\\Program Files\\\\Sunshine\\\\tools;C:\\\\Program Files\\\\DisplayMagician\\\\;c:\\\\Users\\\\Ignacy\\\\AppData\\\\Roaming\\\\Code\\\\User\\\\globalStorage\\\\github.copilot-chat\\\\debugCommand;c:\\\\Users\\\\Ignacy\\\\AppData\\\\Roaming\\\\Code\\\\User\\\\globalStorage\\\\github.copilot-chat\\\\copilotCli;c:\\\\Users\\\\Ignacy\\\\.vscode\\\\extensions\\\\stmicroelectronics.stm32cube-ide-core-1.3.0-win32-x64\\\\resources\\\\binaries\\\\win32\\\\x86_64;C:\\\\Users\\\\Ignacy\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code;C:\\\\Program Files (x86)\\\\VMware\\\\VMware Workstation\\\\bin\\\\;C:\\\\Program Files\\\\Common Files\\\\Oracle\\\\Java\\\\javapath;C:\\\\Program Files (x86)\\\\Common Files\\\\Oracle\\\\Java\\\\java8path;C:\\\\Program Files (x86)\\\\Common Files\\\\Oracle\\\\Java\\\\javapath;C:\\\\Windows\\\\system32;C:\\\\Windows;C:\\\\Windows\\\\System32\\\\Wbem;C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\;C:\\\\Windows\\\\System32\\\\OpenSSH\\\\;C:\\\\Program Files\\\\Java\\\\jdk1.8.0_202\\\\bin;C:\\\\Program Files\\\\dotnet\\\\;C:\\\\Program Files\\\\MATLAB\\\\R2023b\\\\bin;C:\\\\ProgramData\\\\chocolatey\\\\bin;C:\\\\Program Files\\\\Java\\\\jdk-21\\\\bin;C:\\\\Program Files\\\\Java\\\\scripts;C:\\\\Program Files (x86)\\\\NVIDIA Corporation\\\\PhysX\\\\Common;C:\\\\Program Files\\\\NVIDIA Corporation\\\\NVIDIA app\\\\NvDLISR;C:\\\\Program Files\\\\Git\\\\cmd;C:\\\\Program Files\\\\usbipd-win\\\\;C:\\\\WINDOWS\\\\system32;C:\\\\WINDOWS;C:\\\\WINDOWS\\\\System32\\\\Wbem;C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\;C:\\\\WINDOWS\\\\System32\\\\OpenSSH\\\\;C:\\\\Program Files (x86)\\\\cloudflared\\\\;C:\\\\Program Files\\\\Tailscale\\\\;C:\\\\Program Files\\\\PuTTY\\\\;C:\\\\Program Files\\\\PowerToys\\\\DSCModules\\\\;C:\\\\Program Files\\\\CMake\\\\bin;C:\\\\Program Files\\\\nodejs\\\\;C:\\\\Program Files\\\\Sunshine;C:\\\\Program Files\\\\Sunshine\\\\tools;C:\\\\Program Files\\\\DisplayMagician\\\\;C:\\\\Users\\\\Ignacy\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Launcher\\\\;C:\\\\Users\\\\Ignacy\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps;C:\\\\Users\\\\Ignacy\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\bin;C:\\\\Program Files\\\\JetBrains\\\\PyCharm 2023.2.4\\\\bin;;C:\\\\Program Files\\\\JetBrains\\\\CLion 2023.3.4\\\\bin;C:\\\\msys64\\\\ucrt64\\\\bin;C:\\\\Program Files\\\\Graphviz\\\\bin;C:\\\\Users\\\\Ignacy\\\\.lmstudio\\\\bin;C:\\\\Users\\\\Ignacy\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps;C:\\\\Users\\\\Ignacy\\\\AppData\\\\Roaming\\\\npm;C:\\\\Users\\\\Ignacy\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe;;\\\\tools\\\\bin;C:\\\\ST\\\\STM32CubeIDE_2.1.1\\\\STM32CubeIDE\\\\plugins\\\\com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.101.202603101401\\\\tools\\\\bin;C:\\\\ST\\\\STM32CubeIDE_2.1.1\\\\STM32CubeIDE\\\\plugins\\\\com.st.stm32cube.ide.mcu.externaltools.ninja.win32_1.1.100.202601091506\\\\tools\\\\bin;C:\\\\Program Files\\\\STMicroelectronics\\\\STM32Cube\\\\STM32CubeProgrammer\\\\bin\",\n      \"PATHEXT\": \".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC\",\n      \"PROCESSOR_ARCHITECTURE\": \"AMD64\",\n      \"PROCESSOR_IDENTIFIER\": \"Intel64 Family 6 Model 183 Stepping 1, GenuineIntel\",\n      \"PROCESSOR_LEVEL\": \"6\",\n      \"PROCESSOR_REVISION\": \"b701\",\n      \"PROGRAMDATA\": \"C:\\\\ProgramData\",\n      \"PROGRAMFILES\": \"C:\\\\Program Files\",\n      \"PROGRAMFILES(X86)\": \"C:\\\\Program Files (x86)\",\n      \"PROGRAMW6432\": \"C:\\\\Program Files\",\n      \"PROMPT\": \"$P$G\",\n      \"PSMODULEPATH\": \"C:\\\\Program Files\\\\WindowsPowerShell\\\\Modules;C:\\\\WINDOWS\\\\system32\\\\WindowsPowerShell\\\\v1.0\\\\Modules\",\n      \"PUBLIC\": \"C:\\\\Users\\\\Public\",\n      \"PYCHARM\": \"C:\\\\Program Files\\\\JetBrains\\\\PyCharm 2023.2.4\\\\bin;\",\n      \"PYTHON\": \"C:\\\\Users\\\\Ignacy\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Python 3.12\",\n      \"PYTHONPATH\": \";G:/Xilinx/Vitis/2024.2\\\\cli;G:/Xilinx/Vitis/2024.2\\\\cli\\\\python-packages\\\\win64;G:/Xilinx/Vitis/2024.2\\\\cli\\\\python-packages\\\\site-packages;G:/Xilinx/Vitis/2024.2\\\\cli\\\\proto;G:/Xilinx/Vitis/2024.2\\\\scripts\\\\python_pkg;\",\n      \"RDI_APPROOT\": \"G:/Xilinx/Vitis/2024.2\",\n      \"RDI_BASEROOT\": \"G:/Xilinx/Vitis\",\n      \"RDI_BINROOT\": \"G:/Xilinx/Vitis/2024.2/bin\",\n      \"RDI_CHECK_PROG\": \"True\",\n      \"RDI_DATADIR\": \"G:/Xilinx/SharedData/2024.2/data;G:/Xilinx/Vitis/2024.2/data\",\n      \"RDI_INSTALLROOT\": \"G:/Xilinx\",\n      \"RDI_INSTALLVER\": \"2024.2\",\n      \"RDI_NO_JRE\": \"1\",\n      \"RDI_OPT_EXT\": \".o\",\n      \"RDI_OS_ARCH\": \"64\",\n      \"RDI_PROG\": \"buildinfo.exe\",\n      \"RDI_SESSION_INFO\": \"G:\\\\Xilinx\\\\Vitis\\\\2024.2\\\\bin:TUFIK-2-0-pt.15.05.2026_13-32-28,89\",\n      \"RDI_SHARED_DATA\": \"G:/Xilinx/SharedData/2024.2/data\",\n      \"RDI_USE_JDK11\": \"1\",\n      \"RLSSVCPORT\": \"22112\",\n      \"SESSIONNAME\": \"Console\",\n      \"SESSION_STRING\": \"G:\\\\Xilinx\\\\Vitis\\\\2024.2\\\\bin:TUFIK-2-0-pt.15.05.2026_13-32-30,02\",\n      \"SUPPORTS_CLASSIC_IDE\": \"true\",\n      \"SYSTEMDRIVE\": \"C:\",\n      \"SYSTEMROOT\": \"C:\\\\WINDOWS\",\n      \"TEMP\": \"C:\\\\Users\\\\Ignacy\\\\AppData\\\\Local\\\\Temp\",\n      \"THEIA_APP_PROJECT_PATH\": \"G:\\\\Xilinx\\\\Vitis\\\\2024.2\\\\ide\\\\electron-app\\\\win64\\\\resources\\\\app\",\n      \"THEIA_DEFAULT_PLUGINS\": \"local-dir:G:\\\\Xilinx\\\\Vitis\\\\2024.2\\\\ide\\\\electron-app\\\\win64\\\\resources\\\\app\\\\plugins\",\n      \"THEIA_ELECTRON_TOKEN\": \"{\\\"value\\\":\\\"0ff0c1f1-b081-4bbd-8ab2-91a097381f0f\\\"}\",\n      \"THEIA_ELECTRON_VERSION\": \"15.5.7\",\n      \"THEIA_PLUGINS\": \"local-dir:C:\\\\Users\\\\Ignacy\\\\.theia\\\\plugins\",\n      \"TMP\": \"C:\\\\Users\\\\Ignacy\\\\AppData\\\\Local\\\\Temp\",\n      \"TOOLDIR\": \"tps\\\\win64\\\\git-2.41.0\",\n      \"TOOLS_CLANG\": \"G:/Xilinx/Vitis/2024.2\\\\win64\\\\tools\\\\clang\",\n      \"TPS_CMAKE\": \"G:/Xilinx/Vivado/2024.2\\\\tps\\\\win64\\\\cmake-3.24.2\",\n      \"TPS_GIT\": \"G:/Xilinx/Vivado/2024.2\\\\tps\\\\win64\\\\git-2.45.0\",\n      \"TPS_LIBXSLT\": \"G:/Xilinx/Vitis/2024.2\\\\tps\\\\win64\\\\libxslt\",\n      \"TPS_PYTHON\": \"G:/Xilinx/Vivado/2024.2\\\\tps\\\\win64\\\\python-3.8.3\",\n      \"USERDOMAIN\": \"TUFIK-2-0\",\n      \"USERDOMAIN_ROAMINGPROFILE\": \"TUFIK-2-0\",\n      \"USERNAME\": \"Ignacy\",\n      \"USERPROFILE\": \"C:\\\\Users\\\\Ignacy\",\n      \"VITISNEW\": \"true\",\n      \"VSCODE_API_VERSION\": \"1.53.2\",\n      \"WINDIR\": \"C:\\\\WINDOWS\",\n      \"XILINX_HLS\": \"G:/Xilinx/Vitis/2024.2\",\n      \"XILINX_VERSION_DEFAULT\": \"2024.2\",\n      \"XILINX_VERSION_VITIS\": \"2024.2\",\n      \"XILINX_VITIS\": \"G:/Xilinx/Vitis/2024.2\",\n      \"XILINX_VITIS_GIT\": \"G:/Xilinx/Vivado/2024.2\\\\tps\\\\win64\\\\git-2.45.0\\\\bin\",\n      \"XILINX_VITIS_VERSION\": \"Vitis v2024.2 (64-bit)\",\n      \"XILINX_VIVADO\": \"G:/Xilinx/Vivado/2024.2\",\n      \"XIL_NO_OVERRIDE\": \"0\",\n      \"XIL_SUPPRESS_OVERRIDE_WARNINGS\": \"1\",\n      \"_RDI_DONT_SET_XILINX_AS_PATH\": \"True\",\n      \"_RDI_SETENV_RUN\": \"true\",\n      \"__PSLOCKDOWNPOLICY\": \"0\"\n    }\n  }\n}"}
+2026-05-15 13:33:11 [debug] : Opening channel for service path '/services/terminals/1'. 
+2026-05-15 13:33:11 [debug] : [git-locator: 38964] IPC started 
+2026-05-15 13:33:11 [debug] : [git-locator: 38964] IPC exited 
+2026-05-15 13:33:19 [debug] : [git-locator: 1036] IPC started 
+2026-05-15 13:33:20 [debug] : [git-locator: 1036] IPC exited 
+2026-05-15 13:33:31 [debug] : Git Pull: successfully completed from origin. 
+2026-05-15 13:33:32 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:33:32 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:33:32 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:33:32 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:33:33 [debug] : [git-locator: 8884] IPC started 
+2026-05-15 13:33:33 [debug] : [git-locator: 8884] IPC exited 
+2026-05-15 13:34:11 [debug] : [git-locator: 43192] IPC started 
+2026-05-15 13:34:11 [debug] : [git-locator: 43192] IPC exited 
+2026-05-15 13:34:12 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:34:12 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:34:12 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:34:12 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:34:14 [debug] : [git-locator: 38700] IPC started 
+2026-05-15 13:34:14 [debug] : [git-locator: 38700] IPC exited 
+2026-05-15 13:34:16 [debug] : [git-locator: 25916] IPC started 
+2026-05-15 13:34:16 [debug] : [git-locator: 25916] IPC exited 
+2026-05-15 13:34:17 [debug] : [git-locator: 40628] IPC started 
+2026-05-15 13:34:17 [debug] : [git-locator: 40628] IPC exited 
+2026-05-15 13:34:17 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:34:17 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:34:17 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:34:17 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:34:19 [debug] : [git-locator: 19940] IPC started 
+2026-05-15 13:34:19 [debug] : [git-locator: 19940] IPC exited 
+2026-05-15 13:34:22 [debug] : [git-locator: 36148] IPC started 
+2026-05-15 13:34:22 [debug] : [git-locator: 36148] IPC exited 
+2026-05-15 13:34:22 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:34:22 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:34:22 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:34:22 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:34:24 [debug] : [git-locator: 42456] IPC started 
+2026-05-15 13:34:24 [debug] : [git-locator: 42456] IPC exited 
+2026-05-15 13:34:28 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:34:28 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:34:28 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:34:28 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:34:32 [debug] : [git-locator: 26008] IPC started 
+2026-05-15 13:34:33 [debug] : [git-locator: 26008] IPC exited 
+2026-05-15 13:34:33 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:34:33 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:34:33 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:34:33 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:34:34 [debug] : [git-locator: 40908] IPC started 
+2026-05-15 13:34:34 [debug] : [git-locator: 40908] IPC exited 
+2026-05-15 13:34:37 [debug] : [git-locator: 11872] IPC started 
+2026-05-15 13:34:37 [debug] : [git-locator: 11872] IPC exited 
+2026-05-15 13:34:38 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:34:38 [debug] : [git-locator: 37520] IPC started 
+2026-05-15 13:34:38 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:34:38 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:34:38 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:34:38 [debug] : [git-locator: 37520] IPC exited 
+2026-05-15 13:34:40 [debug] : [git-locator: 26728] IPC started 
+2026-05-15 13:34:40 [debug] : [git-locator: 26728] IPC exited 
+2026-05-15 13:35:15 [debug] : [git-locator: 48056] IPC started 
+2026-05-15 13:35:15 [debug] : [git-locator: 48056] IPC exited 
+2026-05-15 13:35:18 [debug] : [git-locator: 632] IPC started 
+2026-05-15 13:35:19 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:35:19 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:35:19 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:35:19 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:35:19 [debug] : [git-locator: 632] IPC exited 
+2026-05-15 13:35:20 [debug] : [git-locator: 23940] IPC started 
+2026-05-15 13:35:20 [debug] : [git-locator: 23940] IPC exited 
+2026-05-15 13:35:23 [debug] : [git-locator: 46968] IPC started 
+2026-05-15 13:35:23 [debug] : [git-locator: 46968] IPC exited 
+2026-05-15 13:35:24 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:35:24 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:35:24 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:35:24 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:35:29 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:35:29 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:35:29 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:35:29 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:35:32 [debug] : [git-locator: 47156] IPC started 
+2026-05-15 13:35:33 [debug] : [git-locator: 47156] IPC exited 
+2026-05-15 13:35:34 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:35:34 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:35:34 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:35:34 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:35:36 [debug] : [git-locator: 37952] IPC started 
+2026-05-15 13:35:36 [debug] : [git-locator: 37952] IPC exited 
+2026-05-15 13:35:37 [debug] : [git-locator: 31456] IPC started 
+2026-05-15 13:35:37 [debug] : [git-locator: 31456] IPC exited 
+2026-05-15 13:35:39 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:35:39 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:35:39 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:35:39 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:35:40 [debug] : [git-locator: 2356] IPC started 
+2026-05-15 13:35:41 [debug] : [git-locator: 2356] IPC exited 
+2026-05-15 13:36:11 [debug] : [git-locator: 39612] IPC started 
+2026-05-15 13:36:11 [debug] : [git-locator: 39612] IPC exited 
+2026-05-15 13:36:41 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:36:41 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:36:41 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:36:41 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:36:43 [debug] : [git-locator: 32332] IPC started 
+2026-05-15 13:36:43 [debug] : [git-locator: 32332] IPC exited 
+2026-05-15 13:37:06 [debug] : [git-locator: 18524] IPC started 
+2026-05-15 13:37:06 [debug] : [git-locator: 18524] IPC exited 
+2026-05-15 13:37:16 [debug] : [git-locator: 41664] IPC started 
+2026-05-15 13:37:16 [debug] : [git-locator: 41664] IPC exited 
+2026-05-15 13:37:39 [debug] : [git-locator: 2736] IPC started 
+2026-05-15 13:37:39 [debug] : [git-locator: 2736] IPC exited 
+2026-05-15 13:37:46 [debug] : [git-locator: 47160] IPC started 
+2026-05-15 13:37:46 [debug] : [git-locator: 47160] IPC exited 
+2026-05-15 13:37:46 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:37:46 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:37:46 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:37:46 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:37:47 [debug] : [git-locator: 40840] IPC started 
+2026-05-15 13:37:48 [debug] : [git-locator: 40840] IPC exited 
+2026-05-15 13:37:49 [debug] : [git-locator: 11872] IPC started 
+2026-05-15 13:37:49 [debug] : [git-locator: 11872] IPC exited 
+2026-05-15 13:37:54 [debug] : [git-locator: 45744] IPC started 
+2026-05-15 13:37:54 [debug] : [git-locator: 45744] IPC exited 
+2026-05-15 13:38:40 [debug] : [git-locator: 10892] IPC started 
+2026-05-15 13:38:40 [debug] : [git-locator: 10892] IPC exited 
+2026-05-15 13:39:11 [debug] : [git-locator: 32948] IPC started 
+2026-05-15 13:39:11 [debug] : [git-locator: 32948] IPC exited 
+2026-05-15 13:40:07 [debug] : [git-locator: 14952] IPC started 
+2026-05-15 13:40:07 [debug] : [git-locator: 14952] IPC exited 
+2026-05-15 13:40:09 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:40:09 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:40:09 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:40:09 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:40:11 [debug] : [git-locator: 25492] IPC started 
+2026-05-15 13:40:11 [debug] : [git-locator: 25492] IPC exited 
+2026-05-15 13:40:48 [debug] : [git-locator: 47736] IPC started 
+2026-05-15 13:40:48 [debug] : [git-locator: 47736] IPC exited 
+2026-05-15 13:41:14 [debug] : [git-locator: 9260] IPC started 
+2026-05-15 13:41:14 [debug] : [git-locator: 9260] IPC exited 
+2026-05-15 13:41:15 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:41:15 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:41:15 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:41:15 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:41:17 [debug] : [git-locator: 39972] IPC started 
+2026-05-15 13:41:17 [debug] : [git-locator: 39972] IPC exited 
+2026-05-15 13:41:26 [debug] : [git-locator: 6696] IPC started 
+2026-05-15 13:41:26 [debug] : [git-locator: 6696] IPC exited 
+2026-05-15 13:41:30 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:41:30 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:41:30 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:41:30 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:41:32 [debug] : [git-locator: 4896] IPC started 
+2026-05-15 13:41:32 [debug] : [git-locator: 4896] IPC exited 
+2026-05-15 13:41:34 [debug] : [git-locator: 7396] IPC started 
+2026-05-15 13:41:34 [debug] : [git-locator: 7396] IPC exited 
+2026-05-15 13:41:37 [debug] : [git-locator: 15744] IPC started 
+2026-05-15 13:41:37 [debug] : [git-locator: 15744] IPC exited 
+2026-05-15 13:41:41 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:41:41 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:41:41 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:41:41 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:41:46 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:41:46 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:41:46 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:41:46 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:41:51 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:41:51 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:41:51 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:41:51 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:41:56 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:41:56 [debug] : [git-locator: 45160] IPC started 
+2026-05-15 13:41:56 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:41:56 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:41:56 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:41:56 [debug] : [git-locator: 45160] IPC exited 
+2026-05-15 13:41:59 [debug] : [git-locator: 47284] IPC started 
+2026-05-15 13:41:59 [debug] : [git-locator: 47284] IPC exited 
+2026-05-15 13:42:01 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:42:01 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:42:01 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:42:01 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:42:04 [debug] : [git-locator: 37120] IPC started 
+2026-05-15 13:42:04 [debug] : [git-locator: 37120] IPC exited 
+2026-05-15 13:42:06 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:42:06 [debug] : [git-locator: 14472] IPC started 
+2026-05-15 13:42:06 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:42:06 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:42:06 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:42:06 [debug] : [git-locator: 14472] IPC exited 
+2026-05-15 13:42:09 [debug] : [git-locator: 45844] IPC started 
+2026-05-15 13:42:09 [debug] : [git-locator: 45844] IPC exited 
+2026-05-15 13:42:13 [debug] : [git-locator: 47324] IPC started 
+2026-05-15 13:42:13 [debug] : [git-locator: 47324] IPC exited 
+2026-05-15 13:42:17 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:42:17 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:42:17 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:42:17 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:42:22 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:42:22 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:42:22 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:42:22 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:42:27 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:42:27 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:42:27 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:42:27 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:42:32 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:42:32 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:42:32 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:42:32 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:42:34 [debug] : [git-locator: 47472] IPC started 
+2026-05-15 13:42:34 [debug] : [git-locator: 47472] IPC exited 
+2026-05-15 13:42:37 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:42:37 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:42:37 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:42:37 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:42:43 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-15 13:42:43 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:42:43 [debug] : [ProjectCache] Project location updated to undefined 
+2026-05-15 13:42:43 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-15 13:42:45 [debug] : Shutting down because of Close request. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/commands'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/keyboard'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/logger'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/messageService'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/startup-workspace'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/remote-filesystem'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/envs'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/workspace'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/stopwatch'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/rigel-utils'. 
+2026-05-15 13:42:45 [debug] : [Rigel Utils Server] Disposing objects in backend. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/application'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/i18n'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/hostedPlugin'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/project'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/rigel-workspace'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/component'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/feature-registry'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/debugger'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/debug'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/shell-terminal'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/task'. 
+2026-05-15 13:42:45 [debug] : a client has disconnected - removed from list: 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/quickPick'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/plugin-ext'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/plugin-paths'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/search'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/vsx-environment'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/request-service'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/server'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/repository'. 
+2026-05-15 13:42:45 [debug] : [Repository Server] Disposing objects in backend. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/program_flash'. 
+2026-05-15 13:42:45 [debug] : [Program Flash Server] Disposing objects in backend. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/build'. 
+2026-05-15 13:42:45 [debug] : [Build Server] Disposing objects in backend. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path 'services/rigel-backend-helper'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/aie'. 
+2026-05-15 13:42:45 [debug] : [AIE Server] Disposing objects in backend. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/analysis'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/notification'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/recent-summaries'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/platform'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/hls/l1library/service'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/elf-reader'. 
+2026-05-15 13:42:45 [debug] : [Elf Reader Server] Disposing objects in backend. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/rigel_explorer'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/linker-script'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/rigel-logger'. 
+2026-05-15 13:42:45 [debug] : [Logger Server] Disposing objects in backend. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/vitis-hls'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/device'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/vcxx'. 
+2026-05-15 13:42:45 [debug] : [Rigel Vcxx Server] Disposing objects in backend. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/hls/common/file/service'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/flow_navigator'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/hls/common/data/info'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/hls/report'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/hls/dataflow/info'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/hls/directive'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/hls_flow'. 
+2026-05-15 13:42:45 [debug] : [Hls Flow Server] Disposing objects in backend. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/git'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/git-watcher'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/mini-browser-service'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/project-utils'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/bootgen'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/cdo-utils'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/report-model'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/hls/wave/open'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/search-in-workspace'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/keytar'. 
+2026-05-15 13:42:45 [debug] : Closing channel on service path '/services/terminals/1'. 

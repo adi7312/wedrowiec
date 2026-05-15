@@ -142,6 +142,15 @@ proc compare_files {file_1 file_2} {
     return $equal
 }
 
+proc first_existing_file {files} {
+    foreach file $files {
+        if {[file exists $file]} {
+            return $file
+        }
+    }
+    return [lindex $files 0]
+}
+
 file mkdir tb_data
 set CSIM_RESULTS "./tb_data/csim_results.log"
 set RTL_COSIM_RESULTS "./tb_data/rtl_cosim_results.log"
@@ -162,7 +171,6 @@ if {$opt(reset)} {
 } else {
     open_solution "solution1"
 }
-catch {config_array_partition -maximum_size $maximum_size}
 config_compile -name_max_length 80
 set_part $part
 config_schedule -enable_dsp_full_reg=false
@@ -221,6 +229,15 @@ if {$opt(cosim)} {
 
 if {$opt(validation)} {
     puts "***** C/RTL VALIDATION *****"
+    set CSIM_RESULTS [first_existing_file [list \
+        "./tb_data/csim_results.log" \
+        "${project_name}_prj/solution1/csim/build/tb_data/csim_results.log" \
+    ]]
+    set RTL_COSIM_RESULTS [first_existing_file [list \
+        "./tb_data/rtl_cosim_results.log" \
+        "${project_name}_prj/solution1/sim/wrapc/tb_data/rtl_cosim_results.log" \
+        "${project_name}_prj/solution1/sim/wrapc_pc/tb_data/rtl_cosim_results.log" \
+    ]]
     if {[compare_files $CSIM_RESULTS $RTL_COSIM_RESULTS]} {
         puts "INFO: Test PASSED"
     } else {

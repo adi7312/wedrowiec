@@ -16,7 +16,7 @@ HLSConfig:
         bias: auto
         result: auto
         weight: auto
-      ReuseFactor: 4
+      ReuseFactor: 2048
       Trace: false
     dense_4_relu:
       Precision:
@@ -31,7 +31,7 @@ HLSConfig:
         bias: auto
         result: auto
         weight: auto
-      ReuseFactor: 4
+      ReuseFactor: 1024
       Trace: false
     dense_5_relu:
       Precision:
@@ -46,7 +46,7 @@ HLSConfig:
         bias: auto
         result: auto
         weight: auto
-      ReuseFactor: 4
+      ReuseFactor: 512
       Trace: false
     dense_6_relu:
       Precision:
@@ -61,7 +61,7 @@ HLSConfig:
         bias: auto
         result: auto
         weight: auto
-      ReuseFactor: 4
+      ReuseFactor: 64
       Trace: false
     flatten:
       Precision:
@@ -76,8 +76,8 @@ HLSConfig:
     BramFactor: 1000000000
     Precision:
       default: fixed<10,4,RND,SAT>
-    ReuseFactor: 4
-    Strategy: Latency
+    ReuseFactor: 64
+    Strategy: Resource
     TraceOutput: false
 IOType: io_stream
 InputData: null

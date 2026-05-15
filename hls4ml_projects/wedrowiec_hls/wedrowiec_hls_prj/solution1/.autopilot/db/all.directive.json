@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "wedrowiec_hls_axi",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "wedrowiec_hls_axi"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "G:/Xlinix-workspace/projekt-hls/hls4ml_projects/wedrowiec_hls/build_prj.tcl",
+    "sourceLine": 193,
+    "success": true
+  }
+]
