@@ -18,8 +18,9 @@ void wedrowiec_hls_axi(input_axi_t in[N_IN], output_axi_t out[N_OUT]) {
         input_t ctype;
         #pragma HLS DATA_PACK variable=ctype
         for(unsigned j = 0; j < input_t::size; j++) {
-            ctype[j] = typename input_t::value_type(in[i * input_t::size + j].data);
-            is_last |= (in[i * input_t::size + j].last == 1)? true : false;
+            input_axi_t axis_word = in[i * input_t::size + j];
+            ctype[j] = typename input_t::value_type(axis_word.data);
+            is_last |= (axis_word.last == 1) ? true : false;
         }
         in_local.write(ctype);
     }
