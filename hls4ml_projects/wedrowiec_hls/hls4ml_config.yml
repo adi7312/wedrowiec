@@ -1,9 +1,16 @@
-Backend: Vivado
-ClockPeriod: 0.01
+AcceleratorConfig:
+  Board: pynq-z2
+  Driver: python
+  Interface: axi_stream
+  Precision:
+    Input: float
+    Output: float
+Backend: VivadoAccelerator
+ClockPeriod: 20
 ClockUncertainty: 12.5%
 HLSConfig:
   LayerName:
-    dense_4:
+    dense:
       Precision:
         accum: auto
         bias: auto
@@ -11,14 +18,22 @@ HLSConfig:
         weight: auto
       ReuseFactor: 1
       Trace: false
-    dense_4_relu:
+    dense_1:
+      Precision:
+        accum: auto
+        bias: auto
+        result: auto
+        weight: auto
+      ReuseFactor: 1
+      Trace: false
+    dense_1_relu:
       Precision:
         result: auto
         table: fixed<18,8,TRN,WRAP,0>
       ReuseFactor: 1
       TableSize: 1024
       Trace: false
-    dense_5:
+    dense_2:
       Precision:
         accum: auto
         bias: auto
@@ -26,14 +41,14 @@ HLSConfig:
         weight: auto
       ReuseFactor: 1
       Trace: false
-    dense_5_relu:
+    dense_2_relu:
       Precision:
         result: auto
         table: fixed<18,8,TRN,WRAP,0>
       ReuseFactor: 1
       TableSize: 1024
       Trace: false
-    dense_6:
+    dense_3:
       Precision:
         accum: auto
         bias: auto
@@ -41,20 +56,12 @@ HLSConfig:
         weight: auto
       ReuseFactor: 1
       Trace: false
-    dense_6_relu:
+    dense_relu:
       Precision:
         result: auto
         table: fixed<18,8,TRN,WRAP,0>
       ReuseFactor: 1
       TableSize: 1024
-      Trace: false
-    dense_7:
-      Precision:
-        accum: auto
-        bias: auto
-        result: auto
-        weight: auto
-      ReuseFactor: 1
       Trace: false
     flatten:
       Precision:
@@ -72,7 +79,7 @@ HLSConfig:
     ReuseFactor: 1
     Strategy: Latency
     TraceOutput: false
-IOType: io_parallel
+IOType: io_stream
 InputData: null
 InputShapes:
   input_layer:
@@ -86,7 +93,7 @@ OutputShapes:
   - 4
 Part: xc7z020clg400-1
 ProjectName: wedrowiec_hls
-Stamp: e1b8f647
+Stamp: 88c15a04
 Version: 1.0.0
 WriterConfig:
   Namespace: null

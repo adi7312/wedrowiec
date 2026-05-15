@@ -10,8 +10,8 @@
 
 // Prototype of top level function for C-synthesis
 void wedrowiec_hls(
-    input_t input_layer[8*8],
-    result_t layer9_out[4]
+    hls::stream<input_t> &input_layer,
+    hls::stream<result_t> &layer9_out
 );
 
 // hls-fpga-machine-learning insert emulator-defines

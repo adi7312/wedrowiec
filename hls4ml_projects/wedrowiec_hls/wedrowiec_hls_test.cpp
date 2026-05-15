@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <vector>
 
-#include "firmware/wedrowiec_hls.h"
+#include "firmware/wedrowiec_hls_axi.h"
 #include "firmware/nnet_utils/nnet_helpers.h"
 
 // hls-fpga-machine-learning insert bram
@@ -59,12 +59,12 @@ int main(int argc, char **argv) {
             }
 
             // hls-fpga-machine-learning insert data
-      input_t input_layer[8*8];
-      nnet::copy_data<float, input_t, 0, 8*8>(in, input_layer);
-      result_t layer9_out[4];
+      input_axi_t inputs[N_IN];
+      nnet::copy_data_axi<float, input_axi_t, 0, 8*8>(in, inputs);
+      output_axi_t outputs[N_OUT];
 
             // hls-fpga-machine-learning insert top-level-function
-            wedrowiec_hls(input_layer,layer9_out);
+            wedrowiec_hls_axi(inputs,outputs);
 
             if (e % CHECKPOINT == 0) {
                 std::cout << "Predictions" << std::endl;
@@ -75,12 +75,12 @@ int main(int argc, char **argv) {
                 std::cout << std::endl;
                 std::cout << "Quantized predictions" << std::endl;
                 // hls-fpga-machine-learning insert quantized
-                nnet::print_result<result_t, 4>(layer9_out, std::cout, true);
+                nnet::print_result<output_axi_t, 4>(outputs, std::cout, true);
             }
             e++;
 
             // hls-fpga-machine-learning insert tb-output
-            nnet::print_result<result_t, 4>(layer9_out, fout);
+            nnet::print_result<output_axi_t, 4>(outputs, fout);
         }
         fin.close();
         fpr.close();
@@ -89,18 +89,18 @@ int main(int argc, char **argv) {
         const unsigned NUM_TEST_SAMPLES = 5;
         for (unsigned i = 0; i < NUM_TEST_SAMPLES; i++) {
             // hls-fpga-machine-learning insert zero
-            input_t input_layer[8*8];
-            nnet::fill_zero<input_t, 8*8>(input_layer);
-            result_t layer9_out[4];
+            input_axi_t inputs[N_IN];
+            inputs[N_IN-1].last = 1;
+            output_axi_t outputs[N_OUT];
 
             // hls-fpga-machine-learning insert top-level-function
-            wedrowiec_hls(input_layer,layer9_out);
+            wedrowiec_hls_axi(inputs,outputs);
 
             // hls-fpga-machine-learning insert output
-            nnet::print_result<result_t, 4>(layer9_out, std::cout, true);
+            nnet::print_result<output_axi_t, 4>(outputs, std::cout, true);
 
             // hls-fpga-machine-learning insert tb-output
-            nnet::print_result<result_t, 4>(layer9_out, fout);
+            nnet::print_result<output_axi_t, 4>(outputs, fout);
         }
     }
 
