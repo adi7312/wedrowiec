@@ -6,6 +6,8 @@ void wedrowiec_hls_axi(hls::stream<input_axi_t> &in, hls::stream<output_axi_t> &
     #pragma HLS INTERFACE axis port=out
     #pragma HLS INTERFACE ap_ctrl_none port=return
 
+    #pragma HLS DATAFLOW
+
     bool is_last = false;
     hls::stream<input_t> in_local("input_1");
     hls::stream<result_t> out_local("output_1");
