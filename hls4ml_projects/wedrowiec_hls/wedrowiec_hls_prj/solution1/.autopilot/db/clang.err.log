@@ -1,0 +1,4 @@
+firmware/wedrowiec_hls_axi.cpp:18:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=ctype
+        ^
+1 warning generated.

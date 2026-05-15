@@ -1,0 +1,757 @@
+---
+MainSourceFile:  'G:/Xlinix-workspace/projekt-hls/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'G:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          994175
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        'G:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          994645
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        'G:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          995116
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1248_1:  '
+    FileOffset:      1248
+    FilePath:        'G:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\ap_fixed_base.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          1278666
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1248_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_types.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          1653994
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_39_1:  '
+    FileOffset:      39
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_types.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          1654232
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_39_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_56_1:  '
+    FileOffset:      56
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_types.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          1654727
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_56_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_265_1:  '
+    FileOffset:      265
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2236825
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_265_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_1:  '
+    FileOffset:      275
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2237212
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2237547
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_1:  '
+    FileOffset:      293
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2237770
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_2:  '
+    FileOffset:      295
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2237865
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2238229
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_309_2:  '
+    FileOffset:      309
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2238311
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_309_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2238654
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_344_1:  '
+    FileOffset:      344
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2239107
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_344_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_345_2:  '
+    FileOffset:      345
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2239152
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_345_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_360_1:  '
+    FileOffset:      360
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2239561
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_360_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2239774
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_135_1:  '
+    FileOffset:      135
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_conv1d_latency.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2249201
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_135_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_136_2:  '
+    FileOffset:      136
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_conv1d_latency.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2249285
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_136_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_157_3:  '
+    FileOffset:      157
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_conv1d_latency.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2249827
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_157_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_4:  '
+    FileOffset:      158
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_conv1d_latency.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2249911
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_1:  '
+    FileOffset:      31
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2254064
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_43_1:  '
+    FileOffset:      43
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2254317
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_43_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_57_1:  '
+    FileOffset:      57
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2254678
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_57_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2255494
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_114_1:  '
+    FileOffset:      114
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2256155
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_114_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_1:  '
+    FileOffset:      151
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2257300
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_167_1:  '
+    FileOffset:      167
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2257764
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_167_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_200_1:  '
+    FileOffset:      200
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2258696
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_200_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_213_2:  '
+    FileOffset:      213
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2259231
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_213_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_246_1:  '
+    FileOffset:      246
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2260094
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_246_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_255_2:  '
+    FileOffset:      255
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2260364
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_255_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_3:  '
+    FileOffset:      268
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2260927
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_1:  '
+    FileOffset:      275
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2261164
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_288_1:  '
+    FileOffset:      288
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2261524
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_288_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_325_1:  '
+    FileOffset:      325
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2262481
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_325_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_330_2:  '
+    FileOffset:      330
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2262601
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_330_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_331_3:  '
+    FileOffset:      331
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2262658
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_331_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_348_4:  '
+    FileOffset:      348
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2263258
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_348_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_361_1:  '
+    FileOffset:      361
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2263766
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_361_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_369_2:  '
+    FileOffset:      369
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2263910
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_369_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_405_1:  '
+    FileOffset:      405
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2265105
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_405_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_407_2:  '
+    FileOffset:      407
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2265174
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_407_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_409_3:  '
+    FileOffset:      409
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2265243
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_409_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_414_4:  '
+    FileOffset:      414
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2265499
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_414_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_427_1:  '
+    FileOffset:      427
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2265813
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_427_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_457_1:  '
+    FileOffset:      457
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2266450
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_457_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_484_1:  '
+    FileOffset:      484
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2267286
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_484_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_498_1:  '
+    FileOffset:      498
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2267628
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_498_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_514_1:  '
+    FileOffset:      514
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2268086
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_514_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_532_1:  '
+    FileOffset:      532
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2268556
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_532_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_549_1:  '
+    FileOffset:      549
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2268959
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_549_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_566_1:  '
+    FileOffset:      566
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2269354
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_566_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_596_1:  '
+    FileOffset:      596
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2270020
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_596_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_615_1:  '
+    FileOffset:      615
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2270594
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_615_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_645_1:  '
+    FileOffset:      645
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2271260
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_645_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_664_1:  '
+    FileOffset:      664
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2271814
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_664_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_694_1:  '
+    FileOffset:      694
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2272463
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_694_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_721_1:  '
+    FileOffset:      721
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2273301
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_721_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_749_1:  '
+    FileOffset:      749
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2273985
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_749_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_779_1:  '
+    FileOffset:      779
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2274670
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_779_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_808_1:  '
+    FileOffset:      808
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2275510
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_808_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_828_1:  '
+    FileOffset:      828
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2275929
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_828_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_229_1:  '
+    FileOffset:      229
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2281983
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_229_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_236_2:  '
+    FileOffset:      236
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2282123
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_236_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_245_3:  '
+    FileOffset:      245
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2282388
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_245_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_254_4:  '
+    FileOffset:      254
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2282582
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_254_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_258_5:  '
+    FileOffset:      258
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2282675
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_258_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_269_6:  '
+    FileOffset:      269
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2283001
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_269_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_7:  '
+    FileOffset:      273
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2283111
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_297_1:  '
+    FileOffset:      297
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2284077
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_297_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_301_2:  '
+    FileOffset:      301
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2284163
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_301_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_320_1:  '
+    FileOffset:      320
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2284839
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_320_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_211_1:  '
+    FileOffset:      211
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2291115
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_211_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_220_2:  '
+    FileOffset:      220
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2291393
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_220_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_325_1:  '
+    FileOffset:      325
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2294614
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_325_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_330_2:  '
+    FileOffset:      330
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2294756
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_330_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_338_3:  '
+    FileOffset:      338
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2294960
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_338_3: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      33
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_dense_resource.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      107
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_dense_resource.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      189
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_dense_resource.h'
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_14_1:  '
+    FileOffset:      14
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_dense_compressed.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2321314
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_14_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_1:  '
+    FileOffset:      74
+    FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\firmware\nnet_utils\nnet_dense_compressed.h'
+    Replacements:    
+      - FilePath:        'G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp'
+        Offset:          2323185
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_1: '
+...

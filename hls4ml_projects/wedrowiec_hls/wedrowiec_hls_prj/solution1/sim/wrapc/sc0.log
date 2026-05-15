@@ -1,0 +1,8 @@
+   Build using "G:/Xilinx/Vitis/2024.2/vcxx/libexec/clang++"
+   Compiling apatb_wedrowiec_hls_axi_util.cpp
+   Compiling wedrowiec_hls.cpp_pre.cpp.tb.cpp
+   Compiling wedrowiec_hls_axi.cpp_pre.cpp.tb.cpp
+   Compiling wedrowiec_hls_test.cpp_pre.cpp.tb.cpp
+   Compiling apatb_wedrowiec_hls_axi.cpp
+   Compiling apatb_wedrowiec_hls_axi_ir.ll
+   Generating cosim.tv.exe

@@ -1,0 +1,211 @@
+
+
+================================================================
+== Vitis HLS Report for 'wedrowiec_hls'
+================================================================
+* Date:           Fri May 15 14:04:25 2026
+
+* Version:        2024.2 (Build 5238294 on Nov  8 2024)
+* Project:        wedrowiec_hls_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+-----------+------------+
+    |  Clock |  Target  | Estimated | Uncertainty|
+    +--------+----------+-----------+------------+
+    |ap_clk  |  20.00 ns|  16.945 ns|     2.50 ns|
+    +--------+----------+-----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+------+------+----------+
+    |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline |
+    |   min   |   max   |    min    |    max    |  min |  max |   Type   |
+    +---------+---------+-----------+-----------+------+------+----------+
+    |     2062|     2063|  41.240 us|  41.260 us|  2063|  2064|  dataflow|
+    +---------+---------+-----------+-----------+------+------+----------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 11
+* Pipeline : 0
+* Dataflow Pipeline: 1
+  DF-Pipeline-0: Size = 11, States = { 1 2 3 4 5 6 7 8 9 10 11 }
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 9 
+9 --> 10 
+10 --> 11 
+11 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%layer3_out = alloca i64 1"   --->   Operation 12 'alloca' 'layer3_out' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 800> <Depth = 1> <FIFO>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%layer4_out = alloca i64 1"   --->   Operation 13 'alloca' 'layer4_out' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 320> <Depth = 1> <FIFO>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%layer5_out = alloca i64 1"   --->   Operation 14 'alloca' 'layer5_out' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 832> <Depth = 1> <FIFO>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%layer6_out = alloca i64 1"   --->   Operation 15 'alloca' 'layer6_out' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 320> <Depth = 1> <FIFO>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%layer7_out = alloca i64 1"   --->   Operation 16 'alloca' 'layer7_out' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 416> <Depth = 1> <FIFO>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%layer8_out = alloca i64 1"   --->   Operation 17 'alloca' 'layer8_out' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 160> <Depth = 1> <FIFO>
+ST_1 : Operation 18 [2/2] (0.00ns)   --->   "%call_ln55 = call void @dense<array<ap_ufixed,8u>,array<ap_fixed<25,12,5,3,0>,32u>,config3>, i64 %in_local, i800 %layer3_out, i5 %outidx, i7 %w3" [firmware/wedrowiec_hls.cpp:55]   --->   Operation 18 'call' 'call_ln55' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 2 <SV = 1> <Delay = 0.00>
+ST_2 : Operation 19 [1/2] (0.00ns)   --->   "%call_ln55 = call void @dense<array<ap_ufixed,8u>,array<ap_fixed<25,12,5,3,0>,32u>,config3>, i64 %in_local, i800 %layer3_out, i5 %outidx, i7 %w3" [firmware/wedrowiec_hls.cpp:55]   --->   Operation 19 'call' 'call_ln55' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 3 <SV = 2> <Delay = 0.00>
+ST_3 : Operation 20 [1/1] (0.00ns)   --->   "%call_ln57 = call void @relu<array<ap_fixed,32u>,array<ap_fixed<10,4,0,0,0>,32u>,relu_config4>, i800 %layer3_out, i320 %layer4_out" [firmware/wedrowiec_hls.cpp:57]   --->   Operation 20 'call' 'call_ln57' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 4 <SV = 3> <Delay = 0.00>
+ST_4 : Operation 21 [2/2] (0.00ns)   --->   "%call_ln59 = call void @dense<array<ap_fixed,32u>,array<ap_fixed<26,14,5,3,0>,32u>,config5>, i320 %layer4_out, i832 %layer5_out, i5 %outidx_9, i7 %w5" [firmware/wedrowiec_hls.cpp:59]   --->   Operation 21 'call' 'call_ln59' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 5 <SV = 4> <Delay = 0.00>
+ST_5 : Operation 22 [1/2] (0.00ns)   --->   "%call_ln59 = call void @dense<array<ap_fixed,32u>,array<ap_fixed<26,14,5,3,0>,32u>,config5>, i320 %layer4_out, i832 %layer5_out, i5 %outidx_9, i7 %w5" [firmware/wedrowiec_hls.cpp:59]   --->   Operation 22 'call' 'call_ln59' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 6 <SV = 5> <Delay = 0.00>
+ST_6 : Operation 23 [1/1] (0.00ns)   --->   "%call_ln61 = call void @relu<array<ap_fixed,32u>,array<ap_fixed<10,4,0,0,0>,32u>,relu_config6>, i832 %layer5_out, i320 %layer6_out" [firmware/wedrowiec_hls.cpp:61]   --->   Operation 23 'call' 'call_ln61' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 7 <SV = 6> <Delay = 0.00>
+ST_7 : Operation 24 [2/2] (0.00ns)   --->   "%call_ln63 = call void @dense<array<ap_fixed,32u>,array<ap_fixed<26,14,5,3,0>,16u>,config7>, i320 %layer6_out, i416 %layer7_out, i4 %outidx_18, i7 %w7" [firmware/wedrowiec_hls.cpp:63]   --->   Operation 24 'call' 'call_ln63' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 8 <SV = 7> <Delay = 0.00>
+ST_8 : Operation 25 [1/2] (0.00ns)   --->   "%call_ln63 = call void @dense<array<ap_fixed,32u>,array<ap_fixed<26,14,5,3,0>,16u>,config7>, i320 %layer6_out, i416 %layer7_out, i4 %outidx_18, i7 %w7" [firmware/wedrowiec_hls.cpp:63]   --->   Operation 25 'call' 'call_ln63' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 9 <SV = 8> <Delay = 0.00>
+ST_9 : Operation 26 [1/1] (0.00ns)   --->   "%call_ln65 = call void @relu<array<ap_fixed,16u>,array<ap_fixed<10,4,0,0,0>,16u>,relu_config8>, i416 %layer7_out, i160 %layer8_out" [firmware/wedrowiec_hls.cpp:65]   --->   Operation 26 'call' 'call_ln65' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 10 <SV = 9> <Delay = 0.00>
+ST_10 : Operation 27 [2/2] (0.00ns)   --->   "%call_ln67 = call void @dense<array<ap_fixed,16u>,array<ap_fixed<25,13,5,3,0>,4u>,config9>, i160 %layer8_out, i100 %out_local, i2 %outidx_27, i7 %w9" [firmware/wedrowiec_hls.cpp:67]   --->   Operation 27 'call' 'call_ln67' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 11 <SV = 10> <Delay = 0.00>
+ST_11 : Operation 28 [1/1] (0.00ns)   --->   "%specdataflowpipeline_ln14 = specdataflowpipeline void @_ssdm_op_SpecDataflowPipeline, i32 4294967295, i32 0, void @empty_1" [firmware/wedrowiec_hls.cpp:14]   --->   Operation 28 'specdataflowpipeline' 'specdataflowpipeline_ln14' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 29 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i100 %out_local, void @empty_2, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0"   --->   Operation 29 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 30 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %in_local, void @empty_2, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0"   --->   Operation 30 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 31 [1/1] (0.00ns)   --->   "%empty = specchannel i32 @_ssdm_op_SpecChannel, void @layer3_out_str, i32 1, void @p_str, void @p_str, i32 1, i32 1, i800 %layer3_out, i800 %layer3_out"   --->   Operation 31 'specchannel' 'empty' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 32 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i800 %layer3_out, void @empty_2, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0"   --->   Operation 32 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 33 [1/1] (0.00ns)   --->   "%empty_55 = specchannel i32 @_ssdm_op_SpecChannel, void @layer4_out_str, i32 1, void @p_str, void @p_str, i32 1, i32 1, i320 %layer4_out, i320 %layer4_out"   --->   Operation 33 'specchannel' 'empty_55' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 34 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i320 %layer4_out, void @empty_2, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0"   --->   Operation 34 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 35 [1/1] (0.00ns)   --->   "%empty_56 = specchannel i32 @_ssdm_op_SpecChannel, void @layer5_out_str, i32 1, void @p_str, void @p_str, i32 1, i32 1, i832 %layer5_out, i832 %layer5_out"   --->   Operation 35 'specchannel' 'empty_56' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 36 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i832 %layer5_out, void @empty_2, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0"   --->   Operation 36 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 37 [1/1] (0.00ns)   --->   "%empty_57 = specchannel i32 @_ssdm_op_SpecChannel, void @layer6_out_str, i32 1, void @p_str, void @p_str, i32 1, i32 1, i320 %layer6_out, i320 %layer6_out"   --->   Operation 37 'specchannel' 'empty_57' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 38 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i320 %layer6_out, void @empty_2, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0"   --->   Operation 38 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 39 [1/1] (0.00ns)   --->   "%empty_58 = specchannel i32 @_ssdm_op_SpecChannel, void @layer7_out_str, i32 1, void @p_str, void @p_str, i32 1, i32 1, i416 %layer7_out, i416 %layer7_out"   --->   Operation 39 'specchannel' 'empty_58' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 40 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i416 %layer7_out, void @empty_2, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0"   --->   Operation 40 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 41 [1/1] (0.00ns)   --->   "%empty_59 = specchannel i32 @_ssdm_op_SpecChannel, void @layer8_out_str, i32 1, void @p_str, void @p_str, i32 1, i32 1, i160 %layer8_out, i160 %layer8_out"   --->   Operation 41 'specchannel' 'empty_59' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 42 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i160 %layer8_out, void @empty_2, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0"   --->   Operation 42 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 43 [1/1] (0.00ns)   --->   "%specmemcore_ln55 = specmemcore void @_ssdm_op_SpecMemCore, i7 %w3, i64 666, i64 38, i64 18446744073709551615" [firmware/wedrowiec_hls.cpp:55]   --->   Operation 43 'specmemcore' 'specmemcore_ln55' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 44 [1/1] (0.00ns)   --->   "%specmemcore_ln59 = specmemcore void @_ssdm_op_SpecMemCore, i7 %w5, i64 666, i64 38, i64 18446744073709551615" [firmware/wedrowiec_hls.cpp:59]   --->   Operation 44 'specmemcore' 'specmemcore_ln59' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 45 [1/1] (0.00ns)   --->   "%specmemcore_ln63 = specmemcore void @_ssdm_op_SpecMemCore, i7 %w7, i64 666, i64 38, i64 18446744073709551615" [firmware/wedrowiec_hls.cpp:63]   --->   Operation 45 'specmemcore' 'specmemcore_ln63' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 46 [1/1] (0.00ns)   --->   "%specmemcore_ln67 = specmemcore void @_ssdm_op_SpecMemCore, i7 %w9, i64 666, i64 38, i64 18446744073709551615" [firmware/wedrowiec_hls.cpp:67]   --->   Operation 46 'specmemcore' 'specmemcore_ln67' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 47 [1/2] (0.00ns)   --->   "%call_ln67 = call void @dense<array<ap_fixed,16u>,array<ap_fixed<25,13,5,3,0>,4u>,config9>, i160 %layer8_out, i100 %out_local, i2 %outidx_27, i7 %w9" [firmware/wedrowiec_hls.cpp:67]   --->   Operation 47 'call' 'call_ln67' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+ST_11 : Operation 48 [1/1] (0.00ns)   --->   "%ret_ln69 = ret" [firmware/wedrowiec_hls.cpp:69]   --->   Operation 48 'ret' 'ret_ln69' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 20.000ns, clock uncertainty: 2.500ns.
+
+ <State 1>: 0.000ns
+The critical path consists of the following:
+
+ <State 2>: 0.000ns
+The critical path consists of the following:
+
+ <State 3>: 0.000ns
+The critical path consists of the following:
+
+ <State 4>: 0.000ns
+The critical path consists of the following:
+
+ <State 5>: 0.000ns
+The critical path consists of the following:
+
+ <State 6>: 0.000ns
+The critical path consists of the following:
+
+ <State 7>: 0.000ns
+The critical path consists of the following:
+
+ <State 8>: 0.000ns
+The critical path consists of the following:
+
+ <State 9>: 0.000ns
+The critical path consists of the following:
+
+ <State 10>: 0.000ns
+The critical path consists of the following:
+
+ <State 11>: 0.000ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

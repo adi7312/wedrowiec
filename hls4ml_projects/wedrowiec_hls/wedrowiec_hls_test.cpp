@@ -20,6 +20,18 @@ std::map<std::string, void *> *trace_outputs = NULL;
 size_t trace_type_size = sizeof(double);
 } // namespace nnet
 
+static void write_input_stream(input_axi_t inputs[N_IN], hls::stream<input_axi_t> &input_stream) {
+    for (unsigned i = 0; i < N_IN; i++) {
+        input_stream.write(inputs[i]);
+    }
+}
+
+static void read_output_stream(hls::stream<output_axi_t> &output_stream, output_axi_t outputs[N_OUT]) {
+    for (unsigned i = 0; i < N_OUT; i++) {
+        outputs[i] = output_stream.read();
+    }
+}
+
 int main(int argc, char **argv) {
 
     // load input data from text file
@@ -62,9 +74,13 @@ int main(int argc, char **argv) {
       input_axi_t inputs[N_IN];
       nnet::copy_data_axi<float, input_axi_t, 0, 8*8>(in, inputs);
       output_axi_t outputs[N_OUT];
+      hls::stream<input_axi_t> input_stream("input_stream");
+      hls::stream<output_axi_t> output_stream("output_stream");
+      write_input_stream(inputs, input_stream);
 
             // hls-fpga-machine-learning insert top-level-function
-            wedrowiec_hls_axi(inputs,outputs);
+            wedrowiec_hls_axi(input_stream,output_stream);
+            read_output_stream(output_stream, outputs);
 
             if (e % CHECKPOINT == 0) {
                 std::cout << "Predictions" << std::endl;
@@ -90,11 +106,17 @@ int main(int argc, char **argv) {
         for (unsigned i = 0; i < NUM_TEST_SAMPLES; i++) {
             // hls-fpga-machine-learning insert zero
             input_axi_t inputs[N_IN];
-            inputs[N_IN-1].last = 1;
+            for (unsigned j = 0; j < N_IN; j++) {
+                inputs[j] = make_input_axi(0, j == N_IN - 1);
+            }
             output_axi_t outputs[N_OUT];
+            hls::stream<input_axi_t> input_stream("input_stream");
+            hls::stream<output_axi_t> output_stream("output_stream");
+            write_input_stream(inputs, input_stream);
 
             // hls-fpga-machine-learning insert top-level-function
-            wedrowiec_hls_axi(inputs,outputs);
+            wedrowiec_hls_axi(input_stream,output_stream);
+            read_output_stream(output_stream, outputs);
 
             // hls-fpga-machine-learning insert output
             nnet::print_result<output_axi_t, 4>(outputs, std::cout, true);

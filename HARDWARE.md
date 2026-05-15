@@ -1,13 +1,17 @@
-# Moving `wedrowiec_hls` To PYNQ-Z2 Hardware
+# Running `wedrowiec_hls` On PYNQ-Z2 Hardware
 
 Current target:
 
 - Board: PYNQ-Z2
 - FPGA part: `xc7z020clg400-1`
-- Clock target: `20 ns` / 50 MHz (we can try faster though)
-- HLS top function: `wedrowiec_hls`
-- Current interface: `io_parallel`
-- Output: four fixed-point logits, choose class with `argmax`
+- Tool version used here: Vitis HLS 2024.2
+- Clock target: `20 ns` / 50 MHz
+- HLS top function: `wedrowiec_hls_axi`
+- Interface: AXI Stream input/output, 32-bit float `TDATA` plus `TLAST`
+- Control protocol: `ap_ctrl_none`
+- Output: four logits, choose class with `argmax`
+
+The dense layers are configured for `Resource` strategy with high reuse factors so the design fits on the Zynq-7020. This trades latency for area.
 
 ## 1. Generate The HLS Project
 
@@ -26,86 +30,29 @@ The generated project is:
 hls4ml_projects/wedrowiec_hls
 ```
 
-Do not copy `tb_data` to the board. `tb_data` is only for C simulation. The weights are compiled into the HLS IP from `firmware/weights/*.h`.
+The weights are compiled into the HLS IP from `firmware/weights/*.h`.
 
-## 2. Run HLS Synthesis And Export IP
+## 2. Prepare Testbench Data
 
-From the notebook, uncomment and run:
+`tb_data` is needed for HLS simulation and validation. It is not needed on the final PYNQ board.
 
-```python
-hls_model.build(csim=True, synth=True, cosim=False, export=True)
-hls4ml.report.read_vivado_report(str(hls_output_dir))
-```
-
-Or from a shell with Vivado HLS available:
-
-```bash
-cd hls4ml_projects/wedrowiec_hls
-vivado_hls -f build_prj.tcl "csim=1" "synth=1" "cosim=0" "export=1"
-```
-
-The exported IP should appear under:
-
-```text
-hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/impl/ip
-```
-
-## 3. Add IP In Vivado
-
-1. Create/open a Vivado project for PYNQ-Z2 / `xc7z020clg400-1`.
-2. Add the exported HLS IP folder as an IP repository.
-3. Create a block design.
-4. Add `ZYNQ7 Processing System` and run block automation.
-5. Add the `wedrowiec_hls` IP.
-6. Connect `ap_clk` to the PS clock, and reset through a processor reset block.
-
-Important: the current `io_parallel` IP has scalar input/output ports, not a nice PYNQ Python AXI interface. This is fine for a first hardware IP, but awkward to drive directly from Python.
-
-## 4. Build Bitstream
-
-In Vivado:
-
-1. Generate HDL wrapper.
-2. Run synthesis.
-3. Run implementation.
-4. Generate bitstream.
-5. Export/copy the `.bit` and `.hwh` files.
-
-## 5. Use On PYNQ
-
-Copy to the board:
-
-```text
-wedrowiec_hls.bit
-wedrowiec_hls.hwh
-```
-
-Load from Python:
-
-```python
-from pynq import Overlay
-
-overlay = Overlay("wedrowiec_hls.bit")
-overlay.ip_dict
-```
-
-For an easy Python-controlled accelerator, regenerate later with hls4ml `VivadoAccelerator` and `axi_stream` for `board='pynq-z2'`. That creates a friendlier AXI wrapper and PYNQ driver path than the current raw `io_parallel` IP.
-
-## 6. Vitis HLS Simulation
-
-`tb_data` is needed for Vitis/Vivado HLS simulation, not for the final board runtime. The generated testbench reads:
+The generated testbench tries to read:
 
 ```text
 hls4ml_projects/wedrowiec_hls/tb_data/tb_input_features.dat
 hls4ml_projects/wedrowiec_hls/tb_data/tb_output_predictions.dat
 ```
 
-If those files are missing, the testbench runs only a few all-zero inputs. That is useful as a smoke test, but not useful for checking the network.
+If those files are missing, the testbench prints:
 
-Generate small testbench data from the notebook after the HLS check cell has created `x_test_for_hls` and `keras_hls_predictions`:
+```text
+INFO: Unable to open input/predictions file, using default input.
+```
+
+That fallback is fine for a smoke test, but it does not test real notebook samples. Generate small testbench data from the notebook after `x_test_for_hls` and `keras_hls_predictions` exist:
 
 ```python
-N_TB = 32  # keep cosim quick
+N_TB = 32
 tb_dir = hls_output_dir / "tb_data"
 tb_dir.mkdir(exist_ok=True)
 
@@ -121,49 +68,243 @@ np.savetxt(
 )
 ```
 
-Then run C simulation:
+## 3. Run HLS On Windows
+
+From Command Prompt:
+
+```bat
+cd /d G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls
+call G:\Xilinx\Vitis\2024.2\settings64.bat
+```
+
+C simulation only:
+
+```bat
+vitis_hls -f build_prj.tcl "csim=1" "synth=0" "cosim=0" "validation=0" "export=0"
+```
+
+Full test with C simulation, synthesis, RTL cosim, and validation:
+
+```bat
+vitis_hls -f build_prj.tcl "csim=1" "synth=1" "cosim=1" "validation=1" "export=0"
+```
+
+Clean full test:
+
+```bat
+vitis_hls -f build_prj.tcl "reset=1" "csim=1" "synth=1" "cosim=1" "validation=1" "export=0"
+```
+
+Validation only, after cosim has already produced logs:
+
+```bat
+vitis_hls -f build_prj.tcl "csim=0" "synth=0" "cosim=0" "validation=1" "export=0"
+```
+
+Export IP after tests pass:
+
+```bat
+vitis_hls -f build_prj.tcl "csim=0" "synth=0" "cosim=0" "validation=0" "export=1"
+```
+
+From PowerShell, wrap the environment setup through `cmd /c`:
+
+```powershell
+cmd /c "call G:\Xilinx\Vitis\2024.2\settings64.bat && cd /d G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls && vitis_hls -f build_prj.tcl ""csim=1"" ""synth=1"" ""cosim=1"" ""validation=1"" ""export=0"""
+```
+
+## 4. Run HLS On Linux
+
+Adjust the Vitis install path if needed. Common paths are `/tools/Xilinx/...` or `/opt/Xilinx/...`.
 
 ```bash
-cd hls4ml_projects/wedrowiec_hls
-vitis_hls -f build_prj.tcl "csim=1" "synth=0" "cosim=0" "export=0"
+cd /path/to/projekt-hls/hls4ml_projects/wedrowiec_hls
+source /tools/Xilinx/Vitis/2024.2/settings64.sh
 ```
 
-If your install uses the older command name:
+C simulation only:
 
 ```bash
-vivado_hls -f build_prj.tcl "csim=1" "synth=0" "cosim=0" "export=0"
+vitis_hls -f build_prj.tcl "csim=1" "synth=0" "cosim=0" "validation=0" "export=0"
 ```
 
-The C simulation output is written to:
-
-```text
-hls4ml_projects/wedrowiec_hls/tb_data/csim_results.log
-```
-
-For RTL co-simulation, run synthesis first and then cosim:
+Full test with validation:
 
 ```bash
-cd hls4ml_projects/wedrowiec_hls
-vitis_hls -f build_prj.tcl "csim=1" "synth=1" "cosim=1" "export=0"
+vitis_hls -f build_prj.tcl "csim=1" "synth=1" "cosim=1" "validation=1" "export=0"
 ```
 
-Outputs to compare:
+Clean full test:
+
+```bash
+vitis_hls -f build_prj.tcl "reset=1" "csim=1" "synth=1" "cosim=1" "validation=1" "export=0"
+```
+
+Validation only:
+
+```bash
+vitis_hls -f build_prj.tcl "csim=0" "synth=0" "cosim=0" "validation=1" "export=0"
+```
+
+Export IP:
+
+```bash
+vitis_hls -f build_prj.tcl "csim=0" "synth=0" "cosim=0" "validation=0" "export=1"
+```
+
+Newer Vitis versions may prefer:
+
+```bash
+vitis-run --mode hls --tcl build_prj.tcl -- "csim=1" "synth=1" "cosim=1" "validation=1" "export=0"
+```
+
+## 5. What Passing Looks Like
+
+The important success lines are:
 
 ```text
-tb_data/csim_results.log
-tb_data/rtl_cosim_results.log
+Verilog|      Pass
+***** C/RTL VALIDATION *****
+INFO: Test PASSED
 ```
 
-Timing/resource report after synthesis:
+The cosim latency table can show `NA` for latency because the top function uses `ap_ctrl_none`, so there is no `ap_start`/`ap_done` transaction boundary for cosim to time. Use the synthesis report for latency instead.
+
+The validation compares:
 
 ```text
-wedrowiec_hls_prj/solution1/syn/report/wedrowiec_hls_csynth.rpt
+wedrowiec_hls_prj/solution1/csim/build/tb_data/csim_results.log
+wedrowiec_hls_prj/solution1/sim/wrapc/tb_data/rtl_cosim_results.log
 ```
 
-In the Vitis HLS GUI, this is the same sequence:
+## 6. Check Reports
 
-1. Open/create project from `hls4ml_projects/wedrowiec_hls/build_prj.tcl`.
-2. Run C Simulation.
-3. Run C Synthesis.
-4. Run C/RTL Co-simulation.
-5. Open the synthesis report and check estimated clock, DSP, LUT, FF, and BRAM usage.
+Top-level synthesis report:
+
+```text
+hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/syn/report/wedrowiec_hls_axi_csynth.rpt
+```
+
+Current expected area after the resource-mode changes is approximately:
+
+```text
+BRAM_18K: 7 / 280
+DSP:      4 / 220
+FF:       about 12k / 106400
+LUT:      about 29k / 53200
+```
+
+Current expected HLS latency is approximately:
+
+```text
+2151-2152 cycles
+about 43 us at 20 ns clock
+```
+
+## 7. Check LUT Usage
+
+LUT usage is not measured on the PYNQ board at runtime. It is reported by Vivado when it synthesizes and implements the bitstream.
+
+There are two useful reports:
+
+- HLS estimate: quick, from Vitis HLS, good for early feedback.
+- Vivado post-implementation utilization: authoritative, use this before programming the board.
+
+HLS estimate:
+
+```text
+hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/syn/report/wedrowiec_hls_axi_csynth.rpt
+```
+
+Look for:
+
+```text
+== Utilization Estimates
+LUT
+Utilization (%)
+```
+
+Vivado post-implementation report from GUI:
+
+1. Open the Vivado project.
+2. Run synthesis and implementation.
+3. Open implemented design.
+4. Go to `Reports -> Report Utilization`.
+5. Check the `LUT` row and the percentage of available LUTs.
+
+Vivado post-implementation report from Tcl:
+
+```tcl
+open_project wedrowiec_hls_vivado_accelerator/project_1.xpr
+open_run impl_1
+report_utilization -file util_impl.rpt -hierarchical -hierarchical_percentages
+```
+
+If using this repository's `design.tcl`, it already runs:
+
+```tcl
+report_utilization -file util.rpt -hierarchical -hierarchical_percentages
+```
+
+After the Vivado build finishes, check:
+
+```text
+hls4ml_projects/wedrowiec_hls/util.rpt
+```
+
+For PYNQ-Z2 / `xc7z020clg400-1`, the LUT budget is about:
+
+```text
+Available LUT: 53200
+```
+
+Aim to stay comfortably below 100%. The current HLS estimate is about 55% LUT, but the Vivado post-implementation number is the one to trust for the final bitstream.
+
+## 8. Exported IP And Vivado Project
+
+The exported IP appears under:
+
+```text
+hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/impl/ip
+```
+
+This project also has a `design.tcl` that creates a PYNQ-Z2 Vivado block design with:
+
+- Zynq Processing System
+- AXI DMA
+- `wedrowiec_hls_axi` HLS IP
+- AXI Stream connections between DMA and HLS IP
+
+To build the bitstream from the HLS project flow, use:
+
+```bash
+vitis_hls -f build_prj.tcl "csim=0" "synth=0" "cosim=0" "validation=0" "export=1" "vsynth=1"
+```
+
+If building manually in Vivado:
+
+1. Create/open a Vivado project for PYNQ-Z2 / `xc7z020clg400-1`.
+2. Add `wedrowiec_hls_prj` as an IP repository after `export=1`.
+3. Create a block design.
+4. Add `ZYNQ7 Processing System` and run block automation.
+5. Add AXI DMA.
+6. Add `wedrowiec_hls_axi`.
+7. Connect DMA `M_AXIS_MM2S` to HLS `in_r`.
+8. Connect HLS `out_r` to DMA `S_AXIS_S2MM`.
+9. Connect clocks/resets to the PS clock/reset network.
+10. Generate wrapper, run synthesis, implementation, and bitstream generation.
+
+## 9. Use On PYNQ
+
+Copy the generated `.bit` and `.hwh` files to the board.
+
+Load from Python:
+
+```python
+from pynq import Overlay
+
+overlay = Overlay("wedrowiec_hls.bit")
+overlay.ip_dict
+```
+
+Runtime data should be sent through the AXI DMA as 32-bit float words. The HLS IP expects 64 input float values and returns 4 output float logits.
