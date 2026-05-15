@@ -1,5 +1,12 @@
-Backend: Vivado
-ClockPeriod: 0.01
+AcceleratorConfig:
+  Board: pynq-z2
+  Driver: python
+  Interface: axi_stream
+  Precision:
+    Input: float
+    Output: float
+Backend: VivadoAccelerator
+ClockPeriod: 20
 ClockUncertainty: 12.5%
 HLSConfig:
   LayerName:
@@ -9,13 +16,13 @@ HLSConfig:
         bias: auto
         result: auto
         weight: auto
-      ReuseFactor: 1
+      ReuseFactor: 4
       Trace: false
     dense_4_relu:
       Precision:
         result: auto
         table: fixed<18,8,TRN,WRAP,0>
-      ReuseFactor: 1
+      ReuseFactor: 4
       TableSize: 1024
       Trace: false
     dense_5:
@@ -24,13 +31,13 @@ HLSConfig:
         bias: auto
         result: auto
         weight: auto
-      ReuseFactor: 1
+      ReuseFactor: 4
       Trace: false
     dense_5_relu:
       Precision:
         result: auto
         table: fixed<18,8,TRN,WRAP,0>
-      ReuseFactor: 1
+      ReuseFactor: 4
       TableSize: 1024
       Trace: false
     dense_6:
@@ -39,13 +46,13 @@ HLSConfig:
         bias: auto
         result: auto
         weight: auto
-      ReuseFactor: 1
+      ReuseFactor: 4
       Trace: false
     dense_6_relu:
       Precision:
         result: auto
         table: fixed<18,8,TRN,WRAP,0>
-      ReuseFactor: 1
+      ReuseFactor: 4
       TableSize: 1024
       Trace: false
     dense_7:
@@ -54,7 +61,7 @@ HLSConfig:
         bias: auto
         result: auto
         weight: auto
-      ReuseFactor: 1
+      ReuseFactor: 4
       Trace: false
     flatten:
       Precision:
@@ -69,10 +76,10 @@ HLSConfig:
     BramFactor: 1000000000
     Precision:
       default: fixed<10,4,RND,SAT>
-    ReuseFactor: 1
+    ReuseFactor: 4
     Strategy: Latency
     TraceOutput: false
-IOType: io_parallel
+IOType: io_stream
 InputData: null
 InputShapes:
   input_layer:
@@ -86,7 +93,7 @@ OutputShapes:
   - 4
 Part: xc7z020clg400-1
 ProjectName: wedrowiec_hls
-Stamp: e1b8f647
+Stamp: 0bfc6859
 Version: 1.0.0
 WriterConfig:
   Namespace: null

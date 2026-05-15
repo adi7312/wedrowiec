@@ -1,7 +1,7 @@
 #ifndef WEDROWIEC_HLS_BRIDGE_H_
 #define WEDROWIEC_HLS_BRIDGE_H_
 
-#include "firmware/wedrowiec_hls.h"
+#include "firmware/wedrowiec_hls_axi.h"
 #include "firmware/nnet_utils/nnet_helpers.h"
 #include <algorithm>
 #include <map>
@@ -55,14 +55,14 @@ void wedrowiec_hls_float(
     float *layer9_out
 ) {
 
-    input_t input_layer_ap[8*8];
-    nnet::convert_data<float, input_t, 8*8>(input_layer, input_layer_ap);
+    input_axi_t input_layer_ap[N_IN];
+    nnet::convert_data<float, input_axi_t, 8*8>(input_layer, input_layer_ap);
 
-    result_t layer9_out_ap[4];
+    output_axi_t layer9_out_ap[N_OUT];
 
-    wedrowiec_hls(input_layer_ap,layer9_out_ap);
+    wedrowiec_hls_axi(input_layer_ap,layer9_out_ap);
 
-    nnet::convert_data<result_t, float, 4>(layer9_out_ap, layer9_out);
+    nnet::convert_data<output_axi_t, float, 4>(layer9_out_ap, layer9_out);
 }
 
 void wedrowiec_hls_double(
@@ -70,14 +70,14 @@ void wedrowiec_hls_double(
     double *layer9_out
 ) {
 
-    input_t input_layer_ap[8*8];
-    nnet::convert_data<double, input_t, 8*8>(input_layer, input_layer_ap);
+    input_axi_t input_layer_ap[N_IN];
+    nnet::convert_data<double, input_axi_t, 8*8>(input_layer, input_layer_ap);
 
-    result_t layer9_out_ap[4];
+    output_axi_t layer9_out_ap[N_OUT];
 
-    wedrowiec_hls(input_layer_ap,layer9_out_ap);
+    wedrowiec_hls_axi(input_layer_ap,layer9_out_ap);
 
-    nnet::convert_data<result_t, double, 4>(layer9_out_ap, layer9_out);
+    nnet::convert_data<output_axi_t, double, 4>(layer9_out_ap, layer9_out);
 }
 }
 

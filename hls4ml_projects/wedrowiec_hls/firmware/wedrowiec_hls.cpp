@@ -5,15 +5,13 @@
 
 
 void wedrowiec_hls(
-    input_t input_layer[8*8],
-    result_t layer9_out[4]
+    hls::stream<input_t> &input_layer,
+    hls::stream<result_t> &layer9_out
 ) {
 
     // hls-fpga-machine-learning insert IO
-    #pragma HLS ARRAY_RESHAPE variable=input_layer complete dim=0
-    #pragma HLS ARRAY_PARTITION variable=layer9_out complete dim=0
-    #pragma HLS INTERFACE ap_vld port=input_layer,layer9_out 
-    #pragma HLS PIPELINE
+    #pragma HLS INTERFACE axis port=input_layer,layer9_out 
+    #pragma HLS DATAFLOW
 
     // hls-fpga-machine-learning insert load weights
 #ifndef __SYNTHESIS__
@@ -36,23 +34,23 @@ void wedrowiec_hls(
     // hls-fpga-machine-learning insert layers
 
     auto& layer2_out = input_layer;
-    dense_4_result_t layer3_out[32];
-    #pragma HLS ARRAY_PARTITION variable=layer3_out complete dim=0
+    hls::stream<dense_4_result_t> layer3_out("layer3_out");
+    #pragma HLS STREAM variable=layer3_out depth=1
 
-    layer4_t layer4_out[32];
-    #pragma HLS ARRAY_PARTITION variable=layer4_out complete dim=0
+    hls::stream<layer4_t> layer4_out("layer4_out");
+    #pragma HLS STREAM variable=layer4_out depth=1
 
-    dense_5_result_t layer5_out[32];
-    #pragma HLS ARRAY_PARTITION variable=layer5_out complete dim=0
+    hls::stream<dense_5_result_t> layer5_out("layer5_out");
+    #pragma HLS STREAM variable=layer5_out depth=1
 
-    layer6_t layer6_out[32];
-    #pragma HLS ARRAY_PARTITION variable=layer6_out complete dim=0
+    hls::stream<layer6_t> layer6_out("layer6_out");
+    #pragma HLS STREAM variable=layer6_out depth=1
 
-    dense_6_result_t layer7_out[16];
-    #pragma HLS ARRAY_PARTITION variable=layer7_out complete dim=0
+    hls::stream<dense_6_result_t> layer7_out("layer7_out");
+    #pragma HLS STREAM variable=layer7_out depth=1
 
-    layer8_t layer8_out[16];
-    #pragma HLS ARRAY_PARTITION variable=layer8_out complete dim=0
+    hls::stream<layer8_t> layer8_out("layer8_out");
+    #pragma HLS STREAM variable=layer8_out depth=1
 
     nnet::dense<input_t, dense_4_result_t, config3>(layer2_out, layer3_out, w3, b3); // dense_4
 

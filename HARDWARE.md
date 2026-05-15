@@ -90,3 +90,80 @@ overlay.ip_dict
 ```
 
 For an easy Python-controlled accelerator, regenerate later with hls4ml `VivadoAccelerator` and `axi_stream` for `board='pynq-z2'`. That creates a friendlier AXI wrapper and PYNQ driver path than the current raw `io_parallel` IP.
+
+## 6. Vitis HLS Simulation
+
+`tb_data` is needed for Vitis/Vivado HLS simulation, not for the final board runtime. The generated testbench reads:
+
+```text
+hls4ml_projects/wedrowiec_hls/tb_data/tb_input_features.dat
+hls4ml_projects/wedrowiec_hls/tb_data/tb_output_predictions.dat
+```
+
+If those files are missing, the testbench runs only a few all-zero inputs. That is useful as a smoke test, but not useful for checking the network.
+
+Generate small testbench data from the notebook after the HLS check cell has created `x_test_for_hls` and `keras_hls_predictions`:
+
+```python
+N_TB = 32  # keep cosim quick
+tb_dir = hls_output_dir / "tb_data"
+tb_dir.mkdir(exist_ok=True)
+
+np.savetxt(
+    tb_dir / "tb_input_features.dat",
+    x_test_for_hls[:N_TB].reshape(N_TB, -1),
+    fmt="%.8f",
+)
+np.savetxt(
+    tb_dir / "tb_output_predictions.dat",
+    keras_hls_predictions[:N_TB],
+    fmt="%.8f",
+)
+```
+
+Then run C simulation:
+
+```bash
+cd hls4ml_projects/wedrowiec_hls
+vitis_hls -f build_prj.tcl "csim=1" "synth=0" "cosim=0" "export=0"
+```
+
+If your install uses the older command name:
+
+```bash
+vivado_hls -f build_prj.tcl "csim=1" "synth=0" "cosim=0" "export=0"
+```
+
+The C simulation output is written to:
+
+```text
+hls4ml_projects/wedrowiec_hls/tb_data/csim_results.log
+```
+
+For RTL co-simulation, run synthesis first and then cosim:
+
+```bash
+cd hls4ml_projects/wedrowiec_hls
+vitis_hls -f build_prj.tcl "csim=1" "synth=1" "cosim=1" "export=0"
+```
+
+Outputs to compare:
+
+```text
+tb_data/csim_results.log
+tb_data/rtl_cosim_results.log
+```
+
+Timing/resource report after synthesis:
+
+```text
+wedrowiec_hls_prj/solution1/syn/report/wedrowiec_hls_csynth.rpt
+```
+
+In the Vitis HLS GUI, this is the same sequence:
+
+1. Open/create project from `hls4ml_projects/wedrowiec_hls/build_prj.tcl`.
+2. Run C Simulation.
+3. Run C Synthesis.
+4. Run C/RTL Co-simulation.
+5. Open the synthesis report and check estimated clock, DSP, LUT, FF, and BRAM usage.

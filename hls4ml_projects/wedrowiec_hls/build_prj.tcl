@@ -19,7 +19,7 @@ proc remove_recursive_log_wave {} {
     set tcldir [file dirname [info script]]
     source [file join $tcldir project.tcl]
 
-    set filename ${project_name}_prj/solution1/sim/verilog/${project_name}.tcl
+    set filename ${project_name}_prj/solution1/sim/verilog/${project_name}_axi.tcl
     set timestamp [clock format [clock seconds] -format {%Y%m%d%H%M%S}]
     set temp     $filename.new.$timestamp
     # set backup   $filename.bak.$timestamp
@@ -47,7 +47,7 @@ proc add_vcd_instructions_tcl {} {
     set tcldir [file dirname [info script]]
     source [file join $tcldir project.tcl]
 
-    set filename ${project_name}_prj/solution1/sim/verilog/${project_name}.tcl
+    set filename ${project_name}_prj/solution1/sim/verilog/${project_name}_axi.tcl
     set timestamp [clock format [clock seconds] -format {%Y%m%d%H%M%S}]
     set temp     $filename.new.$timestamp
     # set backup   $filename.bak.$timestamp
@@ -151,7 +151,8 @@ if {$opt(reset)} {
 } else {
     open_project ${project_name}_prj
 }
-set_top ${project_name}
+set_top ${project_name}_axi
+add_files firmware/wedrowiec_hls_axi.cpp -cflags "-std=c++0x"
 add_files firmware/${project_name}.cpp -cflags "-std=c++0x"
 add_files -tb ${project_name}_test.cpp -cflags "-std=c++0x"
 add_files -tb firmware/weights
