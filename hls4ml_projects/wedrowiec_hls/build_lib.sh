@@ -10,7 +10,7 @@ fi
 
 INCFLAGS="-Ifirmware/ap_types/"
 PROJECT=wedrowiec_hls
-LIB_STAMP=88c15a04
+LIB_STAMP=0bfc6859
 BASEDIR="$(cd "$(dirname "$0")" && pwd)"
 WEIGHTS_DIR="\"${BASEDIR}/firmware/weights\""
 

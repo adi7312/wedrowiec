@@ -143,31 +143,8 @@ proc compare_files {file_1 file_2} {
 }
 
 file mkdir tb_data
-set CSIM_RESULT_CANDIDATES [list \
-    "./tb_data/csim_results.log" \
-    "${project_name}_prj/solution1/csim/build/tb_data/csim_results.log" \
-]
-set RTL_COSIM_RESULT_CANDIDATES [list \
-    "./tb_data/rtl_cosim_results.log" \
-    "${project_name}_prj/solution1/sim/wrapc/tb_data/rtl_cosim_results.log" \
-    "${project_name}_prj/solution1/sim/wrapc_pc/tb_data/rtl_cosim_results.log" \
-    "${project_name}_prj/solution1/sim/verilog/tb_data/rtl_cosim_results.log" \
-]
-
-proc newest_existing_file {files} {
-    set newest ""
-    set newest_mtime -1
-    foreach filename $files {
-        if {[file exists $filename]} {
-            set mtime [file mtime $filename]
-            if {$mtime > $newest_mtime} {
-                set newest $filename
-                set newest_mtime $mtime
-            }
-        }
-    }
-    return $newest
-}
+set CSIM_RESULTS "./tb_data/csim_results.log"
+set RTL_COSIM_RESULTS "./tb_data/rtl_cosim_results.log"
 
 if {$opt(reset)} {
     open_project -reset ${project_name}_prj
@@ -185,8 +162,7 @@ if {$opt(reset)} {
 } else {
     open_solution "solution1"
 }
-# Vitis HLS 2024.2 no longer accepts the generated -maximum_size option.
-puts "INFO: Skipping deprecated config_array_partition -maximum_size option."
+catch {config_array_partition -maximum_size $maximum_size}
 config_compile -name_max_length 80
 set_part $part
 config_schedule -enable_dsp_full_reg=false
@@ -245,16 +221,6 @@ if {$opt(cosim)} {
 
 if {$opt(validation)} {
     puts "***** C/RTL VALIDATION *****"
-    set CSIM_RESULTS [newest_existing_file $CSIM_RESULT_CANDIDATES]
-    set RTL_COSIM_RESULTS [newest_existing_file $RTL_COSIM_RESULT_CANDIDATES]
-    puts "INFO: C simulation log:   $CSIM_RESULTS"
-    puts "INFO: RTL co-sim log:     $RTL_COSIM_RESULTS"
-    if {[string equal "$CSIM_RESULTS" ""] || [string equal "$RTL_COSIM_RESULTS" ""]} {
-        puts "ERROR: Missing simulation output log."
-        puts "ERROR: C simulation candidates: $CSIM_RESULT_CANDIDATES"
-        puts "ERROR: RTL co-sim candidates:   $RTL_COSIM_RESULT_CANDIDATES"
-        exit 1
-    }
     if {[compare_files $CSIM_RESULTS $RTL_COSIM_RESULTS]} {
         puts "INFO: Test PASSED"
     } else {

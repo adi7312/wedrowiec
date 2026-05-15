@@ -10,58 +10,58 @@ ClockPeriod: 20
 ClockUncertainty: 12.5%
 HLSConfig:
   LayerName:
-    dense:
+    dense_4:
       Precision:
         accum: auto
         bias: auto
         result: auto
         weight: auto
-      ReuseFactor: 1
+      ReuseFactor: 4
       Trace: false
-    dense_1:
-      Precision:
-        accum: auto
-        bias: auto
-        result: auto
-        weight: auto
-      ReuseFactor: 1
-      Trace: false
-    dense_1_relu:
+    dense_4_relu:
       Precision:
         result: auto
         table: fixed<18,8,TRN,WRAP,0>
-      ReuseFactor: 1
+      ReuseFactor: 4
       TableSize: 1024
       Trace: false
-    dense_2:
+    dense_5:
       Precision:
         accum: auto
         bias: auto
         result: auto
         weight: auto
-      ReuseFactor: 1
+      ReuseFactor: 4
       Trace: false
-    dense_2_relu:
+    dense_5_relu:
       Precision:
         result: auto
         table: fixed<18,8,TRN,WRAP,0>
-      ReuseFactor: 1
+      ReuseFactor: 4
       TableSize: 1024
       Trace: false
-    dense_3:
+    dense_6:
       Precision:
         accum: auto
         bias: auto
         result: auto
         weight: auto
-      ReuseFactor: 1
+      ReuseFactor: 4
       Trace: false
-    dense_relu:
+    dense_6_relu:
       Precision:
         result: auto
         table: fixed<18,8,TRN,WRAP,0>
-      ReuseFactor: 1
+      ReuseFactor: 4
       TableSize: 1024
+      Trace: false
+    dense_7:
+      Precision:
+        accum: auto
+        bias: auto
+        result: auto
+        weight: auto
+      ReuseFactor: 4
       Trace: false
     flatten:
       Precision:
@@ -76,7 +76,7 @@ HLSConfig:
     BramFactor: 1000000000
     Precision:
       default: fixed<10,4,RND,SAT>
-    ReuseFactor: 1
+    ReuseFactor: 4
     Strategy: Latency
     TraceOutput: false
 IOType: io_stream
@@ -93,7 +93,7 @@ OutputShapes:
   - 4
 Part: xc7z020clg400-1
 ProjectName: wedrowiec_hls
-Stamp: 88c15a04
+Stamp: 0bfc6859
 Version: 1.0.0
 WriterConfig:
   Namespace: null
