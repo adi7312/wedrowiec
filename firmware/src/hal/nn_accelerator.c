@@ -17,12 +17,8 @@ int NN_Init(void)
     return XST_SUCCESS;
 }
 
-void NN_SendFrame(uint8_t *frame_ptr)
+void NN_TriggerAccelerator(void)
 {
-    for (int i = 0; i < NN_FRAME_SIZE; i++) {
-        Xil_Out8(NN_DATA_FIFO_ADDR, frame_ptr[i]);
-    }
-
     Xil_Out32(NN_CONTROL_REG, NN_CTRL_START);
 }
 

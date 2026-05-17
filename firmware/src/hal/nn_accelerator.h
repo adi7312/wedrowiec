@@ -62,16 +62,14 @@
 int NN_Init(void);
 
 /**
- * NN_SendFrame() - Transmit a 64-byte frame to the accelerator.
+ * NN_TriggerAccelerator() - Trigger the accelerator to start processing.
  *
- * Writes each pixel byte into the AXI4-Stream FIFO mapped at
- * NN_DATA_FIFO_ADDR using byte-wide accesses (Xil_Out8). After the last
- * pixel is written the Start bit is asserted in NN_CONTROL_REG, beginning
- * the classification and majority-voting across 5 frames.
- *
- * @param frame_ptr  Pointer to a 64-byte buffer containing the 8x8 frame.
+ * Asserts the Start bit in NN_CONTROL_REG. The frame data is expected
+ * to have been loaded by the hardware (e.g. DMA) prior to calling this
+ * function. After triggering, the caller should poll NN_STATUS_REG for
+ * completion (e.g. wait until NN_STATUS_BUSY clears).
  */
-void NN_SendFrame(uint8_t *frame_ptr);
+void NN_TriggerAccelerator(void);
 
 /**
  * NN_GetDecision() - Read the classification result.
