@@ -1,27 +1,24 @@
 #include <stdio.h>
 #include "uart/uart.h"
-#include "interrupts/interrupt.h"
 #include "hal/nn_accelerator.h"
 #include "xil_printf.h"
+#include "xil_io.h"
 
 uint8_t frame_buffer[FRAME_SIZE];
 
 int main() {
     if (Init_UART() != XST_SUCCESS) return 1;
     if (NN_Init() != XST_SUCCESS) return 1;
-    if (Init_Interrupts() != XST_SUCCESS) return 1;
 
     xil_printf("=== Firmware Wedrowiec V1.0 ===\r\n");
 
     while (1) {
         UART_ReceiveFrame(frame_buffer);
-        xil_printf("Frame received, sending to FPGA...\r\n");
+        xil_printf("Frame received, triggering accelerator...\r\n");
 
-        NN_SendFrame(frame_buffer);
+        NN_TriggerAccelerator();
 
-        while (!fpga_finished);
-
-        fpga_finished = 0;
+        while (Xil_In32(NN_STATUS_REG) & NN_STATUS_BUSY);
 
         uint32_t decision = NN_GetDecision();
         xil_printf("Decision: 0x%08lX\r\n", decision);
