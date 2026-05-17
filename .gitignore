@@ -6,5 +6,5 @@ uart_rx.vhd
 *.log
 *.pb
 NA
-hls4ml*
+hls4ml_projects_bak
 venv
