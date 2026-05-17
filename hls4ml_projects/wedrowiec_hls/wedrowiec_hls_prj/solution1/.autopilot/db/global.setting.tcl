@@ -1,20 +1,20 @@
 
-set TopModule "wedrowiec_hls_axi"
+set TopModule "wedrowiec_hls"
 set ClockPeriod 20
 set ClockList ap_clk
 set AxiliteClockList {}
 set HasVivadoClockPeriod 0
 set CombLogicFlag 0
-set PipelineFlag 0
+set PipelineFlag 1
 set DataflowTaskPipelineFlag 1
 set TrivialPipelineFlag 0
 set noPortSwitchingFlag 0
-set FloatingPointFlag 1
+set FloatingPointFlag 0
 set FftOrFirFlag 0
 set NbRWValue 0
 set intNbAccess 0
 set NewDSPMapping 1
-set HasDSPModule 1
+set HasDSPModule 0
 set ResetLevelFlag 0
 set ResetStyle control
 set ResetSyncFlag 1
@@ -24,7 +24,7 @@ set ResetRegisterNum 0
 set FsmEncStyle onehot
 set MaxFanout 0
 set RtlPrefix {}
-set RtlSubPrefix wedrowiec_hls_axi_
+set RtlSubPrefix wedrowiec_hls_
 set ExtraCCFlags {}
 set ExtraCLdFlags {}
 set SynCheckOptions {}
@@ -43,15 +43,15 @@ set SCTraceFileName mytrace
 set SCTraceFileFormat vcd
 set SCTraceOption all
 set TargetInfo xc7z020:-clg400:-1
-set SourceFiles {sc {} c {../.././firmware/wedrowiec_hls.cpp ../.././firmware/wedrowiec_hls_axi.cpp ../../firmware/wedrowiec_hls.cpp ../../firmware/wedrowiec_hls_axi.cpp}}
-set SourceFlags {sc {} c {{ -std=c++0x} {} { -std=c++0x} {} -std=c++0x -std=c++0x}}
+set SourceFiles {sc {} c ../../firmware/wedrowiec_hls.cpp}
+set SourceFlags {sc {} c -std=c++0x}
 set DirectiveFile {}
-set TBFiles {verilog {../../tb_data ../../firmware/weights ../../wedrowiec_hls_test.cpp} bc {../../tb_data ../../firmware/weights ../../wedrowiec_hls_test.cpp} sc {../../tb_data ../../firmware/weights ../../wedrowiec_hls_test.cpp} vhdl {../../tb_data ../../firmware/weights ../../wedrowiec_hls_test.cpp} c {} cas {../../tb_data ../../firmware/weights ../../wedrowiec_hls_test.cpp}}
+set TBFiles {verilog {../../tb_data ../../firmware/weights ../../wedrowiec_hls_test.cpp} bc {../../tb_data ../../firmware/weights ../../wedrowiec_hls_test.cpp} vhdl {../../tb_data ../../firmware/weights ../../wedrowiec_hls_test.cpp} sc {../../tb_data ../../firmware/weights ../../wedrowiec_hls_test.cpp} cas {../../tb_data ../../firmware/weights ../../wedrowiec_hls_test.cpp} c {}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
-set TBTops {verilog {} bc {} sc {} vhdl {} c {} cas {}}
-set TBInstNames {verilog {} bc {} sc {} vhdl {} c {} cas {}}
+set TBTops {verilog {} bc {} vhdl {} sc {} cas {} c {}}
+set TBInstNames {verilog {} bc {} vhdl {} sc {} cas {} c {}}
 set XDCFiles {}
 set ExtraGlobalOptions {"area_timing" 1 "clock_gate" 1 "impl_flow" map "power_gate" 0}
 set TBTVFileNotFound {}

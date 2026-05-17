@@ -1,419 +1,419 @@
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:26700:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:29470:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
     for (unsigned i = low; i != high+1; ++i) {
     ^~~
     VITIS_LOOP_676_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:26700:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:26714:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:29470:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:29484:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
     for (unsigned i = low; i != high+1; ++i) {
     ^~~
     VITIS_LOOP_690_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:26714:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:26728:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:29484:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:29498:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
     for (unsigned i = low; i != high+1; ++i) {
     ^~~
     VITIS_LOOP_704_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:26728:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:28350:7: warning: Added loop label VITIS_LOOP_1248_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:29498:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:31454:7: warning: Added loop label VITIS_LOOP_1248_1:   [xilinx-label-all-loops]
       for (i = 0; i < __N - 1; ++i) {
       ^~~
       VITIS_LOOP_1248_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:28350:7: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:30371:9: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:31454:7: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:33615:9: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
         for (unsigned i = 0; i < N; i++) {
         ^~~
         VITIS_LOOP_27_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:30371:9: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:30383:9: warning: Added loop label VITIS_LOOP_39_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:33615:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:33627:9: warning: Added loop label VITIS_LOOP_39_1:   [xilinx-label-all-loops]
         for (unsigned i = 0; i < N; i++) {
         ^~~
         VITIS_LOOP_39_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:30383:9: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:30400:9: warning: Added loop label VITIS_LOOP_56_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:33627:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:33644:9: warning: Added loop label VITIS_LOOP_56_1:   [xilinx-label-all-loops]
         for (size_t i = 0; i < N; i++) {
         ^~~
         VITIS_LOOP_56_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:30400:9: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51156:5: warning: Added loop label VITIS_LOOP_265_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:33644:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56852:5: warning: Added loop label VITIS_LOOP_265_1:   [xilinx-label-all-loops]
     for (typename std::vector<src_T>::const_iterator i = in_begin; i != in_end; ++i) {
     ^~~
     VITIS_LOOP_265_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51156:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51166:5: warning: Added loop label VITIS_LOOP_275_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56852:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56862:5: warning: Added loop label VITIS_LOOP_275_1:   [xilinx-label-all-loops]
     for (auto i = 0; i < SIZE; i++)
     ^~~
     VITIS_LOOP_275_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51166:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51177:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56862:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56873:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
     for (int i = 0; i < SIZE; i++) {
     ^~~
     VITIS_LOOP_286_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51177:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51184:5: warning: Added loop label VITIS_LOOP_293_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56873:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56880:5: warning: Added loop label VITIS_LOOP_293_1:   [xilinx-label-all-loops]
     for (int i = 0; i < SIZE / res_T::size; i++) {
     ^~~
     VITIS_LOOP_293_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51184:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51186:9: warning: Added loop label VITIS_LOOP_295_2:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56880:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56882:9: warning: Added loop label VITIS_LOOP_295_2:   [xilinx-label-all-loops]
         for (int j = 0; j < res_T::size; j++) {
         ^~~
         VITIS_LOOP_295_2: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51186:9: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51198:5: warning: Added loop label VITIS_LOOP_307_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56882:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56894:5: warning: Added loop label VITIS_LOOP_307_1:   [xilinx-label-all-loops]
     for (int i = 0; i < SIZE / data_T::size; i++) {
     ^~~
     VITIS_LOOP_307_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51198:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51200:9: warning: Added loop label VITIS_LOOP_309_2:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56894:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56896:9: warning: Added loop label VITIS_LOOP_309_2:   [xilinx-label-all-loops]
         for (int j = 0; j < data_T::size; j++) {
         ^~~
         VITIS_LOOP_309_2: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51200:9: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51215:5: warning: Added loop label VITIS_LOOP_324_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56896:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56911:5: warning: Added loop label VITIS_LOOP_324_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < nrows; ii++) {
     ^~~
     VITIS_LOOP_324_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51215:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51235:5: warning: Added loop label VITIS_LOOP_344_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56911:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56931:5: warning: Added loop label VITIS_LOOP_344_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < nrows; ii++) {
     ^~~
     VITIS_LOOP_344_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51235:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51236:9: warning: Added loop label VITIS_LOOP_345_2:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56931:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56932:9: warning: Added loop label VITIS_LOOP_345_2:   [xilinx-label-all-loops]
         for (int jj = 0; jj < ncols; jj++) {
         ^~~
         VITIS_LOOP_345_2: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51236:9: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51251:5: warning: Added loop label VITIS_LOOP_360_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56932:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56947:5: warning: Added loop label VITIS_LOOP_360_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < N_IN; ii++) {
     ^~~
     VITIS_LOOP_360_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51251:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51258:5: warning: Added loop label VITIS_LOOP_367_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56947:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56954:5: warning: Added loop label VITIS_LOOP_367_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < N_IN; ii++) {
     ^~~
     VITIS_LOOP_367_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51258:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51567:5: warning: Added loop label VITIS_LOOP_135_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:56954:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57264:5: warning: Added loop label VITIS_LOOP_136_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::out_width / CONFIG_T::n_partitions; ii++) {
     ^~~
-    VITIS_LOOP_135_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51567:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51568:9: warning: Added loop label VITIS_LOOP_136_2:   [xilinx-label-all-loops]
+    VITIS_LOOP_136_1: 
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57264:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57265:9: warning: Added loop label VITIS_LOOP_137_2:   [xilinx-label-all-loops]
         for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
         ^~~
-        VITIS_LOOP_136_2: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51568:9: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51589:5: warning: Added loop label VITIS_LOOP_157_3:   [xilinx-label-all-loops]
+        VITIS_LOOP_137_2: 
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57265:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57286:5: warning: Added loop label VITIS_LOOP_158_3:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::out_width / CONFIG_T::n_partitions; ii++) {
     ^~~
-    VITIS_LOOP_157_3: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51589:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51590:9: warning: Added loop label VITIS_LOOP_158_4:   [xilinx-label-all-loops]
+    VITIS_LOOP_158_3: 
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57286:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57287:9: warning: Added loop label VITIS_LOOP_159_4:   [xilinx-label-all-loops]
         for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
         ^~~
-        VITIS_LOOP_158_4: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51590:9: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51737:2: warning: Added loop label VITIS_LOOP_31_1:   [xilinx-label-all-loops]
+        VITIS_LOOP_159_4: 
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57287:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57434:2: warning: Added loop label VITIS_LOOP_31_1:   [xilinx-label-all-loops]
  for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
  ^~~
  VITIS_LOOP_31_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51737:2: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51749:5: warning: Added loop label VITIS_LOOP_43_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57434:2: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57446:5: warning: Added loop label VITIS_LOOP_43_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
     ^~~
     VITIS_LOOP_43_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51749:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51763:5: warning: Added loop label VITIS_LOOP_57_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57446:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57460:5: warning: Added loop label VITIS_LOOP_57_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
     ^~~
     VITIS_LOOP_57_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51763:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51790:5: warning: Added loop label VITIS_LOOP_84_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57460:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57487:5: warning: Added loop label VITIS_LOOP_84_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < N_TABLE; ii++) {
     ^~~
     VITIS_LOOP_84_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51790:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51820:5: warning: Added loop label VITIS_LOOP_114_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57487:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57517:5: warning: Added loop label VITIS_LOOP_114_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
     ^~~
     VITIS_LOOP_114_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51820:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51857:5: warning: Added loop label VITIS_LOOP_151_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57517:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57554:5: warning: Added loop label VITIS_LOOP_151_1:   [xilinx-label-all-loops]
     for (unsigned i = 0; i < CONFIG_T::exp_table_size; i++) {
     ^~~
     VITIS_LOOP_151_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51857:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51873:5: warning: Added loop label VITIS_LOOP_167_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57554:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57570:5: warning: Added loop label VITIS_LOOP_167_1:   [xilinx-label-all-loops]
     for (unsigned i = 0; i < CONFIG_T::inv_table_size; i++) {
     ^~~
     VITIS_LOOP_167_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51873:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51906:5: warning: Added loop label VITIS_LOOP_200_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57570:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57603:5: warning: Added loop label VITIS_LOOP_200_1:   [xilinx-label-all-loops]
     for (unsigned i = 0; i < CONFIG_T::n_slice; i++) {
     ^~~
     VITIS_LOOP_200_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51906:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51919:5: warning: Added loop label VITIS_LOOP_213_2:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57603:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57616:5: warning: Added loop label VITIS_LOOP_213_2:   [xilinx-label-all-loops]
     for (unsigned i = 0; i < CONFIG_T::n_slice; i++) {
     ^~~
     VITIS_LOOP_213_2: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51919:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51952:5: warning: Added loop label VITIS_LOOP_246_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57616:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57649:5: warning: Added loop label VITIS_LOOP_246_1:   [xilinx-label-all-loops]
     for (unsigned i = 0; i < CONFIG_T::n_slice; i++) {
     ^~~
     VITIS_LOOP_246_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51952:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51961:5: warning: Added loop label VITIS_LOOP_255_2:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57649:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57658:5: warning: Added loop label VITIS_LOOP_255_2:   [xilinx-label-all-loops]
     for (unsigned i = 0; i < CONFIG_T::n_slice; i++) {
     ^~~
     VITIS_LOOP_255_2: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51961:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51974:5: warning: Added loop label VITIS_LOOP_268_3:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57658:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57671:5: warning: Added loop label VITIS_LOOP_268_3:   [xilinx-label-all-loops]
     for (unsigned i = 0; i < CONFIG_T::n_slice; i++) {
     ^~~
     VITIS_LOOP_268_3: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51974:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51981:5: warning: Added loop label VITIS_LOOP_275_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57671:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57678:5: warning: Added loop label VITIS_LOOP_275_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < N_TABLE; ii++) {
     ^~~
     VITIS_LOOP_275_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51981:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51994:5: warning: Added loop label VITIS_LOOP_288_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57678:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57691:5: warning: Added loop label VITIS_LOOP_288_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < N_TABLE; ii++) {
     ^~~
     VITIS_LOOP_288_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:51994:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52031:5: warning: Added loop label VITIS_LOOP_325_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57691:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57728:5: warning: Added loop label VITIS_LOOP_325_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::n_slice; ii++) {
     ^~~
     VITIS_LOOP_325_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52031:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52036:5: warning: Added loop label VITIS_LOOP_330_2:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57728:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57733:5: warning: Added loop label VITIS_LOOP_330_2:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::n_slice; ii++) {
     ^~~
     VITIS_LOOP_330_2: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52036:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52037:9: warning: Added loop label VITIS_LOOP_331_3:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57733:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57734:9: warning: Added loop label VITIS_LOOP_331_3:   [xilinx-label-all-loops]
         for (int jj = 0; jj < CONFIG_T::n_slice; jj++) {
         ^~~
         VITIS_LOOP_331_3: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52037:9: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52054:5: warning: Added loop label VITIS_LOOP_348_4:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57734:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57751:5: warning: Added loop label VITIS_LOOP_348_4:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::n_slice; ii++) {
     ^~~
     VITIS_LOOP_348_4: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52054:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52067:5: warning: Added loop label VITIS_LOOP_361_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57751:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57764:5: warning: Added loop label VITIS_LOOP_361_1:   [xilinx-label-all-loops]
     for (int i = 0; i < CONFIG_T::n_slice; i++) {
     ^~~
     VITIS_LOOP_361_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52067:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52075:5: warning: Added loop label VITIS_LOOP_369_2:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57764:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57772:5: warning: Added loop label VITIS_LOOP_369_2:   [xilinx-label-all-loops]
     for (int i = 1; i < CONFIG_T::n_slice; i++) {
     ^~~
     VITIS_LOOP_369_2: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52075:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52111:5: warning: Added loop label VITIS_LOOP_405_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57772:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57808:5: warning: Added loop label VITIS_LOOP_405_1:   [xilinx-label-all-loops]
     for (signed i = 0; i < CONFIG_T::n_outer; i++) {
     ^~~
     VITIS_LOOP_405_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52111:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52113:2: warning: Added loop label VITIS_LOOP_407_2:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57808:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57810:2: warning: Added loop label VITIS_LOOP_407_2:   [xilinx-label-all-loops]
  for (signed k = 0; k < CONFIG_T::n_inner; k++) {
  ^~~
  VITIS_LOOP_407_2: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52113:2: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52115:2: warning: Added loop label VITIS_LOOP_409_3:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57810:2: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57812:2: warning: Added loop label VITIS_LOOP_409_3:   [xilinx-label-all-loops]
  for (signed j = 0; j < CONFIG_T::n_slice; j++) {
  ^~~
  VITIS_LOOP_409_3: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52115:2: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52120:13: warning: Added loop label VITIS_LOOP_414_4:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57812:2: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57817:13: warning: Added loop label VITIS_LOOP_414_4:   [xilinx-label-all-loops]
             for (signed j = 0; j < CONFIG_T::n_slice; j++) {
             ^~~
             VITIS_LOOP_414_4: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52120:13: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52133:5: warning: Added loop label VITIS_LOOP_427_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57817:13: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57830:5: warning: Added loop label VITIS_LOOP_427_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < N_TABLE; ii++) {
     ^~~
     VITIS_LOOP_427_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52133:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52163:5: warning: Added loop label VITIS_LOOP_457_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57830:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57860:5: warning: Added loop label VITIS_LOOP_457_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
     ^~~
     VITIS_LOOP_457_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52163:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52190:2: warning: Added loop label VITIS_LOOP_484_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57860:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57887:2: warning: Added loop label VITIS_LOOP_484_1:   [xilinx-label-all-loops]
  for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
  ^~~
  VITIS_LOOP_484_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52190:2: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52204:2: warning: Added loop label VITIS_LOOP_498_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57887:2: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57901:2: warning: Added loop label VITIS_LOOP_498_1:   [xilinx-label-all-loops]
  for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
  ^~~
  VITIS_LOOP_498_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52204:2: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52220:5: warning: Added loop label VITIS_LOOP_514_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57901:2: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57917:5: warning: Added loop label VITIS_LOOP_514_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
     ^~~
     VITIS_LOOP_514_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52220:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52238:5: warning: Added loop label VITIS_LOOP_532_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57917:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57935:5: warning: Added loop label VITIS_LOOP_532_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
     ^~~
     VITIS_LOOP_532_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52238:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52255:5: warning: Added loop label VITIS_LOOP_549_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57935:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57952:5: warning: Added loop label VITIS_LOOP_549_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
     ^~~
     VITIS_LOOP_549_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52255:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52272:5: warning: Added loop label VITIS_LOOP_566_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57952:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57969:5: warning: Added loop label VITIS_LOOP_566_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < N_TABLE; ii++) {
     ^~~
     VITIS_LOOP_566_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52272:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52302:5: warning: Added loop label VITIS_LOOP_596_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57969:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57999:5: warning: Added loop label VITIS_LOOP_596_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
     ^~~
     VITIS_LOOP_596_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52302:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52321:5: warning: Added loop label VITIS_LOOP_615_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:57999:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58018:5: warning: Added loop label VITIS_LOOP_615_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < N_TABLE; ii++) {
     ^~~
     VITIS_LOOP_615_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52321:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52351:5: warning: Added loop label VITIS_LOOP_645_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58018:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58048:5: warning: Added loop label VITIS_LOOP_645_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
     ^~~
     VITIS_LOOP_645_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52351:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52370:5: warning: Added loop label VITIS_LOOP_664_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58048:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58067:5: warning: Added loop label VITIS_LOOP_664_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < N_TABLE; ii++) {
     ^~~
     VITIS_LOOP_664_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52370:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52400:5: warning: Added loop label VITIS_LOOP_694_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58067:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58097:5: warning: Added loop label VITIS_LOOP_694_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
     ^~~
     VITIS_LOOP_694_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52400:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52427:5: warning: Added loop label VITIS_LOOP_721_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58097:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58124:5: warning: Added loop label VITIS_LOOP_721_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < N_TABLE; ii++) {
     ^~~
     VITIS_LOOP_721_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52427:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52455:2: warning: Added loop label VITIS_LOOP_749_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58124:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58152:2: warning: Added loop label VITIS_LOOP_749_1:   [xilinx-label-all-loops]
  for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
  ^~~
  VITIS_LOOP_749_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52455:2: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52485:5: warning: Added loop label VITIS_LOOP_779_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58152:2: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58182:5: warning: Added loop label VITIS_LOOP_779_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
     ^~~
     VITIS_LOOP_779_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52485:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52514:5: warning: Added loop label VITIS_LOOP_808_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58182:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58211:5: warning: Added loop label VITIS_LOOP_808_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
     ^~~
     VITIS_LOOP_808_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52514:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52534:5: warning: Added loop label VITIS_LOOP_828_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58211:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58231:5: warning: Added loop label VITIS_LOOP_828_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
     ^~~
     VITIS_LOOP_828_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52534:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52779:9: warning: Added loop label VITIS_LOOP_229_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58231:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58476:9: warning: Added loop label VITIS_LOOP_229_1:   [xilinx-label-all-loops]
         for (int i = 0; i < N / data_T::size; i++) {
         ^~~
         VITIS_LOOP_229_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52779:9: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52786:13: warning: Added loop label VITIS_LOOP_236_2:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58476:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58483:13: warning: Added loop label VITIS_LOOP_236_2:   [xilinx-label-all-loops]
             for (int j = 0; j < data_T::size; j++) {
             ^~~
             VITIS_LOOP_236_2: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52786:13: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52795:9: warning: Added loop label VITIS_LOOP_245_3:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58483:13: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58492:9: warning: Added loop label VITIS_LOOP_245_3:   [xilinx-label-all-loops]
         for (int i = 0; i < N / data_T::size; i++) {
         ^~~
         VITIS_LOOP_245_3: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52795:9: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52804:13: warning: Added loop label VITIS_LOOP_254_4:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58492:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58501:13: warning: Added loop label VITIS_LOOP_254_4:   [xilinx-label-all-loops]
             for (int j = 0; j < pack_diff; j++) {
             ^~~
             VITIS_LOOP_254_4: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52804:13: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52808:17: warning: Added loop label VITIS_LOOP_258_5:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58501:13: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58505:17: warning: Added loop label VITIS_LOOP_258_5:   [xilinx-label-all-loops]
                 for (int k = 0; k < res_T::size; k++) {
                 ^~~
                 VITIS_LOOP_258_5: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52808:17: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52819:9: warning: Added loop label VITIS_LOOP_269_6:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58505:17: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58516:9: warning: Added loop label VITIS_LOOP_269_6:   [xilinx-label-all-loops]
         for (int i = 0; i < N / data_T::size; i++) {
         ^~~
         VITIS_LOOP_269_6: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52819:9: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52823:13: warning: Added loop label VITIS_LOOP_273_7:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58516:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58520:13: warning: Added loop label VITIS_LOOP_273_7:   [xilinx-label-all-loops]
             for (int j = 0; j < data_T::size; j++) {
             ^~~
             VITIS_LOOP_273_7: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52823:13: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52847:9: warning: Added loop label VITIS_LOOP_297_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58520:13: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58544:9: warning: Added loop label VITIS_LOOP_297_1:   [xilinx-label-all-loops]
         for (int j = 0; j < n_dupl; j++) {
         ^~~
         VITIS_LOOP_297_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52847:9: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52851:13: warning: Added loop label VITIS_LOOP_301_2:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58544:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58548:13: warning: Added loop label VITIS_LOOP_301_2:   [xilinx-label-all-loops]
             for (int k = 0; k < res_T::size; k++) {
             ^~~
             VITIS_LOOP_301_2: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52851:13: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52870:9: warning: Added loop label VITIS_LOOP_320_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58548:13: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58567:9: warning: Added loop label VITIS_LOOP_320_1:   [xilinx-label-all-loops]
         for (int k = 0; k < res_T::size; k++) {
         ^~~
         VITIS_LOOP_320_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:52870:9: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:53094:9: warning: Added loop label VITIS_LOOP_211_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58567:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58791:9: warning: Added loop label VITIS_LOOP_211_1:   [xilinx-label-all-loops]
         for (unsigned j = 0; j < data_T::size; j++) {
         ^~~
         VITIS_LOOP_211_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:53094:9: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:53103:9: warning: Added loop label VITIS_LOOP_220_2:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58791:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58800:9: warning: Added loop label VITIS_LOOP_220_2:   [xilinx-label-all-loops]
         for (unsigned j = 0; j < data_T::size; j++) {
         ^~~
         VITIS_LOOP_220_2: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:53103:9: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:53208:5: warning: Added loop label VITIS_LOOP_325_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58800:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58905:5: warning: Added loop label VITIS_LOOP_325_1:   [xilinx-label-all-loops]
     for (int i = 0; i < CONFIG_T::n_in / res_T::size; i++) {
     ^~~
     VITIS_LOOP_325_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:53208:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:53213:9: warning: Added loop label VITIS_LOOP_330_2:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58905:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58910:9: warning: Added loop label VITIS_LOOP_330_2:   [xilinx-label-all-loops]
         for (int i = 0; i < res_T::size; i++) {
         ^~~
         VITIS_LOOP_330_2: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:53213:9: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:53221:9: warning: Added loop label VITIS_LOOP_338_3:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58910:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58918:9: warning: Added loop label VITIS_LOOP_338_3:   [xilinx-label-all-loops]
         for (int i = 1; i < res_T::size; i++) {
         ^~~
         VITIS_LOOP_338_3: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:53221:9: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:53803:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:58918:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:59500:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
 #pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
         ^
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:53877:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:59574:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
 #pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
         ^
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:53959:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:59656:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
 #pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
         ^
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:54132:5: warning: Added loop label VITIS_LOOP_14_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:59829:5: warning: Added loop label VITIS_LOOP_14_1:   [xilinx-label-all-loops]
     for (unsigned k = 0; k < CONFIG_T::n_out; k++) {
     ^~~
     VITIS_LOOP_14_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:54132:5: note: FIX-IT applied suggested code changes
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:54192:9: warning: Added loop label VITIS_LOOP_74_1:   [xilinx-label-all-loops]
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:59829:5: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:59889:9: warning: Added loop label VITIS_LOOP_74_1:   [xilinx-label-all-loops]
         for (int im = 0; im < CONFIG_T::n_out; im++) {
         ^~~
         VITIS_LOOP_74_1: 
-G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp:54192:9: note: FIX-IT applied suggested code changes
+/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp:59889:9: note: FIX-IT applied suggested code changes

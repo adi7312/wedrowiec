@@ -1,13 +1,6 @@
-AcceleratorConfig:
-  Board: pynq-z2
-  Driver: python
-  Interface: axi_stream
-  Precision:
-    Input: float
-    Output: float
-Backend: VivadoAccelerator
+Backend: Vitis
 ClockPeriod: 20
-ClockUncertainty: 12.5%
+ClockUncertainty: 27%
 HLSConfig:
   LayerName:
     dense_4:
@@ -22,7 +15,7 @@ HLSConfig:
       Precision:
         result: auto
         table: fixed<18,8,TRN,WRAP,0>
-      ReuseFactor: 4
+      ReuseFactor: 2048
       TableSize: 1024
       Trace: false
     dense_5:
@@ -31,13 +24,13 @@ HLSConfig:
         bias: auto
         result: auto
         weight: auto
-      ReuseFactor: 1024
+      ReuseFactor: 2048
       Trace: false
     dense_5_relu:
       Precision:
         result: auto
         table: fixed<18,8,TRN,WRAP,0>
-      ReuseFactor: 4
+      ReuseFactor: 2048
       TableSize: 1024
       Trace: false
     dense_6:
@@ -46,13 +39,13 @@ HLSConfig:
         bias: auto
         result: auto
         weight: auto
-      ReuseFactor: 512
+      ReuseFactor: 2048
       Trace: false
     dense_6_relu:
       Precision:
         result: auto
         table: fixed<18,8,TRN,WRAP,0>
-      ReuseFactor: 4
+      ReuseFactor: 2048
       TableSize: 1024
       Trace: false
     dense_7:
@@ -61,7 +54,7 @@ HLSConfig:
         bias: auto
         result: auto
         weight: auto
-      ReuseFactor: 64
+      ReuseFactor: 2048
       Trace: false
     flatten:
       Precision:
@@ -69,15 +62,15 @@ HLSConfig:
       Trace: false
     input_layer:
       Precision:
-        result: ufixed<8,1,RND,SAT>
+        result: int<8>
       Trace: false
   Model:
     BitExact: null
     BramFactor: 1000000000
     Precision:
-      default: fixed<10,4,RND,SAT>
-    ReuseFactor: 64
-    Strategy: Resource
+      default: fixed<6,4,RND,SAT>
+    ReuseFactor: 2048
+    Strategy: Latency
     TraceOutput: false
 IOType: io_stream
 InputData: null
@@ -93,10 +86,11 @@ OutputShapes:
   - 4
 Part: xc7z020clg400-1
 ProjectName: wedrowiec_hls
-Stamp: 0bfc6859
+Stamp: 697fb865
 Version: 1.0.0
 WriterConfig:
   Namespace: null
   TBOutputStream: both
+  WriteEmulationConstants: false
   WriteTar: false
   WriteWeightsTxt: true

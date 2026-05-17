@@ -1,6 +1,6 @@
 <dict>
   <key>main-file</key>
-  <string>G:/Xlinix-workspace/projekt-hls/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp</string>
+  <string>/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp</string>
   <key>diagnostics</key>
   <array>
     <dict>
@@ -361,7 +361,7 @@
       <key>filename</key>
       <string>firmware/nnet_utils/nnet_conv1d_latency.h</string>
       <key>line</key>
-      <integer>97</integer>
+      <integer>98</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -377,7 +377,7 @@
       <key>filename</key>
       <string>firmware/nnet_utils/nnet_conv1d_latency.h</string>
       <key>line</key>
-      <integer>98</integer>
+      <integer>99</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -393,7 +393,7 @@
       <key>filename</key>
       <string>firmware/nnet_utils/nnet_conv1d_latency.h</string>
       <key>line</key>
-      <integer>101</integer>
+      <integer>102</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -409,7 +409,7 @@
       <key>filename</key>
       <string>firmware/nnet_utils/nnet_conv1d_latency.h</string>
       <key>line</key>
-      <integer>104</integer>
+      <integer>105</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -425,7 +425,7 @@
       <key>filename</key>
       <string>firmware/nnet_utils/nnet_conv1d_latency.h</string>
       <key>line</key>
-      <integer>105</integer>
+      <integer>106</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -441,7 +441,7 @@
       <key>filename</key>
       <string>firmware/nnet_utils/nnet_conv1d_latency.h</string>
       <key>line</key>
-      <integer>106</integer>
+      <integer>107</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -457,7 +457,7 @@
       <key>filename</key>
       <string>firmware/nnet_utils/nnet_conv1d_latency.h</string>
       <key>line</key>
-      <integer>109</integer>
+      <integer>110</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -473,7 +473,7 @@
       <key>filename</key>
       <string>firmware/nnet_utils/nnet_conv1d_latency.h</string>
       <key>line</key>
-      <integer>118</integer>
+      <integer>119</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -489,7 +489,7 @@
       <key>filename</key>
       <string>firmware/nnet_utils/nnet_conv1d_latency.h</string>
       <key>line</key>
-      <integer>137</integer>
+      <integer>138</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -505,7 +505,7 @@
       <key>filename</key>
       <string>firmware/nnet_utils/nnet_conv1d_latency.h</string>
       <key>line</key>
-      <integer>159</integer>
+      <integer>160</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -1231,7 +1231,7 @@
       <key>message</key>
       <string>unexpected pragma argument &apos;softmax&apos;, expects function/operation</string>
       <key>ID</key>
-      <integer>5570</integer>
+      <integer>5571</integer>
       <key>WarningOption</key>
       <string>invalid-hls-pragmas</string>
     </dict>
@@ -2975,7 +2975,7 @@
       <key>message</key>
       <string>&apos;Resource pragma&apos; is deprecated, use &apos;bind_op/bind_storage pragma&apos; instead</string>
       <key>ID</key>
-      <integer>5538</integer>
+      <integer>5539</integer>
       <key>WarningOption</key>
       <string>ignored-hls-pragmas</string>
     </dict>
@@ -3135,7 +3135,7 @@
       <key>message</key>
       <string>&apos;Resource pragma&apos; is deprecated, use &apos;bind_op/bind_storage pragma&apos; instead</string>
       <key>ID</key>
-      <integer>5538</integer>
+      <integer>5539</integer>
       <key>WarningOption</key>
       <string>ignored-hls-pragmas</string>
     </dict>
@@ -3295,7 +3295,7 @@
       <key>message</key>
       <string>&apos;Resource pragma&apos; is deprecated, use &apos;bind_op/bind_storage pragma&apos; instead</string>
       <key>ID</key>
-      <integer>5538</integer>
+      <integer>5539</integer>
       <key>WarningOption</key>
       <string>ignored-hls-pragmas</string>
     </dict>
@@ -3741,7 +3741,7 @@
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_wrapper_XLX_SEP_ PragmaOptions=recursive_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_latency_wrapper_XLX_SEP_ PragmaOptions=II=CONFIG_T::reuse_factor_XLX_SEP_</string>
       <key>ID</key>
       <integer>5471</integer>
       <key>WarningOption</key>
@@ -3753,11 +3753,11 @@
       <key>filename</key>
       <string>firmware/nnet_utils/nnet_dense_stream.h</string>
       <key>line</key>
-      <integer>18</integer>
+      <integer>29</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_wrapper_XLX_SEP_ PragmaOptions=II=CONFIG_T::reuse_factor_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=data_prepare_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
       <key>ID</key>
       <integer>5471</integer>
       <key>WarningOption</key>
@@ -3769,7 +3769,135 @@
       <key>filename</key>
       <string>firmware/nnet_utils/nnet_dense_stream.h</string>
       <key>line</key>
-      <integer>28</integer>
+      <integer>34</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=data_prepare_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>5471</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
+      <key>line</key>
+      <integer>38</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=data_prepare_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>5471</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
+      <key>line</key>
+      <integer>46</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=data_prepare_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>5471</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
+      <key>line</key>
+      <integer>54</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=res_write_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>5471</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
+      <key>line</key>
+      <integer>59</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=res_write_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>5471</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
+      <key>line</key>
+      <integer>64</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=res_write_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>5471</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
+      <key>line</key>
+      <integer>74</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=res_write_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>5471</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
+      <key>line</key>
+      <integer>85</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_XLX_SEP_ PragmaOptions=recursive_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>5471</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
+      <key>line</key>
+      <integer>88</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -3785,7 +3913,7 @@
       <key>filename</key>
       <string>firmware/nnet_utils/nnet_dense_stream.h</string>
       <key>line</key>
-      <integer>31</integer>
+      <integer>91</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -3799,61 +3927,13 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
+      <string>/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/build_prj.tcl</string>
       <key>line</key>
-      <integer>36</integer>
+      <integer>169</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
-      <key>line</key>
-      <integer>41</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
-      <key>line</key>
-      <integer>51</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
-      <key>line</key>
-      <integer>57</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=dense_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=wedrowiec_hls_XLX_SEP_ PragmaOptions=name=wedrowiec_hls_XLX_SEP_</string>
       <key>ID</key>
       <integer>5471</integer>
       <key>WarningOption</key>
@@ -3986,198 +4066,6 @@
       <integer>5471</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
-      <key>line</key>
-      <integer>36</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>Only for/while/do loop or function body support the pipeline pragma</string>
-      <key>ID</key>
-      <integer>5575</integer>
-      <key>WarningOption</key>
-      <string>ignored-hls-attributes</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
-      <key>line</key>
-      <integer>51</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>Only for/while/do loop or function body support the pipeline pragma</string>
-      <key>ID</key>
-      <integer>5575</integer>
-      <key>WarningOption</key>
-      <string>ignored-hls-attributes</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
-      <key>line</key>
-      <integer>18</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>Only for/while/do loop or function body support the pipeline pragma</string>
-      <key>ID</key>
-      <integer>5575</integer>
-      <key>WarningOption</key>
-      <string>ignored-hls-attributes</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
-      <key>line</key>
-      <integer>36</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>Only for/while/do loop or function body support the pipeline pragma</string>
-      <key>ID</key>
-      <integer>5575</integer>
-      <key>WarningOption</key>
-      <string>ignored-hls-attributes</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
-      <key>line</key>
-      <integer>51</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>Only for/while/do loop or function body support the pipeline pragma</string>
-      <key>ID</key>
-      <integer>5575</integer>
-      <key>WarningOption</key>
-      <string>ignored-hls-attributes</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
-      <key>line</key>
-      <integer>18</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>Only for/while/do loop or function body support the pipeline pragma</string>
-      <key>ID</key>
-      <integer>5575</integer>
-      <key>WarningOption</key>
-      <string>ignored-hls-attributes</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
-      <key>line</key>
-      <integer>36</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>Only for/while/do loop or function body support the pipeline pragma</string>
-      <key>ID</key>
-      <integer>5575</integer>
-      <key>WarningOption</key>
-      <string>ignored-hls-attributes</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
-      <key>line</key>
-      <integer>51</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>Only for/while/do loop or function body support the pipeline pragma</string>
-      <key>ID</key>
-      <integer>5575</integer>
-      <key>WarningOption</key>
-      <string>ignored-hls-attributes</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
-      <key>line</key>
-      <integer>18</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>Only for/while/do loop or function body support the pipeline pragma</string>
-      <key>ID</key>
-      <integer>5575</integer>
-      <key>WarningOption</key>
-      <string>ignored-hls-attributes</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
-      <key>line</key>
-      <integer>36</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>Only for/while/do loop or function body support the pipeline pragma</string>
-      <key>ID</key>
-      <integer>5575</integer>
-      <key>WarningOption</key>
-      <string>ignored-hls-attributes</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
-      <key>line</key>
-      <integer>51</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>Only for/while/do loop or function body support the pipeline pragma</string>
-      <key>ID</key>
-      <integer>5575</integer>
-      <key>WarningOption</key>
-      <string>ignored-hls-attributes</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>firmware/nnet_utils/nnet_dense_stream.h</string>
-      <key>line</key>
-      <integer>18</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>Only for/while/do loop or function body support the pipeline pragma</string>
-      <key>ID</key>
-      <integer>5575</integer>
-      <key>WarningOption</key>
-      <string>ignored-hls-attributes</string>
     </dict>
   </array>
 </dict>

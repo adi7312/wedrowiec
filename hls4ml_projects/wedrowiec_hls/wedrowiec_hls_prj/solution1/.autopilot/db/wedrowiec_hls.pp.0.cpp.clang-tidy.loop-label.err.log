@@ -1,5 +1,5 @@
-16 warnings and 3 errors generated.
-Error while processing G:\Xlinix-workspace\projekt-hls\hls4ml_projects\wedrowiec_hls\wedrowiec_hls_prj\solution1\.autopilot\db\wedrowiec_hls.pp.0.cpp.
+4 warnings and 3 errors generated.
+Error while processing /home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp.
 clang-tidy applied 82 of 82 suggested fixes.
-Suppressed 264 warnings (248 in non-user code, 16 with check filters).
+Suppressed 252 warnings (248 in non-user code, 4 with check filters).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.

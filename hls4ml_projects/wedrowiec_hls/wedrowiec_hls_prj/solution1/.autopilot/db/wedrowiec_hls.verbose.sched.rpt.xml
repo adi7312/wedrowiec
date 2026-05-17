@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'wedrowiec_hls'" level="0">
-<item name = "Date">Fri May 15 14:04:25 2026
+<item name = "Date">Sun May 17 14:56:10 2026
 </item>
-<item name = "Version">2024.2 (Build 5238294 on Nov  8 2024)</item>
+<item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
 <item name = "Project">wedrowiec_hls_prj</item>
 <item name = "Solution">solution1 (Vivado IP Flow Target)</item>
 <item name = "Product family">zynq</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">20.00 ns, 16.945 ns, 2.50 ns</column>
+<column name="ap_clk">20.00 ns, 14.549 ns, 5.40 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">2062, 2063, 41.240 us, 41.260 us, 2063, 2064, dataflow</column>
+<column name="">23, 23, 0.460 us, 0.460 us, 18, 18, dataflow</column>
 </table>
 </item>
 <item name = "Detail">

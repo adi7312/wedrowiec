@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'wedrowiec_hls'" level="0">
-<item name = "Date">Fri May 15 14:04:34 2026
+<item name = "Date">Sun May 17 14:56:16 2026
 </item>
-<item name = "Version">2024.2 (Build 5238294 on Nov  8 2024)</item>
+<item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
 <item name = "Project">wedrowiec_hls_prj</item>
 <item name = "Solution">solution1 (Vivado IP Flow Target)</item>
 <item name = "Product family">zynq</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">20.00 ns, 16.945 ns, 2.50 ns</column>
+<column name="ap_clk">20.00 ns, 14.549 ns, 5.40 ns</column>
 </table>
 </item>
 </section>
@@ -24,20 +24,20 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">2062, 2063, 41.240 us, 41.260 us, 2063, 2064, dataflow</column>
+<column name="">23, 23, 0.460 us, 0.460 us, 18, 18, dataflow</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="dense_array_ap_ufixed_8u_array_ap_fixed_25_12_5_3_0_32u_config3_U0">dense_array_ap_ufixed_8u_array_ap_fixed_25_12_5_3_0_32u_config3_s, 2062, 2063, 41.240 us, 41.260 us, 2062, 2063, no</column>
-<column name="relu_array_ap_fixed_32u_array_ap_fixed_10_4_0_0_0_32u_relu_config4_U0">relu_array_ap_fixed_32u_array_ap_fixed_10_4_0_0_0_32u_relu_config4_s, 0, 0, 0 ns, 0 ns, 0, 0, no</column>
-<column name="dense_array_ap_fixed_32u_array_ap_fixed_26_14_5_3_0_32u_config5_U0">dense_array_ap_fixed_32u_array_ap_fixed_26_14_5_3_0_32u_config5_s, 1026, 1027, 20.520 us, 20.540 us, 1026, 1027, no</column>
-<column name="relu_array_ap_fixed_32u_array_ap_fixed_10_4_0_0_0_32u_relu_config6_U0">relu_array_ap_fixed_32u_array_ap_fixed_10_4_0_0_0_32u_relu_config6_s, 0, 0, 0 ns, 0 ns, 0, 0, no</column>
-<column name="dense_array_ap_fixed_32u_array_ap_fixed_26_14_5_3_0_16u_config7_U0">dense_array_ap_fixed_32u_array_ap_fixed_26_14_5_3_0_16u_config7_s, 514, 515, 10.280 us, 10.300 us, 514, 515, no</column>
-<column name="relu_array_ap_fixed_16u_array_ap_fixed_10_4_0_0_0_16u_relu_config8_U0">relu_array_ap_fixed_16u_array_ap_fixed_10_4_0_0_0_16u_relu_config8_s, 0, 0, 0 ns, 0 ns, 0, 0, no</column>
-<column name="dense_array_ap_fixed_16u_array_ap_fixed_25_13_5_3_0_4u_config9_U0">dense_array_ap_fixed_16u_array_ap_fixed_25_13_5_3_0_4u_config9_s, 66, 67, 1.320 us, 1.340 us, 66, 67, no</column>
+<column name="dense_array_ap_int_8_8u_array_ap_fixed_21_19_5_3_0_32u_config3_U0">dense_array_ap_int_8_8u_array_ap_fixed_21_19_5_3_0_32u_config3_s, 17, 17, 0.340 us, 0.340 us, 17, 17, no</column>
+<column name="relu_array_ap_fixed_32u_array_ap_fixed_6_4_0_0_0_32u_relu_config4_U0">relu_array_ap_fixed_32u_array_ap_fixed_6_4_0_0_0_32u_relu_config4_s, 0, 0, 0 ns, 0 ns, 0, 0, no</column>
+<column name="dense_array_ap_fixed_32u_array_ap_fixed_18_14_5_3_0_32u_config5_U0">dense_array_ap_fixed_32u_array_ap_fixed_18_14_5_3_0_32u_config5_s, 5, 5, 0.100 us, 0.100 us, 5, 5, no</column>
+<column name="relu_array_ap_fixed_32u_array_ap_fixed_6_4_0_0_0_32u_relu_config6_U0">relu_array_ap_fixed_32u_array_ap_fixed_6_4_0_0_0_32u_relu_config6_s, 0, 0, 0 ns, 0 ns, 0, 0, no</column>
+<column name="dense_array_ap_fixed_32u_array_ap_fixed_18_14_5_3_0_16u_config7_U0">dense_array_ap_fixed_32u_array_ap_fixed_18_14_5_3_0_16u_config7_s, 6, 6, 0.120 us, 0.120 us, 6, 6, no</column>
+<column name="relu_array_ap_fixed_16u_array_ap_fixed_6_4_0_0_0_16u_relu_config8_U0">relu_array_ap_fixed_16u_array_ap_fixed_6_4_0_0_0_16u_relu_config8_s, 0, 0, 0 ns, 0 ns, 0, 0, no</column>
+<column name="dense_array_ap_fixed_16u_array_ap_fixed_17_13_5_3_0_4u_config9_U0">dense_array_ap_fixed_16u_array_ap_fixed_17_13_5_3_0_4u_config9_s, 6, 6, 0.120 us, 0.120 us, 6, 6, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
@@ -56,25 +56,25 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, 0, 2, -</column>
 <column name="FIFO">-, -, 594, 408, -</column>
-<column name="Instance">7, 4, 10647, 17387, -</column>
+<column name="Instance">-, -, 8427, 34683, -</column>
 <column name="Memory">-, -, -, -, -</column>
 <column name="Multiplexer">-, -, -, -, -</column>
 <column name="Register">-, -, -, -, -</column>
 <specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
-<specialColumn name="Utilization (%)">2, 1, 10, 33, 0</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, 8, 65, 0</specialColumn>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="dense_array_ap_fixed_16u_array_ap_fixed_25_13_5_3_0_4u_config9_U0">dense_array_ap_fixed_16u_array_ap_fixed_25_13_5_3_0_4u_config9_s, 1, 1, 836, 902, 0</column>
-<column name="dense_array_ap_fixed_32u_array_ap_fixed_26_14_5_3_0_16u_config7_U0">dense_array_ap_fixed_32u_array_ap_fixed_26_14_5_3_0_16u_config7_s, 2, 1, 2269, 1819, 0</column>
-<column name="dense_array_ap_fixed_32u_array_ap_fixed_26_14_5_3_0_32u_config5_U0">dense_array_ap_fixed_32u_array_ap_fixed_26_14_5_3_0_32u_config5_s, 2, 1, 3519, 2630, 0</column>
-<column name="dense_array_ap_ufixed_8u_array_ap_fixed_25_12_5_3_0_32u_config3_U0">dense_array_ap_ufixed_8u_array_ap_fixed_25_12_5_3_0_32u_config3_s, 2, 1, 4014, 3410, 0</column>
-<column name="relu_array_ap_fixed_16u_array_ap_fixed_10_4_0_0_0_16u_relu_config8_U0">relu_array_ap_fixed_16u_array_ap_fixed_10_4_0_0_0_16u_relu_config8_s, 0, 0, 3, 1734, 0</column>
-<column name="relu_array_ap_fixed_32u_array_ap_fixed_10_4_0_0_0_32u_relu_config4_U0">relu_array_ap_fixed_32u_array_ap_fixed_10_4_0_0_0_32u_relu_config4_s, 0, 0, 3, 3462, 0</column>
-<column name="relu_array_ap_fixed_32u_array_ap_fixed_10_4_0_0_0_32u_relu_config6_U0">relu_array_ap_fixed_32u_array_ap_fixed_10_4_0_0_0_32u_relu_config6_s, 0, 0, 3, 3430, 0</column>
+<column name="dense_array_ap_fixed_16u_array_ap_fixed_17_13_5_3_0_4u_config9_U0">dense_array_ap_fixed_16u_array_ap_fixed_17_13_5_3_0_4u_config9_s, 0, 0, 353, 918, 0</column>
+<column name="dense_array_ap_fixed_32u_array_ap_fixed_18_14_5_3_0_16u_config7_U0">dense_array_ap_fixed_32u_array_ap_fixed_18_14_5_3_0_16u_config7_s, 0, 0, 1408, 4931, 0</column>
+<column name="dense_array_ap_fixed_32u_array_ap_fixed_18_14_5_3_0_32u_config5_U0">dense_array_ap_fixed_32u_array_ap_fixed_18_14_5_3_0_32u_config5_s, 0, 0, 2539, 8626, 0</column>
+<column name="dense_array_ap_int_8_8u_array_ap_fixed_21_19_5_3_0_32u_config3_U0">dense_array_ap_int_8_8u_array_ap_fixed_21_19_5_3_0_32u_config3_s, 0, 0, 4118, 13518, 0</column>
+<column name="relu_array_ap_fixed_16u_array_ap_fixed_6_4_0_0_0_16u_relu_config8_U0">relu_array_ap_fixed_16u_array_ap_fixed_6_4_0_0_0_16u_relu_config8_s, 0, 0, 3, 1430, 0</column>
+<column name="relu_array_ap_fixed_32u_array_ap_fixed_6_4_0_0_0_32u_relu_config4_U0">relu_array_ap_fixed_32u_array_ap_fixed_6_4_0_0_0_32u_relu_config4_s, 0, 0, 3, 2438, 0</column>
+<column name="relu_array_ap_fixed_32u_array_ap_fixed_6_4_0_0_0_32u_relu_config6_U0">relu_array_ap_fixed_32u_array_ap_fixed_6_4_0_0_0_32u_relu_config6_s, 0, 0, 3, 2822, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -87,12 +87,12 @@
 </item>
 <item name = "FIFO"><table name="" hasTotal="1">
 <keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
-<column name="layer3_out_U">0, 99, 0, -, 1, 800, 800</column>
-<column name="layer4_out_U">0, 99, 0, -, 1, 320, 320</column>
-<column name="layer5_out_U">0, 99, 0, -, 1, 832, 832</column>
-<column name="layer6_out_U">0, 99, 0, -, 1, 320, 320</column>
-<column name="layer7_out_U">0, 99, 0, -, 1, 416, 416</column>
-<column name="layer8_out_U">0, 99, 0, -, 1, 160, 160</column>
+<column name="layer3_out_U">0, 99, 0, -, 1, 672, 672</column>
+<column name="layer4_out_U">0, 99, 0, -, 1, 192, 192</column>
+<column name="layer5_out_U">0, 99, 0, -, 1, 576, 576</column>
+<column name="layer6_out_U">0, 99, 0, -, 1, 192, 192</column>
+<column name="layer7_out_U">0, 99, 0, -, 1, 288, 288</column>
+<column name="layer8_out_U">0, 99, 0, -, 1, 96, 96</column>
 </table>
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
@@ -115,19 +115,18 @@
 <section name = "Interface" level="0">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
-<column name="in_local_dout">in, 64, ap_fifo, in_local, pointer</column>
-<column name="in_local_empty_n">in, 1, ap_fifo, in_local, pointer</column>
-<column name="in_local_read">out, 1, ap_fifo, in_local, pointer</column>
-<column name="out_local_din">out, 100, ap_fifo, out_local, pointer</column>
-<column name="out_local_full_n">in, 1, ap_fifo, out_local, pointer</column>
-<column name="out_local_write">out, 1, ap_fifo, out_local, pointer</column>
+<column name="input_layer_TDATA">in, 64, axis, input_layer, pointer</column>
+<column name="input_layer_TVALID">in, 1, axis, input_layer, pointer</column>
+<column name="input_layer_TREADY">out, 1, axis, input_layer, pointer</column>
+<column name="layer9_out_TDATA">out, 128, axis, layer9_out, pointer</column>
+<column name="layer9_out_TVALID">out, 1, axis, layer9_out, pointer</column>
+<column name="layer9_out_TREADY">in, 1, axis, layer9_out, pointer</column>
 <column name="ap_clk">in, 1, ap_ctrl_hs, wedrowiec_hls, return value</column>
-<column name="ap_rst">in, 1, ap_ctrl_hs, wedrowiec_hls, return value</column>
+<column name="ap_rst_n">in, 1, ap_ctrl_hs, wedrowiec_hls, return value</column>
 <column name="ap_start">in, 1, ap_ctrl_hs, wedrowiec_hls, return value</column>
 <column name="ap_done">out, 1, ap_ctrl_hs, wedrowiec_hls, return value</column>
 <column name="ap_ready">out, 1, ap_ctrl_hs, wedrowiec_hls, return value</column>
 <column name="ap_idle">out, 1, ap_ctrl_hs, wedrowiec_hls, return value</column>
-<column name="ap_continue">in, 1, ap_ctrl_hs, wedrowiec_hls, return value</column>
 </table>
 </item>
 </section>

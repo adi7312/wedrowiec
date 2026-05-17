@@ -1,25 +1,16 @@
 #################
 #    HLS4ML
 #################
-array set opt {
-    reset      0
-    csim       1
-    synth      1
-    cosim      1
-    validation 1
-    export     0
-    vsynth     0
-    fifo_opt   0
-}
 
 set tcldir [file dirname [info script]]
 source [file join $tcldir project.tcl]
+source [file join $tcldir build_opt.tcl]
 
 proc remove_recursive_log_wave {} {
     set tcldir [file dirname [info script]]
     source [file join $tcldir project.tcl]
 
-    set filename ${project_name}_prj/solution1/sim/verilog/${project_name}_axi.tcl
+    set filename ${project_name}_prj/solution1/sim/verilog/${project_name}.tcl
     set timestamp [clock format [clock seconds] -format {%Y%m%d%H%M%S}]
     set temp     $filename.new.$timestamp
     # set backup   $filename.bak.$timestamp
@@ -47,7 +38,7 @@ proc add_vcd_instructions_tcl {} {
     set tcldir [file dirname [info script]]
     source [file join $tcldir project.tcl]
 
-    set filename ${project_name}_prj/solution1/sim/verilog/${project_name}_axi.tcl
+    set filename ${project_name}_prj/solution1/sim/verilog/${project_name}.tcl
     set timestamp [clock format [clock seconds] -format {%Y%m%d%H%M%S}]
     set temp     $filename.new.$timestamp
     # set backup   $filename.bak.$timestamp
@@ -108,12 +99,6 @@ proc add_vcd_instructions_tcl {} {
     file rename -force $temp $filename
 }
 
-foreach arg $::argv {
-    foreach o [lsort [array names opt]] {
-        regexp "$o=+(\\w+)" $arg unused opt($o)
-    }
-}
-
 proc report_time { op_name time_start time_end } {
     set time_taken [expr $time_end - $time_start]
     set time_s [expr ($time_taken / 1000) % 60]
@@ -142,15 +127,6 @@ proc compare_files {file_1 file_2} {
     return $equal
 }
 
-proc first_existing_file {files} {
-    foreach file $files {
-        if {[file exists $file]} {
-            return $file
-        }
-    }
-    return [lindex $files 0]
-}
-
 file mkdir tb_data
 set CSIM_RESULTS "./tb_data/csim_results.log"
 set RTL_COSIM_RESULTS "./tb_data/rtl_cosim_results.log"
@@ -160,8 +136,7 @@ if {$opt(reset)} {
 } else {
     open_project ${project_name}_prj
 }
-set_top ${project_name}_axi
-add_files firmware/wedrowiec_hls_axi.cpp -cflags "-std=c++0x"
+set_top ${project_name}
 add_files firmware/${project_name}.cpp -cflags "-std=c++0x"
 add_files -tb ${project_name}_test.cpp -cflags "-std=c++0x"
 add_files -tb firmware/weights
@@ -171,6 +146,7 @@ if {$opt(reset)} {
 } else {
     open_solution "solution1"
 }
+catch {config_array_partition -maximum_size $maximum_size}
 config_compile -name_max_length 80
 set_part $part
 config_schedule -enable_dsp_full_reg=false
@@ -229,15 +205,6 @@ if {$opt(cosim)} {
 
 if {$opt(validation)} {
     puts "***** C/RTL VALIDATION *****"
-    set CSIM_RESULTS [first_existing_file [list \
-        "./tb_data/csim_results.log" \
-        "${project_name}_prj/solution1/csim/build/tb_data/csim_results.log" \
-    ]]
-    set RTL_COSIM_RESULTS [first_existing_file [list \
-        "./tb_data/rtl_cosim_results.log" \
-        "${project_name}_prj/solution1/sim/wrapc/tb_data/rtl_cosim_results.log" \
-        "${project_name}_prj/solution1/sim/wrapc_pc/tb_data/rtl_cosim_results.log" \
-    ]]
     if {[compare_files $CSIM_RESULTS $RTL_COSIM_RESULTS]} {
         puts "INFO: Test PASSED"
     } else {
