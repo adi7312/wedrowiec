@@ -1,0 +1,260 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "4 11 14 13 10 5 15",
+    "control_depth": 0,
+    "def_use_depth": 1,
+    "file": "wedrowiec_hls.cpp",
+    "fileloc": 7,
+    "instructions": 32,
+    "memory_accesses": 0,
+    "name": "wedrowiec_hls",
+    "total_instructions": 59644
+  },
+  "1": {
+    "basicblocks": 4097,
+    "calls": "",
+    "control_depth": 1,
+    "def_use_depth": 67,
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 31393,
+    "loads": {
+      "L": 2144
+    },
+    "memory_accesses": 8383,
+    "name": "dense_latency<ap_int<8>, ap_fixed<21, 19, AP_TRN, AP_WRAP, 0>, config3>",
+    "stores": {
+      "L": 6239
+    },
+    "total_instructions": 31393
+  },
+  "10": {
+    "basicblocks": 1,
+    "calls": "12",
+    "control_depth": 0,
+    "def_use_depth": 18,
+    "file": "nnet_dense_stream.h",
+    "fileloc": 82,
+    "instructions": 154,
+    "loads": {
+      "L": 16
+    },
+    "memory_accesses": 0,
+    "name": "dense<nnet::array<ap_fixed<6, 4, AP_RND, AP_SAT, 0>, 32>, nnet::array<ap_fixed<18, 14, AP_TRN, AP_WRAP, 0>, 16>, config7>",
+    "stores": {
+      "L": 32
+    },
+    "total_instructions": 6943
+  },
+  "11": {
+    "basicblocks": 97,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 33,
+    "file": "nnet_activation_stream.h",
+    "fileloc": 39,
+    "instructions": 1197,
+    "loads": {
+      "L": 64
+    },
+    "memory_accesses": 0,
+    "name": "relu<nnet::array<ap_fixed<21, 19, AP_TRN, AP_WRAP, 0>, 32>, nnet::array<ap_fixed<6, 4, AP_RND, AP_SAT, 0>, 32>, relu_config4>",
+    "stores": {
+      "L": 96
+    },
+    "total_instructions": 1197
+  },
+  "12": {
+    "basicblocks": 1,
+    "calls": "6",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "nnet_dense_stream.h",
+    "fileloc": 13,
+    "instructions": 2,
+    "memory_accesses": 1,
+    "name": "dense_latency_wrapper<ap_fixed<6, 4, AP_RND, AP_SAT, 0>, ap_fixed<18, 14, AP_TRN, AP_WRAP, 0>, config7>",
+    "total_instructions": 6789
+  },
+  "13": {
+    "basicblocks": 161,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 33,
+    "file": "nnet_activation_stream.h",
+    "fileloc": 39,
+    "instructions": 1901,
+    "loads": {
+      "L": 64
+    },
+    "memory_accesses": 0,
+    "name": "relu<nnet::array<ap_fixed<18, 14, AP_TRN, AP_WRAP, 0>, 32>, nnet::array<ap_fixed<6, 4, AP_RND, AP_SAT, 0>, 32>, relu_config6>",
+    "stores": {
+      "L": 96
+    },
+    "total_instructions": 1901
+  },
+  "14": {
+    "basicblocks": 1,
+    "calls": "2",
+    "control_depth": 0,
+    "def_use_depth": 34,
+    "file": "nnet_dense_stream.h",
+    "fileloc": 82,
+    "instructions": 202,
+    "loads": {
+      "L": 32
+    },
+    "memory_accesses": 0,
+    "name": "dense<nnet::array<ap_fixed<6, 4, AP_RND, AP_SAT, 0>, 32>, nnet::array<ap_fixed<18, 14, AP_TRN, AP_WRAP, 0>, 32>, config5>",
+    "stores": {
+      "L": 32
+    },
+    "total_instructions": 16020
+  },
+  "15": {
+    "basicblocks": 1,
+    "calls": "3",
+    "control_depth": 0,
+    "def_use_depth": 6,
+    "file": "nnet_dense_stream.h",
+    "fileloc": 82,
+    "instructions": 70,
+    "loads": {
+      "L": 4
+    },
+    "memory_accesses": 0,
+    "name": "dense<nnet::array<ap_fixed<6, 4, AP_RND, AP_SAT, 0>, 16>, nnet::array<ap_fixed<17, 13, AP_TRN, AP_WRAP, 0>, 4>, config9>",
+    "stores": {
+      "L": 16
+    },
+    "total_instructions": 1055
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "9",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "nnet_dense_stream.h",
+    "fileloc": 13,
+    "instructions": 2,
+    "memory_accesses": 1,
+    "name": "dense_latency_wrapper<ap_fixed<6, 4, AP_RND, AP_SAT, 0>, ap_fixed<18, 14, AP_TRN, AP_WRAP, 0>, config5>",
+    "total_instructions": 15818
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "8",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "nnet_dense_stream.h",
+    "fileloc": 13,
+    "instructions": 2,
+    "memory_accesses": 1,
+    "name": "dense_latency_wrapper<ap_fixed<6, 4, AP_RND, AP_SAT, 0>, ap_fixed<17, 13, AP_TRN, AP_WRAP, 0>, config9>",
+    "total_instructions": 985
+  },
+  "4": {
+    "basicblocks": 3,
+    "calls": "7",
+    "control_depth": 0,
+    "def_use_depth": 34,
+    "file": "nnet_dense_stream.h",
+    "fileloc": 82,
+    "instructions": 144,
+    "loads": {
+      "L": 32
+    },
+    "memory_accesses": 9,
+    "name": "dense<nnet::array<ap_int<8>, 8>, nnet::array<ap_fixed<21, 19, AP_TRN, AP_WRAP, 0>, 32>, config3>",
+    "stores": {
+      "L": 8
+    },
+    "total_instructions": 31539
+  },
+  "5": {
+    "basicblocks": 81,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 17,
+    "file": "nnet_activation_stream.h",
+    "fileloc": 39,
+    "instructions": 957,
+    "loads": {
+      "L": 32
+    },
+    "memory_accesses": 0,
+    "name": "relu<nnet::array<ap_fixed<18, 14, AP_TRN, AP_WRAP, 0>, 16>, nnet::array<ap_fixed<6, 4, AP_RND, AP_SAT, 0>, 16>, relu_config8>",
+    "stores": {
+      "L": 48
+    },
+    "total_instructions": 957
+  },
+  "6": {
+    "basicblocks": 1025,
+    "calls": "",
+    "control_depth": 1,
+    "def_use_depth": 31,
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 6787,
+    "loads": {
+      "L": 230
+    },
+    "memory_accesses": 1813,
+    "name": "dense_latency<ap_fixed<6, 4, AP_RND, AP_SAT, 0>, ap_fixed<18, 14, AP_TRN, AP_WRAP, 0>, config7>",
+    "stores": {
+      "L": 1583
+    },
+    "total_instructions": 6787
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "1",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "nnet_dense_stream.h",
+    "fileloc": 13,
+    "instructions": 2,
+    "memory_accesses": 1,
+    "name": "dense_latency_wrapper<ap_int<8>, ap_fixed<21, 19, AP_TRN, AP_WRAP, 0>, config3>",
+    "total_instructions": 31395
+  },
+  "8": {
+    "basicblocks": 127,
+    "calls": "",
+    "control_depth": 1,
+    "def_use_depth": 17,
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 983,
+    "loads": {
+      "L": 20
+    },
+    "memory_accesses": 222,
+    "name": "dense_latency<ap_fixed<6, 4, AP_RND, AP_SAT, 0>, ap_fixed<17, 13, AP_TRN, AP_WRAP, 0>, config9>",
+    "stores": {
+      "L": 202
+    },
+    "total_instructions": 983
+  },
+  "9": {
+    "basicblocks": 2049,
+    "calls": "",
+    "control_depth": 1,
+    "def_use_depth": 35,
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 15816,
+    "loads": {
+      "L": 1088
+    },
+    "memory_accesses": 4255,
+    "name": "dense_latency<ap_fixed<6, 4, AP_RND, AP_SAT, 0>, ap_fixed<18, 14, AP_TRN, AP_WRAP, 0>, config5>",
+    "stores": {
+      "L": 3167
+    },
+    "total_instructions": 15816
+  }
+}

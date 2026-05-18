@@ -1,0 +1,36 @@
+---
+MainSourceFile:  /home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/.autopilot/db/wedrowiec_hls.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '55:74'
+    FilePath:        firmware/wedrowiec_hls.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '55:78'
+    FilePath:        firmware/wedrowiec_hls.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '59:78'
+    FilePath:        firmware/wedrowiec_hls.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '59:82'
+    FilePath:        firmware/wedrowiec_hls.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '63:78'
+    FilePath:        firmware/wedrowiec_hls.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '63:82'
+    FilePath:        firmware/wedrowiec_hls.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '67:70'
+    FilePath:        firmware/wedrowiec_hls.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '67:74'
+    FilePath:        firmware/wedrowiec_hls.cpp
+...
