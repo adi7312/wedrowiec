@@ -1,0 +1,10 @@
+13:33:04 INFO  : updated workspace path: G:\Xlinix-workspace\projekt-hls
+13:33:04 INFO  : cmd.exe, /C, G:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python G:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\repo.py -st   G:\Xilinx\Vitis\2024.2\data\embeddedsw && G:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+13:33:06 INFO  : Successfully created repository data at G:\Xlinix-workspace\projekt-hls/_ide\.wsdata
+13:33:06 INFO  : cmd.exe, /C, G:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python G:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\Ignacy\AppData\Local\Temp\rigel_lopper_Ignacy3771340254749143802 -r G:\Xlinix-workspace\projekt-hls\_ide\.wsdata\.repo.yaml && G:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+13:33:06 INFO  : Embedded Template List generated successfully
+13:42:45 INFO  : connection terminated
+13:42:45 INFO  : connection terminated
+13:42:45 INFO  : scheduling shutdown timer for 2 seconds ...
+13:42:47 INFO  : Terminating Vitis C++ Server
+13:42:47 INFO  : Vitis C++ Server terminated

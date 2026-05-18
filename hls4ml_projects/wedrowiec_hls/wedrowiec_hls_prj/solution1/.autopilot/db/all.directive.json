@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "wedrowiec_hls",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "wedrowiec_hls"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/szymon/projects/wedrowiec/hls4ml_projects/wedrowiec_hls/build_prj.tcl",
+    "sourceLine": 169,
+    "success": true
+  }
+]
