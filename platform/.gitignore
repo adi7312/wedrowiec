@@ -19,13 +19,3 @@
 
 _ide/logs
 _ide/.wsdata
-.Xil
-project_1
-uart_rx.vhd
-*.str
-*.jou
-*.log
-*.pb
-NA
-hls4ml_projects_bak
-venv
