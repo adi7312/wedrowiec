@@ -5,9 +5,9 @@ module uart_rx (
     input wire rst,
     input wire rxd,
     
-    output reg uart_tvalid,
-    input wire uart_tready,
-    output reg [7:0] uart_tdata
+    (* MARK_DEBUG = "TRUE" *) output reg uart_tvalid,
+    (* MARK_DEBUG = "TRUE" *) input wire uart_tready,
+    (* MARK_DEBUG = "TRUE" *) output reg [7:0] uart_tdata
 );
 
 localparam IDLE = 3'h0;
