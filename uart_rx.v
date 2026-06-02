@@ -16,11 +16,11 @@ localparam SHIFT = 3'h2;
 localparam STOP = 3'h3;
 localparam SWAIT = 3'h4;
 
-reg [2:0] stan;
-reg din;
-reg [7:0] shreg;
-reg [12:0] timbit;
-reg [3:0] bit_cnt;
+(* MARK_DEBUG = "TRUE" *) reg [2:0] stan;
+(* MARK_DEBUG = "TRUE" *) reg din;
+(* MARK_DEBUG = "TRUE" *) reg [7:0] shreg;
+(* MARK_DEBUG = "TRUE" *) reg [12:0] timbit;
+(* MARK_DEBUG = "TRUE" *) reg [3:0] bit_cnt;
 localparam FULL_BIT_TIME = 32'd867; // baudrate 115200 bps
 localparam HALF_BIT_TIME = (FULL_BIT_TIME+1)/2-1; 
 

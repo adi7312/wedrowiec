@@ -61,9 +61,9 @@ def send_binary_numbers_over_com(file_path, port, baudrate=9600, delay=0.1):
 
 # --- Hardware Configuration ---
 if __name__ == "__main__":
-    FILE_TO_SEND = "data.txt"
+    FILE_TO_SEND = "image_test_data.txt"
     COM_PORT = "COM3"          # Adjust to your specific COM port or '/dev/tty...'
     BAUD_RATE = 115200
-    LINE_DELAY = 0.2           # 200ms delay between lines to safeguard device buffers
+    LINE_DELAY = 2          # 200ms delay between lines to safeguard device buffers
 
     send_binary_numbers_over_com(FILE_TO_SEND, COM_PORT, BAUD_RATE, LINE_DELAY)
