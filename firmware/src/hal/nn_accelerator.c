@@ -1,37 +1,23 @@
 #include "nn_accelerator.h"
+#include <stdint.h>
 
-int NN_Init(void)
+
+void NN_TriggerAccelerator(volatile wedrowiec_t* wedrowiec)
 {
-    NN_Reset();
+    wedrowiec->ctrl = 1;
+}
 
-    uint32_t status = Xil_In32(NN_STATUS_REG);
-
-    if (status == 0xFFFFFFFF) {
-        return XST_FAILURE;
+uint32_t NN_GetDecision(volatile wedrowiec_t* wedrowiec)
+{
+    int32_t max = 0;
+    int res = 0;
+    for (int i = 0; i < 4; i++){
+        int32_t tmp = wedrowiec->wedrowiec_result[i];
+        tmp = (tmp << 15) >> 15;
+        if (tmp > max) {
+            max = tmp;
+            res = i;
+        }
     }
-
-    if (status & NN_STATUS_ERROR) {
-        return XST_FAILURE;
-    }
-
-    return XST_SUCCESS;
-}
-
-void NN_TriggerAccelerator(void)
-{
-    Xil_Out32(NN_CONTROL_REG, NN_CTRL_START);
-}
-
-uint32_t NN_GetDecision(void)
-{
-    return Xil_In32(NN_RESULT_REG);
-}
-
-void NN_Reset(void)
-{
-    Xil_Out32(NN_CONTROL_REG, NN_CTRL_RESET);
-
-    for (volatile int i = 0; i < 100; i++);
-
-    Xil_Out32(NN_CONTROL_REG, 0);
+    return res;
 }
