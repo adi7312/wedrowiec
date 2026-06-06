@@ -2,6 +2,19 @@ import time
 import os
 import serial
 
+
+def render_8x8_arrow(numbers):
+    if len(numbers) < 64:
+        return "  (insufficient data for 8x8 grid)"
+    header = "  ┌────────────────┐"
+    footer = "  └────────────────┘"
+    rows = [header]
+    for i in range(0, 64, 8):
+        row = numbers[i:i+8]
+        rows.append("  │" + "".join("██" if p else "  " for p in row) + "│")
+    rows.append(footer)
+    return "\n".join(rows)
+
 def send_binary_numbers_over_com(file_path, port, baudrate=9600, delay=0.1):
     """
     Parses space-separated numbers from a file and sends them as raw binary bytes.
@@ -14,12 +27,12 @@ def send_binary_numbers_over_com(file_path, port, baudrate=9600, delay=0.1):
     try:
         print(f"Opening {port} at {baudrate} baud...")
         ser = serial.Serial(port, baudrate, timeout=1)
-        
+
         # Guard time for target hardware reset (e.g., Arduino bootloader)
-        time.sleep(2) 
-        
+        time.sleep(2)
+
         print(f"Starting binary transmission of '{file_path}'...")
-        
+
         with open(file_path, 'r', encoding='utf-8') as file:
             for line_num, line in enumerate(file, 1):
                 # Split line by spaces and convert valid numeric tokens to integers
@@ -42,12 +55,12 @@ def send_binary_numbers_over_com(file_path, port, baudrate=9600, delay=0.1):
 
                 # Write raw binary payload to the serial hardware
                 ser.write(payload)
-                
-                # Console output displays the raw integer list being sent
-                print(f"[Line {line_num}] Sent {len(payload)} bytes -> {list(payload)}")
-                
+
+                print(f"[Line {line_num}] Sent {len(payload)} bytes:")
+                print(render_8x8_arrow(numbers))
+
                 time.sleep(delay)
-                
+
         print("\nTransmission completed successfully!")
 
     except serial.SerialException as e:
