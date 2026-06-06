@@ -29,6 +29,11 @@
 #define NN_FRAME_HEIGHT     8
 #define NN_FRAME_SIZE       (NN_FRAME_WIDTH * NN_FRAME_HEIGHT)  /* 64 bytes */
 
+#define NN_UP 0x0
+#define NN_LEFT 0x1
+#define NN_DOWN 0x2
+#define NN_RIGHT 0x3
+
 /******************************************************************************
  * Public API
  ******************************************************************************/
@@ -57,8 +62,8 @@ void NN_TriggerAccelerator(volatile wedrowiec_t* wedrowiec);
  *          The lower nibble encodes the command:
  *            0x0 = move forward
  *            0x1 = turn left
- *            0x2 = turn right
- *            0x3 = turn around
+ *            0x2 = turn around
+ *            0x3 = turn right
  */
 uint32_t NN_GetDecision(volatile wedrowiec_t* wedrowiec);
 
