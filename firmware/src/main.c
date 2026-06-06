@@ -3,25 +3,25 @@
 #include "hal/nn_accelerator.h"
 #include "xil_printf.h"
 #include "xil_io.h"
+#include <sleep.h>
 
-uint8_t frame_buffer[FRAME_SIZE];
 
 int main() {
     if (Init_UART() != XST_SUCCESS) return 1;
-    if (NN_Init() != XST_SUCCESS) return 1;
 
     xil_printf("=== Firmware Wedrowiec V1.0 ===\r\n");
-
+    volatile wedrowiec_t* wedrowiec = (wedrowiec_t*)NN_BASE_ADDR;
+    msleep(1000);
     while (1) {
-        UART_ReceiveFrame(frame_buffer);
-        xil_printf("Frame received, triggering accelerator...\r\n");
 
-        NN_TriggerAccelerator();
+        NN_TriggerAccelerator(wedrowiec);
+        
+        while (!((wedrowiec->status) & 0x2)){
+            ;;
+        }
 
-        while (Xil_In32(NN_STATUS_REG) & NN_STATUS_BUSY);
-
-        uint32_t decision = NN_GetDecision();
-        xil_printf("Decision: 0x%08lX\r\n", decision);
+        uint32_t decision = NN_GetDecision(wedrowiec);
+        xil_printf("Decision: %d\r\n", decision);
     }
 
     return 0;

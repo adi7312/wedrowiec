@@ -4,6 +4,7 @@
 #include <stdint.h>
 #include "xil_io.h"
 #include "xstatus.h"
+#include "xparameters.h"
 
 /******************************************************************************
  * Register Map - NN Accelerator (Zynq-7000 / Pynq-Z2)
@@ -18,26 +19,8 @@
  ******************************************************************************/
 
 /* Base address of the NN accelerator AXI-Lite slave interface */
-#define NN_BASE_ADDR        0x43C00000
+#define NN_BASE_ADDR        XPAR_WEDROWIEC_REGS_0_BASEADDR
 
-/* Register offsets from NN_BASE_ADDR */
-#define NN_CONTROL_REG      (NN_BASE_ADDR + 0x00)  /* [RW] Start / Reset control      */
-#define NN_STATUS_REG       (NN_BASE_ADDR + 0x04)  /* [RO] Ready / Error status        */
-#define NN_RESULT_REG       (NN_BASE_ADDR + 0x08)  /* [RO] 32-bit classification code  */
-#define NN_DATA_FIFO_ADDR   (NN_BASE_ADDR + 0x0C)  /* [WO] AXI4-Stream FIFO (pixel in) */
-
-/******************************************************************************
- * Control register (NN_CONTROL_REG) bit definitions
- ******************************************************************************/
-#define NN_CTRL_START       (0x01U << 0)   /* Start classification                */
-#define NN_CTRL_RESET       (0x01U << 1)   /* Reset the coprocessor core          */
-
-/******************************************************************************
- * Status register (NN_STATUS_REG) bit definitions
- ******************************************************************************/
-#define NN_STATUS_READY     (0x01U << 0)   /* Coprocessor ready, idle             */
-#define NN_STATUS_ERROR     (0x01U << 1)   /* Error condition detected            */
-#define NN_STATUS_BUSY      (0x01U << 2)   /* Classification in progress          */
 
 /******************************************************************************
  * Frame geometry
@@ -50,16 +33,12 @@
  * Public API
  ******************************************************************************/
 
-/**
- * NN_Init() - Initialise the NN accelerator coprocessor.
- *
- * Resets the coprocessor to a known state and verifies that the IP core
- * is present and ready by reading the status register.
- *
- * @return  XST_SUCCESS  if the accelerator is ready,
- *          XST_FAILURE  if the IP is not responding or in error state.
- */
-int NN_Init(void);
+typedef struct __attribute__((packed)) {
+    uint32_t ctrl;
+    uint32_t status;
+    int32_t wedrowiec_result[4];
+} wedrowiec_t;
+
 
 /**
  * NN_TriggerAccelerator() - Trigger the accelerator to start processing.
@@ -69,7 +48,7 @@ int NN_Init(void);
  * function. After triggering, the caller should poll NN_STATUS_REG for
  * completion (e.g. wait until NN_STATUS_BUSY clears).
  */
-void NN_TriggerAccelerator(void);
+void NN_TriggerAccelerator(volatile wedrowiec_t* wedrowiec);
 
 /**
  * NN_GetDecision() - Read the classification result.
@@ -81,14 +60,8 @@ void NN_TriggerAccelerator(void);
  *            0x2 = turn right
  *            0x3 = turn around
  */
-uint32_t NN_GetDecision(void);
+uint32_t NN_GetDecision(volatile wedrowiec_t* wedrowiec);
 
-/**
- * NN_Reset() - Force-reset the coprocessor.
- *
- * Asserts the reset bit in NN_CONTROL_REG, holds it for a brief period,
- * then de-asserts it, returning the accelerator to its idle state.
- */
-void NN_Reset(void);
+
 
 #endif /* NN_ACCELERATOR_H */
