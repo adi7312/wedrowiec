@@ -29,12 +29,14 @@ def send_binary_numbers_over_com(file_path, port, baudrate=9600, delay=0.1):
         ser = serial.Serial(port, baudrate, timeout=1)
 
         # Guard time for target hardware reset (e.g., Arduino bootloader)
-        time.sleep(2)
+        time.sleep(1)
 
         print(f"Starting binary transmission of '{file_path}'...")
-
+        i = 1
         with open(file_path, 'r', encoding='utf-8') as file:
             for line_num, line in enumerate(file, 1):
+                if i == 1000:
+                    break
                 # Split line by spaces and convert valid numeric tokens to integers
                 try:
                     numbers = [int(token) for token in line.split() if token.strip().isdigit()]
@@ -58,7 +60,7 @@ def send_binary_numbers_over_com(file_path, port, baudrate=9600, delay=0.1):
 
                 print(f"[Line {line_num}] Sent {len(payload)} bytes:")
                 print(render_8x8_arrow(numbers))
-
+                i += 1
                 time.sleep(delay)
 
         print("\nTransmission completed successfully!")
@@ -77,6 +79,6 @@ if __name__ == "__main__":
     FILE_TO_SEND = "image_test_data.txt"
     COM_PORT = "COM3"          # Adjust to your specific COM port or '/dev/tty...'
     BAUD_RATE = 115200
-    LINE_DELAY = 2          # 200ms delay between lines to safeguard device buffers
+    LINE_DELAY = 0.005       # 200ms delay between lines to safeguard device buffers
 
     send_binary_numbers_over_com(FILE_TO_SEND, COM_PORT, BAUD_RATE, LINE_DELAY)
