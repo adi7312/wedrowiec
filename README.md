@@ -13,7 +13,7 @@ Training data from [arrows8 on Kaggle](https://www.kaggle.com/datasets/msmart2/a
 | **PYNQ-Z2** board (XC7Z020-1CLG400C) | Main target |
 | **USB-to-UART converter** (e.g., CP2102, FTDI FT232) | Required to send image data to the FPGA. Connect TX of converter to PMOD/JA or appropriate GPIO pins. **Do not rely on the UART-to-USB from the PYNQ-Z2's programming port alone** — a dedicated USB-UART bridge is needed for the custom UART receiver implemented in the FPGA fabric. |
 | Micro-USB cable | For PYNQ-Z2 power/programming |
-
+| MicroSD card (8 GB+) | For PYNQ boot image |
 
 ### UART Connections
 
@@ -36,7 +36,6 @@ Suggested PMOD wiring (adjust for your board setup):
 | Vitis HLS | 2024.2 | HLS synthesis and IP export |
 | Vivado | 2025.1 | Block design and bitstream generation |
 | Vitis (classic) | 2024.2 | Building ARM firmware (standalone/bare-metal) |
-| PYNQ image | v3.0.1 or later | Board runtime |
 
 ---
 
@@ -162,18 +161,6 @@ vitis_hls -f build_prj.tcl "csim=1" "synth=1" "cosim=1" "validation=1" "export=0
 
 ### 5. Generate the Vivado Bitstream
 
-Two options:
-
-#### Option A — using `project_1.tcl` (if already created)
-
-Open Vivado 2025.1, then in the Tcl Console:
-
-```tcl
-cd /path/to/wedrowiec
-source project_1.tcl
-```
-
-#### Option B — manual block design
 
 1. Create a new Vivado project for **xc7z020clg400-1** (PYNQ-Z2).
 2. Add `hls4ml_projects/wedrowiec_hls/wedrowiec_hls_prj/solution1/impl/ip` as an IP repository.
@@ -189,17 +176,17 @@ source project_1.tcl
 6. Wrap the HLS IP and UART RX with `wedrowiec_top.v` (this project's top module).
 7. Generate the HDL wrapper, run synthesis, implementation, and bitstream generation.
 
-### 6. Program the PYNQ-Z2
+### 6. Program the Board (Bare-Metal)
 
-1. Copy the generated `.bit` and `.hwh` files to the PYNQ board.
-2. From a Python session on the board (via Jupyter or SSH):
+The system runs on bare metal — no PYNQ Linux image required. The bitstream is loaded and the firmware is run using Vitis.
 
-```python
-from pynq import Overlay
-
-overlay = Overlay("wedrowiec_hls.bit")
-overlay.ip_dict
-```
+1. Connect the board via JTAG (USB cable to the programming port).
+2. Open Vivado, open the implemented design, and **Program the device** with the generated `.bit` file.
+3. Launch **Vitis 2024.2**, create a platform from the XSA exported by Vivado, then create an application project from `firmware/src/`.
+4. Build `firmware.elf` and run/debug it on the board via JTAG. The firmware will:
+   - Initialize the PS UART (for debug logging)
+   - Wait for image data (received via the FPGA-fabric UART RX connected to your USB-to-UART converter)
+   - Trigger the accelerator and print classification results
 
 ### 7. Send Test Data via UART
 
@@ -228,11 +215,11 @@ On Linux, the port will be something like `/dev/ttyUSB0` or `/dev/ttyACM0`. Chec
 
 The firmware in `firmware/src/` runs on the ARM Cortex-A9 (PS side) and orchestrates the accelerator:
 
-1. Opens Vivado/Vitis 2024.2.
+1. Opens Vitis 2024.2.
 2. Create a platform from the XSA exported by Vivado.
 3. Create an application project from `firmware/src/`.
-4. Build (`firmware.elf`).
-5. Program the board via JTAG or boot from SD card.
+4. Build.
+5. Program the board.
 
 The firmware (`main.c`) loops:
 - Triggers the NN accelerator
